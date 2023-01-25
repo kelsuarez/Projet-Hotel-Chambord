@@ -1,1 +1,11 @@
-*--- Penser a mettre toutes les liens tuto que je suis allez regarder pour créer le projet
+Bonjour, voici un site vitrine 
+
+technologies utilisées jusqu'a present
+    HTML
+    CSS
+Librairies / Frameworks utilisées jusqu'a present
+    Bootstrap
+
+
+
+
