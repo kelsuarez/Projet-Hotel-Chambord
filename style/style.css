@@ -1,6 +1,22 @@
-nav {
-  min-height: 100px;
+body {
+  padding-top: 85px;
+  font-family: 'Roboto', sans-serif;
 }
+
+nav {
+  min-height: 80px;
+  padding-top: 0 !important;
+}
+
+.flag{
+  display: none;
+}
+
+.min-w-null{
+  min-width: 0 !important;
+}
+
+
   /* .video-container {
   position: sticky;
   top: 0;
