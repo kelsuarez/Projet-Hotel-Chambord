@@ -1,8 +1,9 @@
 body{
-    background-color: #000000 !important;
+    background: linear-gradient(#000000, rgb(255, 255, 255))!important;
     font-family: 'Roboto', sans-serif;
 }
 
+/*SI LO LLAMO*/
 .scrollopcty {
     top: 0;
     left: 0;
@@ -10,29 +11,45 @@ body{
     height: 100%;
 }
 
-/* .opacity-scroll{
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-} */
+/*SI LO LLAMO*/
+.spacealone{
+    height: 50px;
+}
 
+.conteiner-imgs-vr{
+    height: 250px;
+    width: 100%;
+}
+
+/*SI LO LLAMO*/
 .titres---centres{
     position: absolute;
-    top: 150px;
+    top: 125px;
 }
 
-.text-serif-pt{
-    font-family: 'PT Serif', serif;
-    color: rgb(255, 255, 255);
+/*SI LO LLAMO*/
+.text-lin-gar-font{
+    font-family: 'Aboreto', cursive;
+    background-image: linear-gradient(to right, #e7b718, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+/*SI LO LLAMO*/
+.text-serif-gold{
+    color: #e7b718;
     text-align: center !important;
+    font-family: 'Aboreto', cursive;
 }
 
+/*SI LO LLAMO*/
 .control-margin-import{
     margin: 20px 10px !important;
 }
 
-.control-margin-import h2{
+/*SI LO LLAMO*/
+article h2{
     font-size: xx-large;
 }
 

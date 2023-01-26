@@ -1,7 +1,7 @@
 window.addEventListener("scroll", function(){
     var videoBackground = document.getElementById("video-background");
     var y = window.scrollY;
-    videoBackground.style.opacity = 1 - (y/100);
+    videoBackground.style.opacity = 1 - (y/150);
 });
 
 
