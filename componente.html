@@ -11,13 +11,11 @@
 <body>
     <!-- ICI COMMENCE MON HEADER -->
     <header>
-        <!-- video de fondo en inicio -->
-        <!-- je fais appel a bootstrap pour mettre en place ma nav -->
+        <!-- NAVBAR AVEC BOOTSTRAP -->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top">
             <div class="container-fluid bg-white">
-                <!-- mon dropdown langue -->
+                <!-- DROPDOWN LANGUES -->
                 <div class="btn-group">
-                    <!-- je change avec le  couleur de texte/le bg/border -->
                     <button class="btn btn-secondary btn-sm dropdown-toggle text-muted bg-white border-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">Languages</button>
                     <ul class="dropdown-menu bg-dark min-w-null">
                         <li><a class="dropdown-item text-white" id="english" href="#">English</a></li>
@@ -25,71 +23,66 @@
                         <li><a class="dropdown-item text-white" id="french" href="#">French</a></li>
                     </ul>
                     <div class="row align-items-center">
-                        <img src="src/anglais523.png" id="englishFlag" width="15" height="15" class="flag">
-                        <img src="src/espagne225.png" id="spanishFlag" width="15" height="15"class="flag">
-                        <img src="src/france295.png" id="frenchFlag" width="15" height="15" class="flag">
+                        <img src="../src/anglais523.png" alt="drapeu american" id="englishFlag" width="15" height="15" class="flag">
+                        <img src="../src/espagne225.png" alt="drapeu espagnol" id="spanishFlag" width="15" height="15"class="flag">
+                        <img src="../src/france295.png" alt="drapeu français" id="frenchFlag" width="15" height="15" class="flag">
                     </div>
                 </div>
                 <!-- AJOUTE D'UNE IMG LOGO AVEC LIENS ACCUEIL-->
-                <a class="navbar-brand" href="#"><img src="src/logo-126.png" alt="" width="75" height="70" class="d-inline-block align-text-top"></a>
+                <a class="navbar-brand" href="../index.html"><img src="../src/logo-126.png" alt="logo hotel chambord" width="75" height="70" class="d-inline-block align-text-top"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Chambres</a>
-                        <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item text-white" href="#">Suite</a></li>
-                            <li><a class="dropdown-item text-white" href="#">Deluxe</a></li>
-                            <li><a class="dropdown-item text-white" href="#">Confort</a></li>
-                            <li><a class="dropdown-item text-white" href="#">Classique</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Spa</a>
-                        <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item text-white" href="#">Evasion</a></li>
-                            <li><a class="dropdown-item text-white" href="#">Plaisir</a></li>
-                            <li><a class="dropdown-item text-white" href="#">Relaxant</a></li>
-                            <li><a class="dropdown-item text-white" href="#">Découverte</a></li>
-                            <li><a class="dropdown-item text-white" href="#">Détente</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Restaurant - Le Grand Chambord</a>
-                        <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item text-white" href="#">Carte Restaurant - soir</a></li>
-                            <li><a class="dropdown-item text-white" href="#">Carte Dégustation - aprés-midi</a></li>
-                            <li><a class="dropdown-item text-white" href="#">Carte Brasserie - midi</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Le Chambord</a>
-                        <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item text-white" href="#">Qui sommes-nous?</a></li>
-                            <li><a class="dropdown-item text-white" href="#">Accès</a></li>
-                            <li><a class="dropdown-item text-white" href="#">Nous contacter</a></li>
-                            <li><a class="dropdown-item text-white" href="#">Evénements</a></li>
-                            <li><a class="dropdown-item text-white" href="#">Presse</a></li>
-                            <li><a class="dropdown-item text-white" href="#">Recrutement</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Actualités</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Plan du site</a>
-                    </li>
-                <!-- CHANGEMENT DE L'ELEMENT SHEAR POUR UNE IMG (loupe) -->
-                <form class="d-flex">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success border-0" type="submit"><a class="" href="#"><img src="src/lupe.png" alt="" width="45" height="45" class="img-fluid"></a></button>
-                </form>
-            </ul>
-              </div>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Chambres</a>
+                            <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item text-white" href="#">Suite</a></li>
+                                <li><a class="dropdown-item text-white" href="#">Deluxe</a></li>
+                                <li><a class="dropdown-item text-white" href="#">Confort</a></li>
+                                <li><a class="dropdown-item text-white" href="#">Classique</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Spa</a>
+                            <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item text-white" href="#">Evasion</a></li>
+                                <li><a class="dropdown-item text-white" href="#">Plaisir</a></li>
+                                <li><a class="dropdown-item text-white" href="#">Relaxant</a></li>
+                                <li><a class="dropdown-item text-white" href="#">Découverte</a></li>
+                                <li><a class="dropdown-item text-white" href="#">Détente</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Restaurant - Le Grand Chambord</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Le Chambord</a>
+                            <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item text-white" href="#">Qui sommes-nous?</a></li>
+                                <li><a class="dropdown-item text-white" href="#">Accès</a></li>
+                                <li><a class="dropdown-item text-white" href="#">Nous contacter</a></li>
+                                <li><a class="dropdown-item text-white" href="#">Evénements</a></li>
+                                <li><a class="dropdown-item text-white" href="#">Presse</a></li>
+                                <li><a class="dropdown-item text-white" href="#">Recrutement</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Actualités</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Plan du site</a>
+                        </li>
+                        <!-- CHANGEMENT DE L'ELEMENT SHEAR POUR UNE IMG (loupe) -->
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success border-0" type="submit"><a class="" href="#"><img src="../src/lupe.png" alt="image d'une loupe pour faire une recherche" width="45" height="45" class="img-fluid"></a></button>
+                        </form>
+                    </ul>
+                </div>
             </div>
-          </nav>
+        </nav>
     </header>
         <!-- <div class="video-container"></div> -->
 
@@ -99,7 +92,6 @@
               <source src="src/Gens - 84973.mp4" type="video/mp4">
             </video>
         </div> -->
-    <!-- ICI COMMENCE MON FOOTER -->
     <main>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quos cupiditate, rerum fugit quibusdam aliquam inventore! Laboriosam impedit, quis sequi aspernatur quaerat exercitationem dicta rem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore accusantium cumque voluptas animi molestiae dolores blanditiis numquam ipsam iste, aperiam nulla maiores cum sit excepturi deserunt corrupti mollitia adipisci consequuntur!
         Rem amet exercitationem vero ex quod quas illo eius distinctio accusantium, praesentium culpa enim minima quidem qui. Laborum minima nesciunt in nulla, modi explicabo ab optio nihil illum doloremque ea?
@@ -112,6 +104,7 @@
         Illo porro voluptatem, recusandae obcaecati tempora quaerat reiciendis quam eos odio tempore. Ipsum quos porro accusantium sequi sapiente totam deleniti ex quasi perspiciatis minima consequuntur eligendi, nemo amet aspernatur laboriosam?
         Tempore debitis odio hic ipsam. Veniam fugit quae repudiandae vitae incidunt dolor ab expedita sint. Reiciendis dolore aliquid corporis, veniam quasi omnis voluptates, adipisci, alias deserunt quidem esse ipsum suscipit.</p>
     </main>
+    <!-- ICI COMMENCE MON PIE DE PAGE -->
     <footer class="">
         <div class="container">
             <div class="row align-items-center">
@@ -126,8 +119,8 @@
                     </ul>
                 </div>
                 <div class="col">
-                    <img class="img-fluid rounded mx-auto d-block" src="src/logo-126.png" alt="image1">
-                    <img class="img-fluid" src="src/plan-site-225.png" alt="image2">
+                    <img class="img-fluid rounded mx-auto d-block" src="../src/logo-126.png" alt="logo hotel chambord">
+                    <img class="img-fluid" src="../src/plan-site-225.png" alt="image avec le plan pour arriver a l'hotel">
                 </div>
             </div>
         </div>
