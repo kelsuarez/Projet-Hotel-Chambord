@@ -1,8 +1,3 @@
-body{
-    background: linear-gradient(#000000, rgb(255, 255, 255))!important;
-    font-family: 'Roboto', sans-serif;
-}
-
 /*SI LO LLAMO*/
 .scrollopcty {
     top: 0;
@@ -25,27 +20,6 @@ body{
 .titres---centres{
     position: absolute;
     top: 125px;
-}
-
-/*SI LO LLAMO*/
-.text-lin-gar-font{
-    font-family: 'Aboreto', cursive;
-    background-image: linear-gradient(to right, #e7b718, #000000);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-
-}
-
-/*SI LO LLAMO*/
-.text-serif-gold{
-    color: #e7b718;
-    text-align: center !important;
-    font-family: 'Aboreto', cursive;
-}
-
-/*SI LO LLAMO*/
-.control-margin-import{
-    margin: 20px 10px !important;
 }
 
 /*SI LO LLAMO*/

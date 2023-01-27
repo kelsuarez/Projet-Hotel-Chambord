@@ -1,6 +1,7 @@
 body {
   padding-top: 85px;
   font-family: 'Roboto', sans-serif;
+  background: linear-gradient(#000000, rgb(255, 255, 255))!important;
 }
 
 nav {
@@ -16,6 +17,22 @@ nav {
   min-width: 0 !important;
 }
 
+.text-lin-gar-font{
+  font-family: 'Aboreto', cursive;
+  background-image: linear-gradient(to right, #e7b718, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-serif-gold{
+  color: #e7b718;
+  text-align: center !important;
+  font-family: 'Aboreto', cursive;
+}
+
+.control-margin-import{
+  margin: 20px 10px !important;
+}
 
   /* .video-container {
   position: sticky;
