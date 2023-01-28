@@ -28,6 +28,7 @@ nav {
   color: #e7b718;
   text-align: center !important;
   font-family: 'Aboreto', cursive;
+  text-shadow: 5px 5px 8px black;
 }
 
 .control-margin-import{
