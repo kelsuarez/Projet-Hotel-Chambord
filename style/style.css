@@ -1,14 +1,17 @@
+/* CLASS BACKGROUND PADDING ET FONT */
 body {
   padding-top: 85px;
   font-family: 'Roboto', sans-serif;
   background: linear-gradient(#000000, rgb(255, 255, 255))!important;
 }
 
+/* CLASS CONTROL NAV */
 nav {
   min-height: 80px;
   padding-top: 0 !important;
 }
 
+/* CLASS DRAPEU */
 .flag{
   display: none;
 }
@@ -17,6 +20,7 @@ nav {
   min-width: 0 !important;
 }
 
+/* CLASS DEGRADE TEXTE */
 .text-lin-gar-font{
   font-family: 'Aboreto', cursive;
   background-image: linear-gradient(to right, #e7b718, #000000);
@@ -31,9 +35,19 @@ nav {
   text-shadow: 5px 5px 8px black;
 }
 
+/* CLASS CONTROL MARGIN */
 .control-margin-import{
   margin: 20px 10px !important;
 }
+
+/* CLASS CONTROL VIDEO */
+.scrollopcty {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 
   /* .video-container {
   position: sticky;

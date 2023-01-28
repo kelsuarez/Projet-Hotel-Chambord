@@ -7,3 +7,9 @@
     padding: 0 !important;
     margin: 0 !important;
 }
+
+.text-serif-gold-sans{
+    color: #000000;
+    text-align: center !important;
+    font-family: 'Aboreto', cursive;
+}
