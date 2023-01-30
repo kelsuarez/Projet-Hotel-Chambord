@@ -1,15 +1,15 @@
 /* CLASS BACKGROUND PADDING ET FONT */
 body {
-  padding-top: 85px;
+  padding-top: 81px;
   font-family: 'Roboto', sans-serif;
-  background: linear-gradient(#000000, rgb(255, 255, 255))!important;
+  background: white!important;
 }
 
 /* CLASS CONTROL NAV */
-/* nav {
-  min-height: 80px;
-  padding-top: - 10 !important;
-} */
+header nav{
+  /* min-height: 80px; */
+  padding-top: 0 !important;
+}
 
 /* CLASS DRAPEU */
 .flag{
@@ -33,7 +33,8 @@ body {
 }
 
 .text-serif-gold{
-  color: #e7b718;
+  /* color: #e7b718; */
+  color: white;
   text-align: center !important;
   font-family: 'Aboreto', cursive;
   text-shadow: 5px 5px 8px black;

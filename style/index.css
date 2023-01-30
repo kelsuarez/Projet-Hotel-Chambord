@@ -1,3 +1,23 @@
+/* TITRES-VIDEO */
+.titres-DOS-centres{
+    position: absolute;
+    top: 125px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+/* TEXT-PARA-1 */
+.reglageText{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 10px 0 10px 20px;
+    font-family: 'Aboreto', cursive;
+}
+
+
+
 /* .bloquesino.parallaxino{
     height: 500px;
     margin-top: 0 !important;
@@ -10,3 +30,124 @@
     background-size: contain;
     background-attachment: fixed;
 } */
+
+/* .titres-centres55{
+    background-color: white;
+    position: absolute;
+    top: 600px;
+} */
+
+/* .grandDivText{
+    height: 150px;
+    width: 300px;
+    background-color: aqua;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+} */
+
+.paragrapheModel{
+    width: 500px;
+    height: 300px;
+    border: 1px solid red;
+}
+
+/* .titres---centres h1{
+    font-size: 100px !important;
+}
+
+.titres---centres h2{
+    font-size: 50px !important;
+} */
+
+.expanNavBar{
+    align-items: center !important;
+    /* margin:  !important; */
+}
+
+
+/* .divEssayFlex{
+    display: flex !important;
+} */
+
+/* FORMAT SMARPHONE */
+@media screen and (max-width: 990px) {
+    .xtrSmall{
+        width: 120px !important;
+    }
+}
+
+/* FORMAT IPAD */
+@media screen and (min-width: 768px) {
+    /* TITRES-VIDEO */
+    .titres-DOS-centres{
+        top: 200px;
+    }
+    .titres-DOS-centres h1{
+        font-size: 75px;
+    }
+    .titres-DOS-centres h6{
+        font-size: 25px;
+    }
+    /* TEXT-PARA-1 */
+    .reglageText{
+        font-size: 40px;
+        margin: 20px 0 20px 50px;
+    }
+
+}
+
+/* FORMAT DESTOK */
+@media screen and (min-width: 990px) {
+    /* TITRES-VIDEO */
+    .titres-DOS-centres{
+        top: 300px;
+    }
+    .titres-DOS-centres h1{
+        font-size: 150px;
+    }
+    .titres-DOS-centres h6{
+        font-size: 50px;
+    }
+    /* TEXT-PARA-1 */
+    .reglageText{
+        font-size: 80px;
+        margin: 50px 0 50px 75px;
+    }
+    .maCardDestok{
+        width: 400px !important;
+    }
+
+    
+    
+    
+    
+    
+    .carousel{
+        max-width: 100% !important;
+        margin: auto;
+        border: 1px solid red;
+    }
+
+    /* #controlAditionCarou img{
+        height: 800px !important;
+    } */
+
+
+
+    .titres-centres54{
+        position: absolute;
+        top: 300px;
+    }
+    
+    .titres-centres54 h1{
+        font-size: 100px;
+    }
+    /* .expanNavBar{
+        align-items: center !important;
+        margin:  !important;
+    } */
+}
