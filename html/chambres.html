@@ -18,85 +18,124 @@
         <!-- NAVBAR AVEC BOOTSTRAP -->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top">
             <div class="container-fluid bg-white">
+
                 <!-- DROPDOWN LANGUES -->
-                <div class="btn-group">
-                    <button class="btn btn-secondary btn-sm dropdown-toggle text-muted bg-white border-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">Languages</button>
-                    <ul class="dropdown-menu bg-dark min-w-null">
-                        <li><a class="dropdown-item text-white" id="english" href="#">English</a></li>
-                        <li><a class="dropdown-item text-white" id="spanish" href="#">Spanish</a></li>
-                        <li><a class="dropdown-item text-white" id="french" href="#">French</a></li>
-                    </ul>
-                    <div class="row align-items-center">
-                        <img src="../src/anglais523.png" alt="drapeu american" id="englishFlag" width="15" height="15" class="flag">
-                        <img src="../src/espagne225.png" alt="drapeu espagnol" id="spanishFlag" width="15" height="15" class="flag">
-                        <img src="../src/france295.png" alt="drapeu français" id="frenchFlag" width="15" height="15" class="flag">
+                <div class="xtrSmall col-lg-2">
+                    <div class="btn-group">
+                        <button class="btn btn-secondary btn-sm dropdown-toggle text-muted bg-white border-0 textSerifBlack" type="button" data-bs-toggle="dropdown" aria-expanded="false">LANGUAGES</button>
+                        <ul class="dropdown-menu bg-dark min-w-null">
+                            <li><a class="dropdown-item text-white textSerifBlack" id="english" href="#">English</a></li>
+                            <li><a class="dropdown-item text-white textSerifBlack" id="spanish" href="#">Spanish</a></li>
+                            <li><a class="dropdown-item text-white textSerifBlack" id="french" href="#">French</a></li>
+                        </ul>
+                        <div class="row align-items-center">
+                            <img src="../src/anglais523.png" alt="drapeu american" id="englishFlag" width="20" height="20" class="flag">
+                            <img src="../src/espagne225.png" alt="drapeu espagnol" id="spanishFlag" width="20" height="20" class="flag">
+                            <img src="../src/france295.png" alt="drapeu français" id="frenchFlag" width="20" height="20" class="flag">
+                        </div>
                     </div>
                 </div>
-                <!-- AJOUTE D'UNE IMG LOGO AVEC LIENS ACCUEIL-->
-                <a class="navbar-brand" href="../index.html"><img src="../src/logo-126.png" alt="logo hotel chambord" width="75" height="70" class="d-inline-block align-text-top"></a>
+
+                <!-- IMAGE LOGO AVEC LIENS ACCUEIL-->
+                <div class="col-lg-1" id="marginLog">
+                    <a class="navbar-brand" href="../index.html"><img src="../src/logo-126.png" alt="logo hotel chambord" width="75" height="70" class="d-inline-block align-text-top"></a>
+                </div>
+
+                <!-- NAVBAR BURGUER -->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="chambres.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Chambres</a>
-                            <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item text-white" href="chambre-suite.html">Suite</a></li>
-                                <li><a class="dropdown-item text-white" href="chambre-deluxe.html">Deluxe</a></li>
-                                <li><a class="dropdown-item text-white" href="chambre-confort.html">Confort</a></li>
-                                <li><a class="dropdown-item text-white" href="chambre-classique.html">Classique</a></li>
-                                <li><a class="dropdown-item text-white" href="chambres.html">Voir toutes les chambres</a></li>
-                            </ul>
-                        </li>
-                            <a class="nav-link active" aria-current="page" href="spa.html">Spa - Divinity Chambord</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="restaurant.html">Restaurant - Le Grand Chambord</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="reservation.html">Reservation</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Le Chambord</a>
-                            <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item text-white" href="lhotel.html">L'hôtel</a></li>
-                                <li><a class="dropdown-item text-white" href="#">Qui sommes-nous?</a></li>
-                                <li><a class="dropdown-item text-white" href="#">Accès</a></li>
-                                <li><a class="dropdown-item text-white" href="#">Nous contacter</a></li>
-                                <li><a class="dropdown-item text-white" href="evenement.html">Evénements</a></li>
-                                <li><a class="dropdown-item text-white" href="presse.html">Presse</a></li>
-                                <li><a class="dropdown-item text-white" href="actualites.html">Actualités</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="avis-client.html">Avis Client</a>
-                        </li>
-                    </ul>
-                    <!-- CHANGEMENT DE L'ELEMENT SHEAR POUR UNE IMG (loupe) -->
-                    <form class="d-flex">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-success border-0" type="submit"><img src="../src/lupe.png" alt="image d'une loupe pour faire une recherche" width="45" height="45" class="img-fluid"></button>
-                    </form>
+
+                <!-- NAV AVEC LES DIF PAGES -->
+                <div class="collapse navbar-collapse col-lg-4" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="marginList">
+                            <!-- CHAMBRES -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle textSerifBlack" href="chambres.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Hébergement</a>
+                                <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item text-white textSerifBlack" href="chambre-classique.html">Classique</a></li>
+                                    <li><a class="dropdown-item text-white textSerifBlack" href="chambre-confort.html">Confort</a></li>
+                                    <li><a class="dropdown-item text-white textSerifBlack" href="chambre-deluxe.html">Deluxe</a></li>
+                                    <li><a class="dropdown-item text-white textSerifBlack" href="chambre-suite.html">Suite</a></li>
+                                    <li><a class="dropdown-item text-white textSerifBlack" href="chambres.html">Voir toutes les chambres</a></li>
+                                </ul>
+                            </li>
+                            <!-- RESTAURANT -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle textSerifBlack" href="restaurant.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Restaurant</a>
+                                <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item text-white textSerifBlack" href="restaurant.html">Restaurant - Le Grand Chambord</a></li>
+                                </ul>
+                            </li>
+                            <!-- SPA -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle textSerifBlack" href="spa.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Le Spa</a>
+                                <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item text-white textSerifBlack" href="spa.html">Spa - Divinity Chambord</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active textSerifBlack" aria-current="page" href="reservation.html">Reservation</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle textSerifBlack" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Le Chambord</a>
+                                <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item text-white textSerifBlack" href="lhotel.html">L'hôtel - Qui sommes-nous?</a></li>
+                                    <li><a class="dropdown-item text-white textSerifBlack" href="acces.html">Accès</a></li>
+                                    <li><a class="dropdown-item text-white textSerifBlack" href="contact.html">Nous contacter</a></li>
+                                    <li><a class="dropdown-item text-white textSerifBlack" href="evenement.html">Evénements</a></li>
+                                    <li><a class="dropdown-item text-white textSerifBlack" href="presse.html">Presse</a></li>
+                                    <li><a class="dropdown-item text-white textSerifBlack" href="actualites.html">Actualités</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <!-- CHANGEMENT DE L'ELEMENT SHEAR POUR UNE IMG (loupe) -->
+                        <form class="d-flex mb-1" id="marginSearch">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-success border-0" type="submit"><img src="../src/lupe.png" alt="image d'une loupe pour faire une recherche" width="45" height="45" class="img-fluid"></button>
+                        </form>
                 </div>
             </div>
         </nav>
     </header>
 
     <!-- ICI COMMENCE MON MAIN -->
-    <main>
-        <!-- SECTION SPA - TEXTE -->
-        <section class="control-margin-import">
-            <h1 class="text-serif-gold">Hébergements Chambord</h1>
-            <article class="control-margin-import">
-                <h3 class="text-white">35 chambres a votre profit </h3>
-                <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis officia nisi itaque saepe fuga commodi animi hic sint ratione esse, velit in voluptatem aspernatur porro. Aut non ipsam temporibus nesciunt?
-                Accusamus dignissimos facere at autem. Ipsa eos hic qui, nulla iusto ut officia in dolore molestiae ratione ea repudiandae! Corrupti, voluptate modi. Repellendus maiores ab sequi alias sed voluptate illo!
-                Rem beatae excepturi perferendis labore aspernatur porro architecto ea. Molestiae animi incidunt veritatis vitae, vero omnis. Voluptates, quam? Dignissimos dolores laborum hic voluptas nam aspernatur asperiores, commodi deleniti aperiam voluptatum?</p>
-            </article>
+    <main class="col-xl-11 mx-auto">
+
+        <!-- TEXTE SUR LE VIDEO -->
+        <article class="justify-content-center align-items-center">
+            <div class="titres-DOS-centres">
+                <h6 class="textSerifWhite text-center">Plus de 35 chambres</h6>
+                <h1 class="textSerifWhite text-center">le Chambord</h1>
+                <h6 class="textSerifWhite text-center">1 suite exclusive</h6>
+            </div>
+        </article>
+
+        <!-- VIDEO -->
+        <div>
+            <video autoplay loop muted id="video-background" class="scrollopcty">
+                <source src="../src/hebergement-video.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <!-- ****************************** CHAMBRES ****************************** -->
+
+        <!-- DIV SEPARATION -->
+        <div class="separationAvecDiv"></div>
+
+
+        <!-- PRESENTATION DE L'HOTEL -->
+        <section>
+            <h1 class="reglageText">hotel chambord</h1>
+            <div class="d-flex">
+                <div class="control-margin-import">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam animi dolorum sapiente quos consectetur veniam illo error a! Nam laudantium, placeat deleniti quae voluptate magni non dolor possimus porro perspiciatis? Delectus quaerat odio similique eaque. Ipsam adipisci ea delectus in nulla deserunt ullam harum, molestias quam veritatis nostrum hic numquam ad dolorem aspernatur ducimus officiis consequatur esse dicta minima similique? Possimus minus soluta accusantium ad assumenda sit a officia odit. Dicta esse hic voluptas laudantium itaque? Harum non nemo, eaque culpa veritatis ut perferendis quam repellat qui ducimus ad incidunt!</p>
+                </div>
+            </div>
         </section>
+
         <!-- CARROUSEL  -->
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div id="carouselExampleControls" class="carousel slide carouselControlSize" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="../src/deluxe/deluxe1.2.jpg" class="d-block w-100" alt="...">
@@ -123,23 +162,87 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
-        <!-- TEXTE TITLE -->
-        <article>
-            <h5 class="text-serif-gold control-margin-import">Classique</h5>
+
+        <!-- ****************************** CLASSIQUE ****************************** -->
+
+        <!-- DIV SEPARATION -->
+        <div class="separationAvecDiv"></div>
+
+        <!-- TEXTSECTION -->
+        <article class="d-lg-none">
+            <h2 class="reglageText"> Chambres Classiques</h2>
         </article>
-        <!-- CARDS -->
-        <div class="container">
-            <div class="row">
-                <div class="col d-flex justify-content-center control-margin-import">
+
+        <!-- CARDS CLASSIQUE -->
+        <div class="col d-flex justify-content-center control-margin-import d-lg-none">
+            <div class="card" style="width: 18rem;">
+                <img src="../src/classique/classique3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title textSerifGold text-center">Chambres Classique</h5>
+                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus, molestias!</p>
+                </div>
+            </div>
+        </div>
+        <!-- SECTION VOIRPLUS / PARTAGER -->
+        <div class="d-lg-none">
+            <div class="control-margin-import d-flex flex-column align-items-center justify-content-center">
+                <div>
+                    <a class="btn btn-primary border-0 bg-dark" href="chambre-classique.html" role="button">Voir plus</a>
+                    <a href="#" class="btn btn-primary border-0 bg-dark">Partager</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- ****************************** CONFORT ****************************** -->
+
+        <!-- DIV SEPARATION -->
+        <div class="separationAvecDiv d-lg-none"></div>
+
+        <!-- TEXTSECTION -->
+        <article class="d-lg-none">
+            <h2 class="reglageText"> Chambres Confort</h2>
+        </article>
+        
+        <!-- CARDS CONFORT -->
+        <div class="col d-flex justify-content-center control-margin-import d-lg-none">
+            <div class="card" style="width: 18rem;">
+                <img src="../src/confort/confort2.1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title textSerifGold text-center">Chambre Confort</h5>
+                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus, molestias!</p>
+                </div>
+            </div>
+        </div>
+        <!-- SECTION VOIRPLUS / PARTAGER -->
+        <div class="d-lg-none">
+            <div class="control-margin-import d-flex flex-column align-items-center justify-content-center">
+                <div>
+                    <a class="btn btn-primary border-0 bg-dark" href="chambre-confort.html" role="button">Voir plus</a>
+                    <a href="#" class="btn btn-primary border-0 bg-dark">Partager</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- ************************* CLASSIQUE-CONFORT *************************** -->
+
+        <div class="d-none d-lg-flex justify-content-center">
+            <div class="reglageDest1">
+                <!-- TEXTSECTION -->
+                <article class="text-center">
+                    <h2 class="textSerifBlack"> Chambres Classiques</h2>
+                </article>
+                <!-- CARDS CLASSIQUE -->
+                <div>
                     <div class="card" style="width: 18rem;">
                         <img src="../src/classique/classique3.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Chambres Classique</h5>
+                            <h5 class="card-title textSerifGold text-center">Chambres Classique</h5>
                             <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus, molestias!</p>
                         </div>
                     </div>
                 </div>
-                <div class="maSecSpa">
+                <!-- SECTION VOIRPLUS / PARTAGER -->
+                <div>
                     <div class="control-margin-import d-flex flex-column align-items-center justify-content-center">
                         <div>
                             <a class="btn btn-primary border-0 bg-dark" href="chambre-classique.html" role="button">Voir plus</a>
@@ -147,19 +250,24 @@
                         </div>
                     </div>
                 </div>
-                <article>
-                    <h5 class="text-serif-gold">Confort</h5>
+            </div>
+            <div class="reglageDest2">
+                <!-- TEXTSECTION -->
+                <article class="text-center">
+                    <h2 class="textSerifBlack"> Chambres Confort</h2>
                 </article>
-                <div class="col d-flex justify-content-center control-margin-import">
+                <!-- CARDS CONFORT -->
+                <div>
                     <div class="card" style="width: 18rem;">
                         <img src="../src/confort/confort2.1.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Chambre Confort</h5>
+                            <h5 class="card-title textSerifGold text-center">Chambre Confort</h5>
                             <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus, molestias!</p>
                         </div>
                     </div>
                 </div>
-                <div class="maSecSpa">
+                <!-- SECTION VOIRPLUS / PARTAGER -->
+                <div>
                     <div class="control-margin-import d-flex flex-column align-items-center justify-content-center">
                         <div>
                             <a class="btn btn-primary border-0 bg-dark" href="chambre-confort.html" role="button">Voir plus</a>
@@ -169,8 +277,11 @@
                 </div>
             </div>
         </div>
+
+        <!-- ****************************** PHOTOS ****************************** -->
+
         <!-- COMPONENTE PARA PEGAR 4 IMAGENES -->
-        <div>
+        <div class="col-md-10 mx-auto">
             <div>
                 <div class="d-flex justify-content-betwen">
                     <img src="../src/classique/classique1.1.jpg" alt="" class="img-fluid w-50 img-row-control">
@@ -184,68 +295,127 @@
                 </div>
             </div>
         </div>
-        <div>
-            <article class="control-margin-import">
-                <h6 class="text-white">Sauna, Hammam, douche scandinave...</h6>
-                <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt esse mollitia, repellendus corrupti repudiandae similique veritatis at enim asperiores, odit cum perspiciatis recusandae quos. Laudantium animi hic iste eos perspiciatis.
-                Omnis repudiandae expedita cum, quod harum nesciunt tempore atque, facere error vitae quis a nihil dignissimos mollitia inventore voluptatem dolorem in ad eligendi nemo fuga dolorum. Excepturi hic consequatur illo!
-                Dignissimos adipisci id similique eaque molestiae iste ad cumque quam ratione. Ratione, culpa debitis. Doloremque quibusdam excepturi veritatis quasi officiis perferendis, corporis architecto expedita eius quo voluptatibus, exercitationem voluptas in!
-                Sapiente, mollitia quod dicta quisquam velit commodi labore veritatis quos, dolores, vitae illo. Consectetur voluptatem recusandae deserunt, provident, a fugit illum labore optio temporibus obcaecati ipsam quibusdam expedita in ipsum!</p>
-            </article>
-        </div>
-        <!-- TEXTE TITLE -->
-        <article>
-            <h5 class="text-serif-gold control-margin-import">Deluxe</h5>
+        
+        <!-- ****************************** DELUXE ****************************** -->
+
+        <!-- DIV SEPARATION -->
+        <div class="separationAvecDiv"></div>
+
+        <!-- TEXTSECTION -->
+        <article class="d-lg-none">
+            <h2 class="reglageText"> Chambres DELUXE</h2>
         </article>
-        <!-- CARDS RELAX / PLAISIR-->
-        <div class="container">
-            <div class="row">
-                <!-- CARD RELAXANT -->
-                <div class="col d-flex justify-content-center control-margin-import">
+
+        <!-- CARDS DELUXE -->
+        <div class="col d-flex justify-content-center control-margin-import d-lg-none">
+            <div class="card" style="width: 18rem;">
+                <img src="../src/deluxe/deluxe1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title textSerifGold text-center">Chambre Deluxe</h5>
+                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus, molestias!</p>
+                </div>
+            </div>
+        </div>
+        <!-- SECTION VOIRPLUS / PARTAGER -->
+        <div class="d-lg-none">
+            <div class="control-margin-import d-flex flex-column align-items-center justify-content-center">
+                <div>
+                    <a class="btn btn-primary border-0 bg-dark" href="chambre-deluxe.html" role="button">Voir plus</a>
+                    <a href="#" class="btn btn-primary border-0 bg-dark">Partager</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- ****************************** SUITE ****************************** -->
+
+        <!-- DIV SEPARATION -->
+        <div class="separationAvecDiv d-lg-none"></div>
+
+        <!-- TEXTSECTION -->
+        <article class="d-lg-none">
+            <h2 class="reglageText"> SUITE CHAMBORD</h2>
+        </article>
+
+        <!-- CARD SUITE -->
+        <div class="col d-flex justify-content-center control-margin-import d-lg-none">
+            <div class="card" style="width: 18rem;">
+                <img src="../src/suite/suite-1.2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title textSerifGold text-center">Chambre Suite</h5>
+                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus, molestias!</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- SECTION VOIRPLUS / PARTAGER -->
+        <div class="d-lg-none">
+            <div class="control-margin-import d-flex flex-column align-items-center justify-content-center">
+                <div>
+                    <a class="btn btn-primary border-0 bg-dark" href="chambre-suite.html" role="button">Voir plus</a>
+                    <a href="#" class="btn btn-primary border-0 bg-dark">Partager</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- ************************* DELUXE-SUITE *************************** -->
+
+        <div class="d-none d-lg-flex justify-content-center">
+            <div class="reglageDest1">
+                <!-- TEXTSECTION -->
+                <article class="text-center">
+                    <h2 class="textSerifBlack"> Chambres DELUXE</h2>
+                </article>
+                <!-- CARDS DELUXE -->
+                <div>
                     <div class="card" style="width: 18rem;">
                         <img src="../src/deluxe/deluxe1.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Chambre Deluxe</h5>
+                            <h5 class="card-title textSerifGold text-center">Chambre Deluxe</h5>
                             <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus, molestias!</p>
                         </div>
                     </div>
                 </div>
                 <!-- SECTION VOIRPLUS / PARTAGER -->
-                <div class="maSecSpa">
+                <div>
                     <div class="control-margin-import d-flex flex-column align-items-center justify-content-center">
                         <div>
-                            <a class="btn btn-primary border-0 bg-dark" href="chambre-deluxe.html" role="button">Voir plus</a>
+                            <a class="btn btn-primary border-0 bg-dark" href="chambre-classique.html" role="button">Voir plus</a>
                             <a href="#" class="btn btn-primary border-0 bg-dark">Partager</a>
                         </div>
                     </div>
                 </div>
-                <!-- TEXTE TITLE -->
-                <article>
-                    <h5 class="text-serif-gold control-margin-import">Suite</h5>
+            </div>
+            <div class="reglageDest2">
+                <!-- TEXTSECTION -->
+                <article class="text-center">
+                    <h2 class="textSerifBlack"> SUITE CHAMBORD</h2>
                 </article>
-                <!-- CARD PLAISIR -->
-                <div class="col d-flex justify-content-center control-margin-import">
+                <!-- CARD SUITE -->
+                <div>
                     <div class="card" style="width: 18rem;">
                         <img src="../src/suite/suite-1.2.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Chambre Suite</h5>
+                            <h5 class="card-title textSerifGold text-center">Chambre Suite</h5>
                             <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus, molestias!</p>
                         </div>
                     </div>
                 </div>
                 <!-- SECTION VOIRPLUS / PARTAGER -->
-                <div class="maSecSpa">
+                <div>
                     <div class="control-margin-import d-flex flex-column align-items-center justify-content-center">
                         <div>
-                            <a class="btn btn-primary border-0 bg-dark" href="chambre-suite.html" role="button">Voir plus</a>
+                            <a class="btn btn-primary border-0 bg-dark" href="chambre-confort.html" role="button">Voir plus</a>
                             <a href="#" class="btn btn-primary border-0 bg-dark">Partager</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
+        <!-- ****************************** PHOTOS ****************************** -->
+
         <!-- COMPONENTE PARA PEGAR 4 IMAGENES -->
-        <div>
+        <div class="col-md-10 mx-auto">
             <div>
                 <div class="d-flex justify-content-betwen">
                     <img src="../src/suite/suite-1.5.jpg" alt="" class="img-fluid w-50 img-row-control">
@@ -259,6 +429,7 @@
                 </div>
             </div>
         </div>
+
     </main>
 
     <!-- ICI COMMENCE MON PIE DE PAGE -->
