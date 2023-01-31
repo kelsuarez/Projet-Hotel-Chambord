@@ -6,6 +6,7 @@ body {
 }
 
 /* NAV-CONTROL */
+
 /* PADDING-NAV */
 header nav{
   padding-top: 0 !important;
@@ -27,13 +28,6 @@ header nav{
   min-width: 0 !important;
 }
 
-/* CLASS DEGRADE TEXTE */
-.text-lin-gar-font{
-  font-family: 'Aboreto', cursive;
-  background-image: linear-gradient(to right, #e7b718, #000000);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
 /* TEXT-SERIF-GOLD */
 .textSerifGold{
   color: #e7b718;
@@ -44,7 +38,7 @@ header nav{
   color: white;
   font-family: 'Aboreto', cursive;
 }
-
+/* TEXT-SERIF-BLACK */
 .textSerifBlack{
   font-family: 'Aboreto', cursive;
   font-weight: bold;
@@ -133,5 +127,10 @@ header nav{
   }
   .textSerifBlack{
     font-size: 20px !important;
+  }
+  /* TEXT-PARA-1 */
+  .reglageText{
+    font-size: 80px;
+    margin: 50px 0 50px 75px;
   }
 }

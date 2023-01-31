@@ -2,8 +2,56 @@
     margin-top: 50px;
     margin-right: 80px;
 }
-
 .reglageDest2{
     margin-top: 120px;
     margin-left: 80px;
+}
+
+.serviceInclus img{
+    width: 20px;
+}
+
+.monIconCham{
+    width: 100px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+.monIconCham img{
+    display: block;
+    margin: auto;
+}
+.monIconCham h6{
+    margin-top: 5px;
+    font-size: 10px;
+    text-align: center;
+}
+.photoSep{
+    margin-top: 20px;
+}
+
+.iconMillieu{
+    margin-top: 30px;
+}
+/* FORMAT SMARPHONE */
+@media screen and (max-width: 768px) {
+    article{
+        width: 90%;
+        margin: auto;
+    }
+}
+@media screen and (min-width: 990px) {
+    article p{
+        font-size: 20px;
+    }
+    .serviceInclus img{
+        width: 40px;
+    }
+    .monIconCham{
+        width: 300px;
+        height: 80px;
+        margin-bottom: 50px;
+    }
+    .iconMillieu{
+        margin-top: 70px;
+    }
 }

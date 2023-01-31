@@ -1,26 +1,60 @@
-/*SI LO LLAMO*/
+/*ESPACE TITLE VIDEO*/
 .spacealone{
-    height: 50px;
+    margin-top: 50px;
 }
-
-.conteiner-imgs-vr{
-    height: 250px;
-    width: 100%;
-}
-
-/*SI LO LLAMO*/
-.titres---centres{
-    position: absolute;
-    top: 125px;
-}
-
-/*SI LO LLAMO*/
-article h2{
-    font-size: xx-large;
-}
-
-/*SI LO LLAMO*/
+/*CARTES MENUS D-NONE*/
 .menusVarios{
     display: none;
+}
+/* SEPARATION DES TITLES MENUS */
+.menusCartesM{
+    margin-top: 40px;
+}
+/* BUTTON GENERAL */
+.butonGeneral{
+    width: 60%;
+    font-family: 'Aboreto', cursive;
+    background-color: grey !important;
+    font-weight: bold !important;
+}
+
+
+/* FORMAT SMARPHONE */
+@media screen and (min-width: 768px) {
+    article{
+        width: 90%;
+        margin: auto;
+    }
+    .imagesVarias{
+        width: 70%;
+        margin: 20px auto;
+    }
+    .spacealone h2{
+        margin-top: 40px;
+        font-size: 50px;
+    }
+}
+/* FORMAT SMARPHONE */
+@media screen and (min-width: 990px) {
+    .imagesVarias{
+        width: 30% !important;
+        margin: 20px auto;
+    }
+    .spacealone h2{
+        margin-top: 30%;
+        font-size: 10vh;
+    }
+    .monParaGraphe{
+        font-size: 3vh;
+    }
+    #monTextWImg img{
+        border-radius: 10px;
+    }
+    #monTextWImg {
+        margin-bottom: 50px;
+    }
+    .maSectionJs h3{
+        font-size: 50px !important;
+    }
 }
 
