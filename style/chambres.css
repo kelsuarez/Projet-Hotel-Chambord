@@ -29,9 +29,6 @@
     margin-top: 20px;
 }
 
-.iconMillieu{
-    margin-top: 30px;
-}
 /* FORMAT SMARPHONE */
 @media screen and (max-width: 768px) {
     article{
@@ -50,8 +47,5 @@
         width: 300px;
         height: 80px;
         margin-bottom: 50px;
-    }
-    .iconMillieu{
-        margin-top: 70px;
     }
 }

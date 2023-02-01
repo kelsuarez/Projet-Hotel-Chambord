@@ -2,7 +2,7 @@
 .reglageText{
     font-size: 20px;
     text-transform: uppercase;
-    margin: 10px 0 10px 20px;
+    margin: 10px 0;
     font-family: 'Aboreto', cursive;
 }
 /* MODIF TEXTE VAR*/
@@ -80,7 +80,7 @@
     /* TEXT-PARA-1 */
     .reglageText{
         font-size: 40px;
-        margin: 20px 0 20px 50px;
+        margin: 20px 0;
     }
     /* MODIF TEXTE VAR*/
     .reglageText1{
