@@ -100,12 +100,26 @@
     </header>
 
     <!-- ICI COMMENCE MON PIE DE PAGE -->
-    <footer class=" mx-auto">
+    <footer>
         
         <!-- TEXT/BUTTON -->
-        <article class="d-block controlTextFoo">
-            <h2 class="textSerifWhite d-block">recevez la newsletter</h2>
-            <button class="buttonFooter d-block" type="submit">M'inscrire > </button>
+        <article class="controlFooter">
+            <h2 class="textSerifWhite text-center">recevez la newsletter</h2>
+            <form class="col-5 mx-auto" id="myNewsletter">
+                <div class="form-group">
+                    <label for="emailInput"></label>
+                    <input type="email" class="form-control" id="emailInput" placeholder="Votre adresse mail">
+                </div>
+                <div class="form-group">
+                    <label for="nombre"></label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Votre prenom">
+                </div>
+                <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" id="monJaccepte" for="exampleCheck1">J'accepte de recevoir des offres commerciales</label>
+                </div>
+                <button class="buttonFooter d-block mx-auto" type="submit">M'inscrire</button>
+            </form>
         </article>
 
         <!-- LOGO -->
@@ -114,25 +128,25 @@
         </div>
 
         <!-- TEXTE -->
-        <div class="controlTextFoo">
+        <div class="text-center">
             <div>
-                <h6 class="d-flex justify-content-center textSerifWhite">09-34-52-52-52</h6>
+                <h6 class="textSerifWhite">09-34-52-52-52</h6>
             </div>
             <div>
-                <h6 class="d-flex justify-content-center textSerifWhite">hotel.chambord@contact.fr</h6>
+                <h6 class="textSerifWhite">hotel.chambord@contact.fr</h6>
             </div>
             <div>
-                <h6 class="d-flex justify-content-center textSerifWhite">1 Avenue Montaigne 75008 - Paris</h6>
+                <h6 class="textSerifWhite">1 Avenue Montaigne 75008 - Paris</h6>
             </div>
         </div>
         
         <!-- LIENS -->
-        <section class="">
+        <section class="text-center textSerifWhite">
             <nav>
-                <ul class="nav flex-column control-margin-import">
-                    <li class="nav-item textSerifWhite d-flex justify-content-center"><a class="nav-link forceColorText" href="plan-site.html">Plan du site</a></li>
-                    <li class="nav-item textSerifWhite d-flex justify-content-center"><a class="nav-link forceColorText" href="mention-legales.html">Mention Légales</a></li>
-                    <li class="nav-item textSerifWhite d-flex justify-content-center controlTextFoo"><a class="nav-link forceColorText" href="contidition-generales-de-vente.html">Contidition Generales De Vente</a></li>
+                <ul class="nav flex-column controlFooter">
+                    <li><a class="nav-link text-white" href="plan-site.html">Plan du site</a></li>
+                    <li><a class="nav-link text-white" href="mention-legales.html">Mention Légales</a></li>
+                    <li><a class="nav-link text-white" href="contidition-generales-de-vente.html">Contidition Generales De Vente</a></li>
                 </ul>
             </nav>
         </section>
