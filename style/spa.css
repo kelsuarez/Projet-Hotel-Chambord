@@ -1,3 +1,25 @@
 .menusSpa{
     display: none;
 }
+
+
+
+
+
+
+@media screen and (min-width: 990px) {
+    article p{
+        font-size: 20px;
+    }
+    .photosDos{
+        width: 330px !important;
+    }
+    /* .serviceInclus img{
+        width: 40px;
+    }
+    .monIconCham{
+        width: 300px;
+        height: 80px;
+        margin-bottom: 50px;
+    } */
+}

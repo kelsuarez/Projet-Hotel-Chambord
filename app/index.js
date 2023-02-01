@@ -45,4 +45,3 @@ const form = document.querySelector(".contact-form");
     }
     document.querySelector('.contact-form').reset();
   });
-  
