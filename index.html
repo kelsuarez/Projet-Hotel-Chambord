@@ -271,10 +271,10 @@
                     </div>
                     <!-- LISTE DE CHOIX -->
                     <div class="list-group d-none d-lg-block">
-                        <a href="#" class="list-group-item list-group-item-action list-group-item-dark">chambre classique</a>
-                        <a href="#" class="list-group-item list-group-item-action list-group-item-dark">chambre confort</a>
-                        <a href="#" class="list-group-item list-group-item-action list-group-item-dark">chambre deluxe</a>
-                        <a href="#" class="list-group-item list-group-item-action list-group-item-dark">suite chambord</a>
+                        <a href="#" class="textSerifBlack list-group-item list-group-item-action list-group-item-dark">chambre classique</a>
+                        <a href="#" class="textSerifBlack list-group-item list-group-item-action list-group-item-dark">chambre confort</a>
+                        <a href="#" class="textSerifBlack list-group-item list-group-item-action list-group-item-dark">chambre deluxe</a>
+                        <a href="#" class="textSerifBlack list-group-item list-group-item-action list-group-item-dark">suite chambord</a>
                     </div>
                 </div>
             </div>
@@ -297,10 +297,10 @@
 
         <!-- LISTE DE CHOIX CHAMBRES-->
         <div class="list-group d-lg-none">
-            <a href="html/chambre-classique.html" class="list-group-item list-group-item-action list-group-item-dark">chambre classique</a>
-            <a href="html/chambre-confort.html" class="list-group-item list-group-item-action list-group-item-dark">chambre confort</a>
-            <a href="html/chambre-deluxe.html" class="list-group-item list-group-item-action list-group-item-dark">chambre deluxe</a>
-            <a href="html/chambre-suite.html" class="list-group-item list-group-item-action list-group-item-dark">suite chambord</a>
+            <a href="html/chambre-classique.html" class="textSerifBlack list-group-item list-group-item-action list-group-item-dark">chambre classique</a>
+            <a href="html/chambre-confort.html" class="textSerifBlack list-group-item list-group-item-action list-group-item-dark">chambre confort</a>
+            <a href="html/chambre-deluxe.html" class="textSerifBlack list-group-item list-group-item-action list-group-item-dark">chambre deluxe</a>
+            <a href="html/chambre-suite.html" class="textSerifBlack list-group-item list-group-item-action list-group-item-dark">suite chambord</a>
         </div>
 
         <!-- ****************************** RESTAURANT ****************************** -->
@@ -677,44 +677,50 @@
         <div class="separationAvecDiv"></div>
     </main>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <!-- ICI COMMENCE MON PIE DE PAGE -->
-    <footer class="">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col">
-                    <ul class="col list-group list-group-flush">
-                        <li><a class="list-group-item text-capitalize" href="plan-site.html">Plan du site</a></li>
-                        <li><a class="list-group-item text-capitalize" href="recrutement.html">Recrutement</a></li>
-                        <li><a class="list-group-item text-capitalize" href="actualites.html">actualités</a></li>
-                        <li><a class="list-group-item text-capitalize" href="mention-legales.html">mentions légales</a></li>
-                        <li><a class="list-group-item text-capitalize" href="contidition-generales-de-vente.html">conditions générales de vente</a></li>
-                    </ul>
-                </div>
-                <div class="col">
-                    <img class="img-fluid rounded mx-auto d-block" src="src/logo-126.png" alt="logo hotel chambord">
-                    <img class="img-fluid" src="src/plan-site-225.png" alt="image avec le plan pour arriver a l'hotel">
-                </div>
+    <footer class=" mx-auto">
+        
+        <!-- TEXT/BUTTON -->
+        <article class="d-block controlTextFoo">
+            <h2 class="textSerifWhite d-block">recevez la newsletter</h2>
+            <button class="buttonFooter d-block" type="submit">M'inscrire > </button>
+        </article>
+
+        <!-- LOGO -->
+        <div class="imgFooterControl">
+            <img class="img-fluid rounded mx-auto d-block" src="src/logo-126.png" alt="logo hotel chambord">
+        </div>
+
+        <!-- TEXTE -->
+        <div class="controlTextFoo">
+            <div>
+                <h6 class="d-flex justify-content-center textSerifWhite">09-34-52-52-52</h6>
+            </div>
+            <div>
+                <h6 class="d-flex justify-content-center textSerifWhite">hotel.chambord@contact.fr</h6>
+            </div>
+            <div>
+                <h6 class="d-flex justify-content-center textSerifWhite">1 Avenue Montaigne 75008 - Paris</h6>
             </div>
         </div>
-            <div class="text-center pt-3">
-                Mon pied de page
-            </div>
+        
+        <!-- LIENS -->
+        <section class="">
+            <nav>
+                <ul class="nav flex-column control-margin-import">
+                    <li class="nav-item textSerifWhite d-flex justify-content-center"><a class="nav-link forceColorText" href="html/plan-site.html">Plan du site</a></li>
+                    <li class="nav-item textSerifWhite d-flex justify-content-center"><a class="nav-link forceColorText" href="html/mention-legales.html">Mention Légales</a></li>
+                    <li class="nav-item textSerifWhite d-flex justify-content-center controlTextFoo"><a class="nav-link forceColorText" href="html/contidition-generales-de-vente.html">Contidition Generales De Vente</a></li>
+                </ul>
+            </nav>
+        </section>
     </footer>
+
+
+
+
+
+
     <script src="app/index.js"></script>
     <script src="app/app.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

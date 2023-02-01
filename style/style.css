@@ -65,6 +65,60 @@ header nav{
   margin: 10px 0 10px 20px;
   font-family: 'Aboreto', cursive;
 }
+
+
+
+
+
+
+
+/* FOOTER */
+
+footer{
+  background-color: rgb(24, 22, 22);
+}
+.buttonFooter{
+    width: 150px;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgb(112, 110, 110);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: 'Aboreto', cursive;
+}
+.controlTextFoo button{
+  margin: auto;
+}
+controlTextFoo{
+ padding-bottom: 30px;
+}
+.controlTextFoo h2{
+  margin-left: 40px;
+  padding: 20px 0;
+}
+.imgFooterControl{
+  max-width: 200px;
+  margin: 20px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* FORMAT SMARPHONE */
 @media screen and (max-width: 990px) {
   .xtrSmall{
@@ -83,6 +137,9 @@ header nav{
   .titres-DOS-centres h6{
       font-size: 25px;
   }
+  .controlTextFoo h2{
+    margin-left: 210px;
+  }
 }
 /* FORMAT DESTOK */
 @media screen and (min-width: 990px) {
@@ -90,6 +147,9 @@ header nav{
   .carouselControlSize{
     max-width: 70% !important;
     margin: auto;
+  }
+  .controlTextFoo h2{
+    margin-left: 730px;
   }
 }
 /* FORMAT DESTOK XXL*/
@@ -99,7 +159,7 @@ header nav{
   }
   #marginLog{
     padding-left: 60px;
-  }
+  }   
   #marginList{
     padding-left: 150px;
   }
