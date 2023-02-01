@@ -16,7 +16,7 @@
     <!-- ICI COMMENCE MON HEADER -->
     <header>
         <!-- NAVBAR AVEC BOOTSTRAP -->
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top col-xl-11 mx-auto">
             <div class="container-fluid bg-white">
 
                 <!-- DROPDOWN LANGUES -->
@@ -37,7 +37,7 @@
                 </div>
 
                 <!-- IMAGE LOGO AVEC LIENS ACCUEIL-->
-                <div class="col-lg-1" id="marginLog">
+                <div class="col-lg-1">
                     <a class="navbar-brand" href="../index.html"><img src="../src/logo-126.png" alt="logo hotel chambord" width="75" height="70" class="d-inline-block align-text-top"></a>
                 </div>
 
@@ -103,8 +103,8 @@
     <main class="col-md-11 mx-auto">
 
         <!-- SECTION TITRE -->
-        <article class="justify-content-center align-items-center">
-            <div class="titres-DOS-centres">
+        <article class="justify-content-center align-items-center titres-DOS-centres">
+            <div class="">
                 <h1 class="textSerifWhite text-center">Divinity Chambord</h1>
                 <h6 class="textSerifWhite text-center">Spa luxe</h6>
             </div>
@@ -121,13 +121,13 @@
         <div class="separationAvecDiv"></div>
 
         <!-- TEXTE 350M² -->
-        <article class="control-margin-import">
+        <article>
             <h5 class="reglageText">350m² dédiés à la de détente</h5>
             <h5 class="reglageText">et au bien-être.</h5>
         </article>
 
         <!-- SECTION TEXTE -->
-        <article class="control-margin-import">
+        <article class="col-11 col-sm-12 mx-auto">
             <p>Le Spa Divinity de l’Hôtel Chambord offre 350m2 consacrés au bien-être.</p>
             <p>Doté d'une des plus grandes piscines d'hôtel de Paris (25 mètres de longueur).</p>
             <p>Le Spa Divinity de l’Hôtel Chambord propose un cadre idéal aux sportifs comme aux amateurs de détente.</p>
@@ -163,12 +163,12 @@
         </div>
 
         <!-- TEXTE SAUNA, HAMMAN -->
-        <article class="control-margin-import">
+        <article>
             <h5 class="reglageText">Sauna, Hammam, douche scandinave...</h5>
         </article>
 
         <!-- SECTION TEXTE -->
-        <article class="control-margin-import">
+        <article class="col-11 col-sm-12 mx-auto">
             <p>Une salle de fitness vient parfaire les installations et une salle de soin est dédiée aux massages et soins du visage.</p>
             <p>Ainsi une fontaine de glace et banc de balnéothérapie complètent la partie humide.</p>
         </article>
@@ -177,107 +177,101 @@
         <div class="separationAvecDiv"></div>
 
         <!-- TEXTSECTION -->
-        <article class="">
+        <article>
             <h2 class="reglageText">espace bien-être</h2>
         </article>
 
         <!-- ****************************** DECOUVERTE ****************************** -->
 
         <!-- CARD DECOUVERTE -->
-        <div class="col d-flex justify-content-center control-margin-import d-md-none">
+        <div class="col d-flex justify-content-center d-md-none">
             <div class="card" style="width: 18rem;">
-                <img src="../src/sauna-spa-4510.jpg" class="card-img-top" alt="...">
+                <img src="../src/sauna-spa-4510.jpg" class="card-img-top" alt="sauna lumieres rouges">
                 <div class="card-body">
-                    <h5 class="card-title">Soin Découverte</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <h5 class="card-title textSerifGold text-center">Soin Découverte</h5>
+                    <p class="card-text">------------------</p>
                 </div>
             </div>
         </div>
         <!-- BUTTON -->
-        <div class="maSecSpa d-md-none">
-            <div class="control-margin-import d-flex flex-column align-items-center justify-content-center">
-                <div>
-                    <button type="button" class="btn btn-dark butonConClick" data-id="1">Voir plus</button>
-                    <a href="#" class="btn btn-primary border-0 bg-dark">Partager</a>
-                </div>
-                <img src="../src/spa-decouverte.jpg" alt="menu déjeuner"  class="menusSpa img-fluid control-margin-import" data-id="1">
+        <div class="maSecSpa d-md-none m-3">
+            <div class="d-flex mx-auto">
+                <button type="button" class="buttonGeneralW butonConClick" data-id="1">En savoir plus</button>
             </div>
+            <img src="../src/spa-decouverte.jpg" alt="menu déjeuner" class="menusSpa" data-id="1">
         </div>
+
+        <!-- DIV SEPARATION -->
+        <div class="separationAvecDiv d-md-none"></div>
 
         <!-- ****************************** DETENTE ****************************** -->
 
         <!-- CARD DETENTE -->
-        <div class="col d-flex justify-content-center control-margin-import d-md-none">
+        <div class="col d-flex justify-content-center d-md-none">
             <div class="card" style="width: 18rem;">
-                <img src="../src/peu-spa-565.jpg" class="card-img-top" alt="...">
+                <img src="../src/peu-spa-565.jpg" class="card-img-top" alt="femme traitement visage">
                 <div class="card-body">
-                    <h5 class="card-title">Soin Détente</h5>
+                    <h5 class="card-title textSerifGold text-center">Soin Détente</h5>
                     <p class="card-text">Une remise en forme totale de la peau des citadines.</p>
                 </div>
             </div>
         </div>
         <!-- BUTTON -->
-        <div class="maSecSpa d-md-none">
-            <div class="control-margin-import d-flex flex-column align-items-center justify-content-center">
-                <div>
-                    <button type="button" class="btn btn-dark butonConClick" data-id="2">Voir plus</button>
-                    <a href="#" class="btn btn-primary border-0 bg-dark">Partager</a>
-                </div>
-                <img src="../src/spa-detente.jpg" alt="menu déjeuner"  class="menusSpa img-fluid control-margin-import" data-id="2">
+        <div class="maSecSpa d-md-none m-3">
+            <div class="d-flex mx-auto">
+                <button type="button" class="buttonGeneralW butonConClick" data-id="2">En savoir plus</button>
             </div>
+            <img src="../src/spa-detente.jpg" alt="menu déjeuner"  class="menusSpa" data-id="2">
         </div>
+
+        <!-- DIV SEPARATION -->
+        <div class="separationAvecDiv d-md-none"></div>
 
         <!-- ************************* DECO/DETEN/MD *************************** -->
 
-        <div class="mx-auto justify-content-center d-none d-md-flex"> 
+        <div class="d-none d-md-flex justify-content-center d-flex">
             <!-- CARD DECOUVERTE -->
-            <div>
+            <div class="col-5 m-3" >
                 <div class="justify-content-center">
                     <div class="card" style="width: 18rem;">
-                        <img src="../src/spa/cafe-spa-8854.jpg" class="card-img-top" alt="...">
+                        <img src="../src/spa/cafe-spa-8854.jpg" class="card-img-top" alt="savon de cafe">
                         <div class="card-body">
-                            <h5 class="card-title">Soin Découverte</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <h5 class="card-title textSerifGold text-center">Soin Découverte</h5>
+                            <p class="card-text">Une remise en forme totale de la peau des citadines.</p>
                         </div>
                     </div>
                 </div>
                 <!-- BUTTON -->
-                <div class="maSecSpa">
-                    <div class="control-margin-import d-flex flex-column align-items-center justify-content-center">
-                        <div>
-                            <button type="button" class="btn btn-dark butonConClick" data-id="1">Voir plus</button>
-                            <a href="#" class="btn btn-primary border-0 bg-dark">Partager</a>
-                        </div>
-                        <img src="../src/spa-decouverte.jpg" alt="menu déjeuner"  class="menusSpa img-fluid control-margin-import" data-id="1">
+                <div class="maSecSpa m-3 col-xl-4">
+                    <div class="d-flex mx-auto">
+                        <button type="button" class="buttonGeneralW butonConClick" data-id="1">En savoir plus</button>
                     </div>
+                    <img src="../src/spa-decouverte.jpg" alt="carte soin Découverte"  class="menusSpa" data-id="1">
                 </div>
             </div>
             <!-- CARD DETENTE -->
-            <div>
+            <div class="col-5 m-3">
                 <div class="justify-content-center">
                     <div class="card" style="width: 18rem;">
-                        <img src="../src/spa/seltrait-spa-dqsgfs.jpg" class="card-img-top" alt="...">
+                        <img src="../src/spa/seltrait-spa-dqsgfs.jpg" class="card-img-top" alt="gros sel traitement">
                         <div class="card-body">
-                            <h5 class="card-title">Soin Détente</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <h5 class="card-title textSerifGold text-center">Soin Détente</h5>
+                            <p class="card-text">Une remise en forme totale de la peau des citadines.</p>
                         </div>
                     </div>
                 </div>
                 <!-- BUTTON -->
-                <div class="maSecSpa">
-                    <div class="control-margin-import d-flex flex-column align-items-center justify-content-center">
-                        <div>
-                            <button type="button" class="btn btn-dark butonConClick" data-id="2">Voir plus</button>
-                            <a href="#" class="btn btn-primary border-0 bg-dark">Partager</a>
-                        </div>
-                        <img src="../src/spa-detente.jpg" alt="menu déjeuner"  class="menusSpa img-fluid control-margin-import" data-id="2">
+                <div class="maSecSpa m-3 col-xl-4">
+                    <div class="d-flex mx-auto">
+                        <button type="button" class="buttonGeneralW butonConClick" data-id="2">En savoir plus</button>
                     </div>
+                    <img src="../src/spa-detente.jpg" alt="carte de soin détente"  class="menusSpa" data-id="2">
                 </div>
             </div>
         </div>
         
         <!-- ************************* PHOTOS *************************** -->
-
+        
         <!-- DIV SEPARATION -->
         <div class="separationAvecDiv d-none d-md-flex"></div>
 
@@ -302,97 +296,93 @@
         
         <!-- ****************************** RELAX ****************************** -->
 
+        <!-- DIV SEPARATION -->
+        <div class="separationAvecDiv d-md-none"></div>
+
         <!-- CARD RELAXANT -->
-        <div class="col d-flex justify-content-center control-margin-import d-md-none">
+        <div class="col d-flex justify-content-center d-md-none">
             <div class="card" style="width: 18rem;">
-                <img src="../src/bain-spa-5532.jpg" class="card-img-top" alt="...">
+                <img src="../src/bain-spa-5532.jpg" class="card-img-top" alt="bain relaxant">
                 <div class="card-body">
-                    <h5 class="card-title">Soin Relaxant</h5>
+                    <h5 class="card-title textSerifGold text-center">Soin Relaxant</h5>
                     <p class="card-text">Plongez dans un bain d’hydratation à l’efficacité record.</p>
                 </div>
             </div>
         </div>
-
-        <!-- SECTION VOIRPLUS / PARTAGER -->
-        <div class="maSecSpa d-md-none">
-            <div class="control-margin-import d-flex flex-column align-items-center justify-content-center">
-                <div>
-                    <button type="button" class="btn btn-dark butonConClick" data-id="3">Voir plus</button>
-                    <a href="#" class="btn btn-primary border-0 bg-dark">Partager</a>
-                </div>
-                <img src="../src/spa-relaxant-565.jpg" alt="menu déjeuner"  class="menusSpa img-fluid control-margin-import" data-id="3">
+        <!-- BUTTON -->
+        <div class="maSecSpa d-md-none m-3">
+            <div class="d-flex mx-auto">
+                <button type="button" class="buttonGeneralW butonConClick" data-id="3">En savoir plus</button>
             </div>
+            <img src="../src/spa-relaxant-565.jpg" alt="menu déjeuner"  class="menusSpa" data-id="3">
         </div>
+
+        <!-- DIV SEPARATION -->
+        <div class="separationAvecDiv d-md-none"></div>
 
         <!-- ****************************** PLAISIR ****************************** -->
 
         <!-- CARD PLAISIR -->
-        <div class="col d-flex justify-content-center control-margin-import d-md-none">
+        <div class="col d-flex justify-content-center d-md-none">
             <div class="card" style="width: 18rem;">
-                <img src="../src/bio-spa-544.jpg" class="card-img-top" alt="...">
+                <img src="../src/bio-spa-544.jpg" class="card-img-top" alt="chaisse massage biotechnologique">
                 <div class="card-body">
-                    <h5 class="card-title">Soin Plaisir</h5>
+                    <h5 class="card-title textSerifGold text-center">Soin Plaisir</h5>
                     <p class="card-text">Le summum de la performance biotechnologique.</p>
                 </div>
             </div>
         </div>
-        <!-- SECTION VOIRPLUS / PARTAGER -->
-        <div class="maSecSpa d-md-none">
-            <div class="control-margin-import d-flex flex-column align-items-center justify-content-center">
-                <div>
-                    <button type="button" class="btn btn-dark butonConClick" data-id="4">Voir plus</button>
-                    <a href="#" class="btn btn-primary border-0 bg-dark">Partager</a>
-                </div>
-                <img src="../src/spa-plaisir-6544.jpg" alt="menu déjeuner"  class="menusSpa img-fluid control-margin-import" data-id="4">
+        <!-- BUTTON -->
+        <div class="maSecSpa d-md-none m-3">
+            <div class="d-flex mx-auto">
+                <button type="button" class="buttonGeneralW butonConClick" data-id="4">En savoir plus</button>
             </div>
+            <img src="../src/spa-plaisir-6544.jpg" alt="menu déjeuner"  class="menusSpa" data-id="4">
         </div>
+
+        <!-- DIV SEPARATION -->
+        <div class="separationAvecDiv d-md-none"></div>
 
         <!-- ************************* REL/PLA/MD *************************** -->
 
-        <div class="mx-auto justify-content-center d-none d-md-flex"> 
+        <div class="d-none d-md-flex justify-content-center d-flex"> 
             <!-- CARD DECOUVERTE -->
-            <div>
+            <div class="col-5 m-3">
                 <div class="justify-content-center">
                     <div class="card" style="width: 18rem;">
-                        <img src="../src/bain-spa-5532.jpg" class="card-img-top" alt="...">
+                        <img src="../src/bain-spa-5532.jpg" class="card-img-top" alt="bain relaxant">
                         <div class="card-body">
-                            <h5 class="card-title">Soin Relaxant</h5>
+                            <h5 class="card-title textSerifGold text-center">Soin Relaxant</h5>
                             <p class="card-text">Plongez dans un bain d’hydratation à l’efficacité record.</p>
                         </div>
                     </div>
                 </div>
-                <!-- SECTION VOIRPLUS / PARTAGER -->
-                <div class="maSecSpa">
-                    <div class="control-margin-import d-flex flex-column align-items-center justify-content-center">
-                        <div>
-                            <button type="button" class="btn btn-dark butonConClick" data-id="3">Voir plus</button>
-                            <a href="#" class="btn btn-primary border-0 bg-dark">Partager</a>
-                        </div>
-                        <img src="../src/spa-relaxant-565.jpg" alt="menu déjeuner"  class="menusSpa img-fluid control-margin-import" data-id="3">
+                <!-- BUTTON -->
+                <div class="maSecSpa m-3 col-xl-4">
+                    <div class="d-flex mx-auto">
+                        <button type="button" class="buttonGeneralW butonConClick" data-id="3">En savoir plus</button>
                     </div>
+                    <img src="../src/spa-relaxant-565.jpg" alt="carte soin relaxant"  class="menusSpa" data-id="3">
                 </div>
             </div>
             <!-- CARD DETENTE -->
-            <div>
+            <div class="col-5 m-3">
                 <!-- CARD PLAISIR -->
                 <div class="justify-content-center">
                     <div class="card" style="width: 18rem;">
-                        <img src="../src/bio-spa-544.jpg" class="card-img-top" alt="...">
+                        <img src="../src/bio-spa-544.jpg" class="card-img-top" alt="chaisse traitement biotechnologique">
                         <div class="card-body">
-                            <h5 class="card-title">Soin Plaisir</h5>
+                            <h5 class="card-title textSerifGold text-center">Soin Plaisir</h5>
                             <p class="card-text">Le summum de la performance biotechnologique.</p>
                         </div>
                     </div>
                 </div>
-                <!-- SECTION VOIRPLUS / PARTAGER -->
-                <div class="maSecSpa">
-                    <div class="control-margin-import d-flex flex-column align-items-center justify-content-center">
-                        <div>
-                            <button type="button" class="btn btn-dark butonConClick" data-id="4">Voir plus</button>
-                                <a href="#" class="btn btn-primary border-0 bg-dark">Partager</a>
-                        </div>
-                        <img src="../src/spa-plaisir-6544.jpg" alt="menu déjeuner"  class="menusSpa img-fluid control-margin-import" data-id="4">
+                <!-- BUTTON -->
+                <div class="maSecSpa m-3 col-xl-4">
+                    <div class="d-flex mx-auto">
+                        <button type="button" class="buttonGeneralW butonConClick" data-id="4">En savoir plus</button>
                     </div>
+                    <img src="../src/spa-plaisir-6544.jpg" alt="carte soin plaisir"  class="menusSpa" data-id="4">
                 </div>
             </div>
         </div>
@@ -423,37 +413,33 @@
 
         <!-- ************************* EVASION *************************** -->
 
+        <!-- DIV SEPARATION -->
+        <div class="separationAvecDiv d-md-none"></div>
+
         <!-- TEXTSECTION -->
         <article>
             <h2 class="reglageText">Exclusive Hotel</h2>
-            <h6 class="reglageText">Le meilleur du luxe</h6>
+            <h6 class="reglageText">offert</h6>
         </article>
 
         <!-- CARD EVASION -->
-        <div class="col d-flex justify-content-center control-margin-import d-md-none">
-            <div class="row">
-                <div class="col d-flex justify-content-center control-margin-import">
-                    <div class="card" style="width: 18rem;">
-                        <img src="../src/evasion-spa-4541.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Soin Evasion</h5>
-                            <p class="card-text">Soin exclusive Chambord.</p>
-                        </div>
-                    </div>
+        <div class="col d-flex justify-content-center d-md-none">
+            <div class="card" style="width: 18rem;">
+                <img src="../src/evasion-spa-4541.jpg"  class="card-img-top" alt="femme se fait masser les dos">
+                <div class="card-body">
+                    <h5 class="card-title textSerifGold text-center">Soin Evasion</h5>
+                    <p class="card-text">Offre exclusive pour nous hébergeurs.</p>
                 </div>
             </div>
         </div>
-        <!-- SECTION VOIRPLUS / PARTAGER -->
-        <div class="maSecSpa d-md-none">
-            <div class="control-margin-import d-flex flex-column align-items-center justify-content-center">
-                <div>
-                    <button type="button" class="btn btn-dark butonConClick" data-id="5">Voir plus</button>
-                    <a href="#" class="btn btn-primary border-0 bg-dark">Partager</a>
-                </div>
-                <img src="../src/spa-evasion-9687.jpg" alt="menu déjeuner"  class="menusSpa img-fluid control-margin-import" data-id="5">
+        <!-- BUTTON -->
+        <div class="maSecSpa d-md-none m-3">
+            <div class="d-flex mx-auto">
+                <button type="button" class="buttonGeneralW butonConClick" data-id="5">En savoir plus</button>
             </div>
+            <img src="../src/spa-evasion-9687.jpg" alt="carte de soins evasion" class="menusSpa" data-id="5">
         </div>
-        
+
         <!-- COMPONENTE PARA PEGAR 4 IMAGENES -->
         <div class="d-md-none">
             <div>
@@ -471,35 +457,32 @@
         </div>
 
         <!-- ************************* EVA/PHO *************************** -->
-        <div class="mx-auto justify-content-center d-none d-md-flex">
-            <div class="col-4">
+        <div class="d-none d-md-flex justify-content-center d-flex"> 
+            <div class="col-5 m-3">
                 <!-- CARD EVASION -->
                 <div class="d-flex">
                     <div class="row">
                         <div class="col d-flex justify-content-center">
                             <div class="card" style="width: 18rem;">
-                                <img src="../src/evasion-spa-4541.jpg" class="card-img-top" alt="...">
+                                <img src="../src/evasion-spa-4541.jpg" class="card-img-top" alt="femme se fait masser">
                                 <div class="card-body">
-                                    <h5 class="card-title">Soin Evasion</h5>
-                                    <p class="card-text">Soin exclusive Chambord.</p>
+                                    <h5 class="card-title title textSerifGold text-center">Soin Evasion</h5>
+                                    <p class="card-text">Offre exclusive pour nous hébergeurs.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- SECTION VOIRPLUS / PARTAGER -->
-                <div class="maSecSpa">
-                    <div class="control-margin-import flex-column align-items-center justify-content-center">
-                        <div>
-                            <button type="button" class="btn btn-dark butonConClick" data-id="5">Voir plus</button>
-                            <a href="#" class="btn btn-primary border-0 bg-dark">Partager</a>
-                        </div>
-                        <img src="../src/spa-evasion-9687.jpg" alt="menu déjeuner"  class="menusSpa img-fluid control-margin-import" data-id="5">
+                <!-- BUTTON -->
+                <div class="maSecSpa m-3 col-xl-4">
+                    <div class="d-flex mx-auto">
+                        <button type="button" class="buttonGeneralW butonConClick" data-id="5">En savoir plus</button>
                     </div>
+                    <img src="../src/spa-evasion-9687.jpg" alt="carte de soin evasion"  class="menusSpa" data-id="5">
                 </div>
             </div>
             <!-- COMPONENTE PARA PEGAR 4 IMAGENES -->
-            <div class="photosDos col-4">
+            <div class="col-5 m-3">
                 <div>
                     <div class="d-flex justify-content-betwen">
                         <img src="../src/massage2-spa-454.jpg" alt="" class="img-fluid w-50 img-row-control">
@@ -514,20 +497,29 @@
                 </div>
             </div>
         </div>
-
-        <!-- DIV SEPARATION -->
-        <div class="separationAvecDiv d-none d-md-flex"></div>
-
-
     </main>
 
     <!-- ICI COMMENCE MON PIE DE PAGE -->
-    <footer class=" mx-auto">
+    <footer>
         
         <!-- TEXT/BUTTON -->
-        <article class="d-block controlTextFoo">
-            <h2 class="textSerifWhite d-block">recevez la newsletter</h2>
-            <button class="buttonFooter d-block" type="submit">M'inscrire > </button>
+        <article class="controlFooter">
+            <h2 class="textSerifWhite text-center">recevez la newsletter</h2>
+            <form class="col-5 mx-auto" id="myNewsletter">
+                <div class="form-group">
+                    <label for="emailInput"></label>
+                    <input type="email" class="form-control" id="emailInput" placeholder="Votre adresse mail">
+                </div>
+                <div class="form-group">
+                    <label for="nombre"></label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Votre prenom">
+                </div>
+                <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" id="monJaccepte" for="exampleCheck1">J'accepte de recevoir des offres commerciales</label>
+                </div>
+                <button class="buttonFooter d-block mx-auto" type="submit">M'inscrire</button>
+            </form>
         </article>
 
         <!-- LOGO -->
@@ -536,30 +528,31 @@
         </div>
 
         <!-- TEXTE -->
-        <div class="controlTextFoo">
+        <div class="text-center">
             <div>
-                <h6 class="d-flex justify-content-center textSerifWhite">09-34-52-52-52</h6>
+                <h6 class="textSerifWhite">09-34-52-52-52</h6>
             </div>
             <div>
-                <h6 class="d-flex justify-content-center textSerifWhite">hotel.chambord@contact.fr</h6>
+                <h6 class="textSerifWhite">hotel.chambord@contact.fr</h6>
             </div>
             <div>
-                <h6 class="d-flex justify-content-center textSerifWhite">1 Avenue Montaigne 75008 - Paris</h6>
+                <h6 class="textSerifWhite">1 Avenue Montaigne 75008 - Paris</h6>
             </div>
         </div>
         
         <!-- LIENS -->
-        <section class="">
+        <section class="text-center textSerifWhite">
             <nav>
-                <ul class="nav flex-column control-margin-import">
-                    <li class="nav-item textSerifWhite d-flex justify-content-center"><a class="nav-link forceColorText" href="plan-site.html">Plan du site</a></li>
-                    <li class="nav-item textSerifWhite d-flex justify-content-center"><a class="nav-link forceColorText" href="mention-legales.html">Mention Légales</a></li>
-                    <li class="nav-item textSerifWhite d-flex justify-content-center controlTextFoo"><a class="nav-link forceColorText" href="contidition-generales-de-vente.html">Contidition Generales De Vente</a></li>
+                <ul class="nav flex-column controlFooter">
+                    <li><a class="nav-link text-white" href="plan-site.html">Plan du site</a></li>
+                    <li><a class="nav-link text-white" href="mention-legales.html">Mention Légales</a></li>
+                    <li><a class="nav-link text-white" href="contidition-generales-de-vente.html">Contidition Generales De Vente</a></li>
                 </ul>
             </nav>
         </section>
     </footer>
     
+
     <script src="../app/spa.js"></script>
     <script src="../app/app.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

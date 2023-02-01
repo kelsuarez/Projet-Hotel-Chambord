@@ -25,3 +25,15 @@ function showEnglishFlag() {
     }
   }
 //Fin de la funtion Flag
+
+
+// NEWSLETTER
+
+document.getElementById("myNewsletter").addEventListener("submit", function(event) {
+  event.preventDefault();
+  document.getElementById("myNewsletter").reset();
+  
+  var mensaje = document.createElement("p");
+  mensaje.innerHTML = "Merci pour votre inscription a notre newsletter!";
+  document.getElementById("myNewsletter").appendChild(mensaje);
+});

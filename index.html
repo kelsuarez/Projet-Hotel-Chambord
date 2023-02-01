@@ -13,11 +13,10 @@
     <title>Document</title>
 </head>
 <body>
-
     <!-- ICI COMMENCE MON HEADER -->
     <header>
         <!-- NAVBAR AVEC BOOTSTRAP -->
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <nav class="navbar navbar-expand-xl navbar-light fixed-top col-xl-11 mx-auto">
             <div class="container-fluid bg-white">
 
                 <!-- DROPDOWN LANGUES -->
@@ -38,7 +37,7 @@
                 </div>
 
                 <!-- IMAGE LOGO AVEC LIENS ACCUEIL-->
-                <div class="col-lg-1" id="marginLog">
+                <div class="col-lg-1">
                     <a class="navbar-brand" href="index.html"><img src="src/logo-126.png" alt="logo hotel chambord" width="75" height="70" class="d-inline-block align-text-top"></a>
                 </div>
 
@@ -99,53 +98,37 @@
             </div>
         </nav>
     </header>
-
     <!-- ICI COMMENCE MON MAIN -->
     <main class="col-lg-11 mx-auto">
-
         <!-- TEXTE SUR LE VIDEO -->
-        <article class="justify-content-center align-items-center">
-            <div class="titres-DOS-centres">
+        <article class="justify-content-center align-items-center titres-DOS-centres">
+            <div class="">
                 <h6 class="textSerifWhite text-center">hotel</h6>
                 <h1 class="textSerifWhite text-center">le Chambord</h1>
                 <h6 class="textSerifWhite text-center">1 avenue montaigne paris 75008</h6>
             </div>
         </article>
-
         <!-- VIDEO -->
         <div>
             <video autoplay loop muted id="video-background" class="scrollopcty">
                 <source src="src/accueil.mp4" type="video/mp4">
             </video>
         </div>
-
         <!-- ****************************** L'HOTEL ****************************** -->
-
         <!-- DIV SEPARATION -->
         <div class="separationAvecDiv"></div>
-
-        <!-- PRESENTATION DE L'HOTEL -->
+        <!--L'HOTEL -->
         <section>
             <h1 class="reglageText">hotel chambord</h1>
-            <div class="d-flex">
-                <div class="paragrapheModel">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam animi dolorum sapiente quos consectetur veniam illo error a! Nam laudantium, placeat deleniti quae voluptate magni non dolor possimus porro perspiciatis? Delectus quaerat odio similique eaque. Ipsam adipisci ea delectus in nulla deserunt ullam harum, molestias quam veritatis nostrum hic numquam ad dolorem aspernatur ducimus officiis consequatur esse dicta minima similique? Possimus minus soluta accusantium ad assumenda sit a officia odit. Dicta esse hic voluptas laudantium itaque? Harum non nemo, eaque culpa veritatis ut perferendis quam repellat qui ducimus ad incidunt!</p>
-                </div>
-                <div class="paragrapheModel">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam animi dolorum sapiente quos consectetur veniam illo error a! Nam laudantium, placeat deleniti quae voluptate magni non dolor possimus porro perspiciatis? Delectus quaerat odio similique eaque. Ipsam adipisci ea delectus in nulla deserunt ullam harum, molestias quam veritatis nostrum hic numquam ad dolorem aspernatur ducimus officiis consequatur esse dicta minima similique? Possimus minus soluta accusantium ad assumenda sit a officia odit. Dicta esse hic voluptas laudantium itaque? Harum non nemo, eaque culpa veritatis ut perferendis quam repellat qui ducimus ad incidunt!</p>
-                </div>
-            </div>
         </section>
-
+        <!-- PRES HOTEL SMART -->
+        <section class="textSerifBlack control-margin-import">
+            <p>Notre hôtel 5 étoiles offre un environnement luxueux et raffiné pour les voyageurs les plus exigeants. Avec des chambres spacieuses et confortables, dotées d'équipements modernes, ainsi qu'une gamme complète de services haut de gamme, notre hôtel est le choix idéal pour les vacances d'affaires ou les escapades en famille. Le personnel dévoué se fera un plaisir de vous aider à planifier votre séjour et de s'assurer que tout est parfait à chaque étape. En outre, notre emplacement central vous permet d'explorer facilement les attractions locales et les quartiers les plus animés de la ville.</p>
+        </section>
         <!-- BUTOON EN SAVOIR PLUS -->
-        <div class="maSecSpa">
-            <div class="control-margin-import d-flex flex-column align-items-center justify-content-center">
-                <div>
-                    <a class="btn btn-primary border-0 bg-dark" href="chambre-classique.html" role="button">En savoir plus</a>
-                </div>
-            </div>
+        <div class="d-flex mx-auto">
+            <a class="buttonGeneralW text-center mb-3" href="html/lhotel.html" role="button">En savoir plus</a>
         </div>
-
         <!-- CARROUSEL  -->
         <div id="carouselExampleControls" class="carousel slide carouselControlSize" data-bs-ride="carousel">
             <div class="carousel-inner">
@@ -174,18 +157,13 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
-
-
         <!-- ****************************** CHAMBRES ****************************** -->
-
         <!-- DIV SEPARATION -->
         <div class="separationAvecDiv"></div>
-
         <!-- TEXTSECTION -->
         <article class="d-sm-none">
             <h2 class="reglageText">Nous chambres</h2>
         </article>
-
         <!-- CARD+LINK -->
         <div class="d-flex justify-content-center control-margin-import d-sm-none">
             <div class="card" style="width: 18rem;">
@@ -208,21 +186,15 @@
                     </div>
                 </div>
                 <div class="card-body">
-                    <h5 class="card-title">Chambres Classique</h5>
-                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus, molestias!</p>
+                    <h5 class="card-title textSerifGold text-center">Hébergement</h5>
+                    <p class="card-text">Des chambres spacieuses et confortables, dotées d'équipements modernes.</p>
                 </div>
             </div>
         </div>
-
         <!-- BUTOON EN SAVOIR PLUS -->
-        <div class="maSecSpa d-sm-none">
-            <div class="control-margin-import d-flex flex-column align-items-center justify-content-center">
-                <div>
-                    <a class="btn btn-primary border-0 bg-dark" href="chambre-classique.html" role="button">En savoir plus</a>
-                </div>
-            </div>
+        <div class="d-sm-none d-flex mx-auto">
+            <a class="buttonGeneralW text-center mb-3" href="html/chambres.html" role="button">En savoir plus</a>
         </div>
-
         <!-- COMPONENTE PARA PEGAR 4 IMAGENES -->
         <section class="d-sm-none">
             <div>
@@ -238,15 +210,13 @@
                 </div>
             </div>
         </section>
-
         <!-- TITRE H2 -->
         <article class="d-none d-md-flex">
             <h2 class="reglageText">Nous chambres</h2>
         </article>
-
         <!-- CARD+IMAGES FLEX -->
-        <div class="d-none d-md-flex justify-content-center align-items-start">
-            <div class="d-flex justify-content-center control-margin-import col-4">
+        <div class="d-none d-md-flex justify-content-center">
+            <div class="d-flex col-4 m-3">
                 <div class="card maCardDestok" style="width: 18rem;">
                     <!-- CARROUSEL SANS BUTTON! -->
                     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
@@ -266,20 +236,20 @@
                         </div>
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title textSerifGold text-center">Chambres Classique</h5>
-                        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus, molestias!</p>
+                        <h5 class="card-title textSerifGold text-center">Hébergement</h5>
+                        <p class="card-text">Des chambres spacieuses et confortables, dotées d'équipements modernes.</p>
                     </div>
                     <!-- LISTE DE CHOIX -->
                     <div class="list-group d-none d-lg-block">
-                        <a href="#" class="textSerifBlack list-group-item list-group-item-action list-group-item-dark">chambre classique</a>
-                        <a href="#" class="textSerifBlack list-group-item list-group-item-action list-group-item-dark">chambre confort</a>
-                        <a href="#" class="textSerifBlack list-group-item list-group-item-action list-group-item-dark">chambre deluxe</a>
-                        <a href="#" class="textSerifBlack list-group-item list-group-item-action list-group-item-dark">suite chambord</a>
+                        <a href="html/chambre-classique.html" class="textSerifBlack list-group-item list-group-item-action list-group-item-dark">chambre classique</a>
+                        <a href="html/chambre-confort.html" class="textSerifBlack list-group-item list-group-item-action list-group-item-dark">chambre confort</a>
+                        <a href="html/chambre-deluxe.html" class="textSerifBlack list-group-item list-group-item-action list-group-item-dark">chambre deluxe</a>
+                        <a href="html/chambre-suite.html" class="textSerifBlack list-group-item list-group-item-action list-group-item-dark">suite chambord</a>
                     </div>
                 </div>
             </div>
             <!-- COMPONENTE PARA PEGAR 4 IMAGENES -->
-            <section class="col-7">
+            <section class="col-7 m-3">
                 <div>
                     <div class="d-flex justify-content-betwen">
                         <img src="src/classique/classique1.1.jpg" alt="" class="img-fluid w-50 img-row-control">
@@ -294,25 +264,20 @@
                 </div>
             </section>
         </div>
-
         <!-- LISTE DE CHOIX CHAMBRES-->
         <div class="list-group d-lg-none">
-            <a href="html/chambre-classique.html" class="textSerifBlack list-group-item list-group-item-action list-group-item-dark">chambre classique</a>
-            <a href="html/chambre-confort.html" class="textSerifBlack list-group-item list-group-item-action list-group-item-dark">chambre confort</a>
-            <a href="html/chambre-deluxe.html" class="textSerifBlack list-group-item list-group-item-action list-group-item-dark">chambre deluxe</a>
-            <a href="html/chambre-suite.html" class="textSerifBlack list-group-item list-group-item-action list-group-item-dark">suite chambord</a>
+            <a href="html/chambre-classique.html" class="textSerifBlack list-group-item list-group-item-action list-group-item-dark text-center">chambre classique</a>
+            <a href="html/chambre-confort.html" class="textSerifBlack list-group-item list-group-item-action list-group-item-dark text-center">chambre confort</a>
+            <a href="html/chambre-deluxe.html" class="textSerifBlack list-group-item list-group-item-action list-group-item-dark text-center">chambre deluxe</a>
+            <a href="html/chambre-suite.html" class="textSerifBlack list-group-item list-group-item-action list-group-item-dark text-center">suite chambord</a>
         </div>
-
         <!-- ****************************** RESTAURANT ****************************** -->
-
         <!-- DIV SEPARATION -->
         <div class="separationAvecDiv"></div>
-
         <!-- TEXTSECTION -->
         <article class="d-sm-none">
             <h2 class="reglageText">restaurant - le chambord</h2>
         </article>
-
         <!-- CARD+LINK -->
         <div class="d-flex justify-content-center control-margin-import d-sm-none">
             <div class="card" style="width: 18rem;">
@@ -335,21 +300,15 @@
                     </div>
                 </div>
                 <div class="card-body">
-                    <h5 class="card-title">Le Chambord</h5>
-                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus, molestias!</p>
+                    <h5 class="card-title textSerifGold text-center">Le Chambord</h5>
+                    <p class="card-text">L’excellence culinaire fait depuis longtemps partie intégrante de l’expérience Chambord.</p>
                 </div>
             </div>
         </div>
-
         <!-- BUTOON EN SAVOIR PLUS -->
-        <div class="maSecSpa d-sm-none">
-            <div class="control-margin-import d-flex flex-column align-items-center justify-content-center">
-                <div>
-                    <a class="btn btn-primary border-0 bg-dark" href="html/restaurant.html" role="button">En savoir plus</a>
-                </div>
-            </div>
+        <div class="d-sm-none d-flex mx-auto">
+            <a class="buttonGeneralW text-center mb-3" href="html/restaurant.html" role="button">En savoir plus</a>
         </div>
-
         <!-- COMPONENTE PARA PEGAR 4 IMAGENES -->
         <section class="d-sm-none">
             <div>
@@ -365,15 +324,13 @@
                 </div>
             </div>
         </section>
-
         <!-- TITRE H2 -->
         <article class="d-none d-md-flex">
             <h2 class="reglageText">restaurant - le chambord</h2>
         </article>
-
         <!-- CARD+IMAGES FLEX -->
-        <div class="d-none d-md-flex justify-content-center align-items-start">
-            <div class="d-flex justify-content-center control-margin-import col-4">
+        <div class="d-none d-md-flex justify-content-center">
+            <div class="d-flex col-4 m-3">
                 <div class="card maCardDestok" style="width: 18rem;">
                     <!-- CARROUSEL SANS BUTTON! -->
                     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
@@ -395,14 +352,11 @@
                     <div class="card-body">
                         <h3 class="card-title textSerifGold text-center">Le chambord</h3>
                         <h5 class="textSerifBlack">Chef Nicolas Boreez</h5>
-                        <p class="card-text">« C’est à travers ma cuisine que je communique mes émotions à nos hôtes.</p>
-                        <p>J’utilise un parfait mélange de techniques classiques et modernes que j’ai eu la chance de perfectionner auprès de grands chefs.</p>
-                        <p>L’originalité, la créativité et le savoir-faire ainsi qu’un désir d’être au cœur de la vie du restaurant caractérisent ma démarche. »</p>
                     </div>
                 </div>
             </div>
             <!-- COMPONENTE PARA PEGAR 4 IMAGENES -->
-            <section class="col-7">
+            <section class="col-7 m-3">
                 <div>
                     <div class="d-flex justify-content-betwen">
                         <img src="src/restaurant/resto-1.1.jpg" alt="" class="img-fluid w-50 img-row-control">
@@ -417,26 +371,17 @@
                 </div>
             </section>
         </div>
-
         <!-- BUTOON EN SAVOIR PLUS -->
-        <div class="maSecSpa d-none d-md-flex">
-            <div class="control-margin-import d-flex flex-column align-items-center justify-content-center">
-                <div>
-                    <a class="btn btn-primary border-0 bg-dark" href="html/restaurant.html" role="button">En savoir plus</a>
-                </div>
-            </div>
+        <div class="d-none d-md-flex d-flex mx-auto">
+            <a class="buttonGeneralW text-center mb-3" href="html/restaurant.html" role="button">En savoir plus</a>
         </div>
-
         <!-- ****************************** SPA ****************************** -->
-
         <!-- DIV SEPARATION -->
         <div class="separationAvecDiv"></div>
-
         <!-- TEXTSECTION -->
         <article class="d-sm-none">
             <h2 class="reglageText">spa - divinity chambord</h2>
         </article>
-
         <!-- CARD+LINK -->
         <div class="d-flex justify-content-center control-margin-import d-sm-none">
             <div class="card" style="width: 18rem;">
@@ -459,21 +404,15 @@
                     </div>
                 </div>
                 <div class="card-body">
-                    <h5 class="card-title">Divinity Chambord</h5>
-                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus, molestias!</p>
+                    <h5 class="card-title textSerifGold text-center">Divinity Chambord</h5>
+                    <p class="card-text">350m² dédiés à la de détente et au bien-être.</p>
                 </div>
             </div>
         </div>
-
         <!-- BUTOON EN SAVOIR PLUS -->
-        <div class="maSecSpa d-sm-none">
-            <div class="control-margin-import d-flex flex-column align-items-center justify-content-center">
-                <div>
-                    <a class="btn btn-primary border-0 bg-dark" href="html/restaurant.html" role="button">En savoir plus</a>
-                </div>
-            </div>
+        <div class="d-sm-none d-flex mx-auto">
+            <a class="buttonGeneralW text-center mb-3" href="html/spa.html" role="button">En savoir plus</a>
         </div>
-
         <!-- COMPONENTE PARA PEGAR 4 IMAGENES -->
         <section class="d-sm-none">
             <div>
@@ -489,15 +428,13 @@
                 </div>
             </div>
         </section>
-
         <!-- TITRE H2 -->
         <article class="d-none d-md-flex">
             <h2 class="reglageText">spa - divinity chambord</h2>
         </article>
-
         <!-- CARD+IMAGES FLEX -->
-        <div class="d-none d-md-flex justify-content-center align-items-start">
-            <div class="d-flex justify-content-center control-margin-import col-4">
+        <div class="d-none d-md-flex justify-content-center">
+            <div class="d-flex col-4 m-3">
                 <div class="card maCardDestok" style="width: 18rem;">
                     <!-- CARROUSEL SANS BUTTON! -->
                     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
@@ -519,13 +456,11 @@
                     <div class="card-body">
                         <h3 class="card-title textSerifGold text-center">Divinity Chambord</h3>
                         <h5 class="textSerifBlack">Relaxation & Détente</h5>
-                        <p>Le Divinity Chambord a choisi de s'associer à la marque de cosmétiques marins Thalion. Basée à Plouguerneau, à proximité de Roscoff, cette société sélectionne et récolte sur nos côtes les algues les plus riches.</p>
-                        <p class="card-text">Composées d’un concentré de sels minéraux, d’oligo-éléments, de vitamines et d’acides aminés, ces algues font des produits Thalion de véritables élixirs de beauté et de bien-être. Notre équipe hautement qualifiée allie avec une subtile harmonie des gestes exclusifs et des formules ultra-concentrées afin de vous offrir un moment d’exception.</p>
                     </div>
                 </div>
             </div>
             <!-- COMPONENTE PARA PEGAR 4 IMAGENES -->
-            <section class="col-7">
+            <section class="col-7 m-3">
                 <div>
                     <div class="d-flex justify-content-betwen">
                         <img src="src/spa/cafe-spa-8854.jpg" alt="" class="img-fluid w-50 img-row-control">
@@ -540,38 +475,58 @@
                 </div>
             </section>
         </div>
-
         <!-- BUTOON EN SAVOIR PLUS -->
-        <div class="maSecSpa d-none d-md-flex">
-            <div class="control-margin-import d-flex flex-column align-items-center justify-content-center">
-                <div>
-                    <a class="btn btn-primary border-0 bg-dark" href="html/spa.html" role="button">En savoir plus</a>
-                </div>
-            </div>
+        <div class="d-none d-md-flex d-flex mx-auto">
+            <a class="buttonGeneralW text-center mb-3" href="html/spa.html" role="button">En savoir plus</a>
         </div>
-
-        <!-- ****************************** ACCES ****************************** -->
-
+        <!-- ****************************** CONTACT ****************************** -->
         <!-- DIV SEPARATION -->
         <div class="separationAvecDiv"></div>
-
+        <!-- TEXTSECTION -->
+        <article class="d-sm-none">
+            <h2 class="reglageText">Contact</h2>
+        </article>
+        <!-- TITRE H2 -->
+        <article class="d-none d-md-flex">
+            <h2 class="reglageText">contact</h2>
+        </article>
+        <!-- FORMULAIRE CONTACT -->
+        <form class="contact-form">
+            <div class="form-group">
+                <label class="form-label" for="lastname">Nom:</label>
+                <input class="form-input" type="text" id="lastname" name="lastname">
+            </div>
+            <div class="form-group">
+                <label class="form-label" for="firstname">Prenom:</label>
+                <input class="form-input" type="text" id="firstname" name="firstname">
+            </div>
+            <div class="form-group">
+                <label class="form-label" for="telephone">Numero Teléphone</label>
+                <input class="form-input" type="text" id="telephone" name="firstname">
+            </div>
+            <div class="form-group">
+                <label class="form-label" for="comment">Comentaire:</label>
+                <textarea class="form-input" id="comment" name="comment"></textarea>
+            </div>
+            <button class="form-button" type="submit">Envoyer</button>
+        </form>
+        <!-- ****************************** ACCES ****************************** -->
+        <!-- DIV SEPARATION -->
+        <div class="separationAvecDiv"></div>
         <!-- TEXTSECTION -->
         <article class="d-sm-none">
             <h2 class="reglageText">plan & accés</h2>
         </article>
-
         <!-- TITRE H2 -->
         <article class="d-none d-md-flex">
             <h2 class="reglageText">plan & accés</h2>
         </article>
-
         <!-- PLAN GOOGLEMAPS -->
         <div class="mapControl d-lg-none">
             <div class="ratio ratio-1x1">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.6400071672824!2d2.2998897158407536!3d48.86507470818992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fdd0dd39a4d%3A0x508194b82b12f012!2s1%20Av.%20Montaigne%2C%2075008%20Paris!5e0!3m2!1sfr!2sfr!4v1674844708907!5m2!1sfr!2sfr" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
-
         <!-- ICONS LOC/CONT -->
         <div class="control-margin-import d-lg-none">
             <div class="d-flex justify-content-center">
@@ -596,9 +551,7 @@
                 <h6 class="d-flex justify-content-center reglageText2">1 Avenue Montaigne 75008 - Paris</h6>
             </div>
         </div>
-
         <!-- GOOGLEMAPS FLEX -->
-
         <div class="d-none d-lg-flex iconControlText">
             <div class="mapControl">
                 <div class="ratio ratio-1x1">
@@ -633,94 +586,55 @@
                 </div>
             </div>
         </div>
-
-        <!-- ****************************** CONTACT ****************************** -->
-
-        <!-- DIV SEPARATION -->
-        <div class="separationAvecDiv"></div>
-
-        <!-- TEXTSECTION -->
-        <article class="d-sm-none">
-            <h2 class="reglageText">Contact</h2>
-        </article>
-
-        <!-- TITRE H2 -->
-        <article class="d-none d-md-flex">
-            <h2 class="reglageText">contact</h2>
-        </article>
-
-        <!-- FORMULAIRE CONTACT -->
-        
-        <form class="contact-form">
-            <div class="form-group">
-                <label class="form-label" for="lastname">Nom:</label>
-                <input class="form-input" type="text" id="lastname" name="lastname">
-            </div>
-            <div class="form-group">
-                <label class="form-label" for="firstname">Prenom:</label>
-                <input class="form-input" type="text" id="firstname" name="firstname">
-            </div>
-            <div class="form-group">
-                <label class="form-label" for="telephone">Numero Teléphone</label>
-                <input class="form-input" type="text" id="telephone" name="firstname">
-            </div>
-            <div class="form-group">
-                <label class="form-label" for="comment">Comentaire:</label>
-                <textarea class="form-input" id="comment" name="comment"></textarea>
-            </div>
-            <button class="form-button" type="submit">Envoyer</button>
-        </form>
-
-        <!-- ****************************** CONTACT ****************************** -->
-
-        <!-- DIV SEPARATION -->
-        <div class="separationAvecDiv"></div>
     </main>
-
     <!-- ICI COMMENCE MON PIE DE PAGE -->
-    <footer class=" mx-auto">
-        
+    <footer>
         <!-- TEXT/BUTTON -->
-        <article class="d-block controlTextFoo">
-            <h2 class="textSerifWhite d-block">recevez la newsletter</h2>
-            <button class="buttonFooter d-block" type="submit">M'inscrire > </button>
+        <article class="controlFooter">
+            <h2 class="textSerifWhite text-center">recevez la newsletter</h2>
+            <form class="col-5 mx-auto" id="myNewsletter">
+                <div class="form-group">
+                    <label for="emailInput"></label>
+                    <input type="email" class="form-control" id="emailInput" placeholder="Votre adresse mail">
+                </div>
+                <div class="form-group">
+                    <label for="nombre"></label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Votre prenom">
+                </div>
+                <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" id="monJaccepte" for="exampleCheck1">J'accepte de recevoir des offres commerciales</label>
+                </div>
+                <button class="buttonFooter d-block mx-auto" type="submit">M'inscrire</button>
+            </form>
         </article>
-
         <!-- LOGO -->
         <div class="imgFooterControl">
             <img class="img-fluid rounded mx-auto d-block" src="src/logo-126.png" alt="logo hotel chambord">
         </div>
-
         <!-- TEXTE -->
-        <div class="controlTextFoo">
+        <div class="text-center">
             <div>
-                <h6 class="d-flex justify-content-center textSerifWhite">09-34-52-52-52</h6>
+                <h6 class="textSerifWhite">09-34-52-52-52</h6>
             </div>
             <div>
-                <h6 class="d-flex justify-content-center textSerifWhite">hotel.chambord@contact.fr</h6>
+                <h6 class="textSerifWhite">hotel.chambord@contact.fr</h6>
             </div>
             <div>
-                <h6 class="d-flex justify-content-center textSerifWhite">1 Avenue Montaigne 75008 - Paris</h6>
+                <h6 class="textSerifWhite">1 Avenue Montaigne 75008 - Paris</h6>
             </div>
         </div>
-        
         <!-- LIENS -->
-        <section class="">
+        <section class="text-center textSerifWhite">
             <nav>
-                <ul class="nav flex-column control-margin-import">
-                    <li class="nav-item textSerifWhite d-flex justify-content-center"><a class="nav-link forceColorText" href="html/plan-site.html">Plan du site</a></li>
-                    <li class="nav-item textSerifWhite d-flex justify-content-center"><a class="nav-link forceColorText" href="html/mention-legales.html">Mention Légales</a></li>
-                    <li class="nav-item textSerifWhite d-flex justify-content-center controlTextFoo"><a class="nav-link forceColorText" href="html/contidition-generales-de-vente.html">Contidition Generales De Vente</a></li>
+                <ul class="nav flex-column controlFooter">
+                    <li><a class="nav-link text-white" href="html/plan-site.html">Plan du site</a></li>
+                    <li><a class="nav-link text-white" href="html/mention-legales.html">Mention Légales</a></li>
+                    <li><a class="nav-link text-white" href="html/contidition-generales-de-vente.html">Contidition Generales De Vente</a></li>
                 </ul>
             </nav>
         </section>
     </footer>
-
-
-
-
-
-
     <script src="app/index.js"></script>
     <script src="app/app.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
