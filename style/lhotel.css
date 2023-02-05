@@ -13,3 +13,18 @@
     text-align: center !important;
     font-family: 'Aboreto', cursive;
 }
+
+/* CONTROL TAILLE MAP */
+.mapControl{
+    width: 80%;
+    margin: auto;
+}
+
+/* FORMAT DESTOK */
+@media screen and (min-width: 990px) {
+    /* TAILLE-MAP */
+    .mapControl{
+        width: 30%;
+        margin: auto;
+    }
+}
