@@ -1,18 +1,8 @@
 .textPlan-site{
-    text-align: center !important;
     color: #e7b718 !important;
-    font-size: medium;
 }
 
 .forceColorText{
     color: #e7b718 !important;
     text-decoration: underline !important;
-}
-
-h1{
-    font-size: 30px !important;
-}
-
-footer{
-    background-color: antiquewhite;
 }
