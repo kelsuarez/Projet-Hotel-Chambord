@@ -1,0 +1,98 @@
+  .myForm {
+    width: 90%;
+    margin: 0 auto;
+    text-align: left;
+  }
+  .menusVarios{
+    display: none;
+  }
+  label {
+    display: block;
+    margin-top: 20px;
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  input[type="number"],
+  select {
+    width: 100%;
+    padding: 10px;
+    /* font-size: 16px; */
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 2px solid rgb(0, 0, 0);
+  }
+  
+  #suiteRoom,
+  #deluxeRoom,
+  #confortRoom{
+    display: none;
+  }
+  .reservChoisi img{
+    border-radius: 5px;
+  }
+  .reservChoisi{
+    width: 90%;
+    height: 100%;
+    margin: 50px 0;
+    background-color: rgb(190, 187, 187);
+    border-radius: 5px;
+  }
+
+  .imgPortrait {
+    width: 150px;
+    height: 100px;
+  }
+  .monIconReser img{
+    width: 20px;
+    margin: 0 10px 2px 10px;
+  }
+  /* BUTTON GENERAL */
+.butonGeneral{
+    width: 40%;
+    font-family: 'Aboreto', cursive;
+    background-color: grey !important;
+    font-weight: bold !important;
+}
+.mesButtons{
+    justify-content: space-between;
+}
+.miTotal{
+    width: 90%;
+    height: 100%;
+    background-color: aqua;
+    margin-bottom: 20px;
+}
+
+.menusVarios{
+    display: none;
+}
+
+
+@media screen and (min-width: 990px) {
+  .reservChoisi{
+    width: 600px;
+    height: 100%;
+    margin: 50px 0;
+    background-color: rgb(190, 187, 187);
+    border-radius: 5px;
+  }
+  .imgPortrait {
+    width: 300px;
+    height: 200px;
+  }
+  .miTotal{
+    height: 300px;
+    width: 600px;
+    background-color: aqua;
+    margin-bottom: 20px;
+  }
+  .monIconReser img{
+    width: 30px;
+    margin: 0 20px 20px 20px;
+  }
+  .myForm {
+    width: 600px;
+  }
+  
+}
