@@ -5,6 +5,7 @@ const lastname = document.querySelector("#lastname");
 const firstname = document.querySelector("#firstname");
 const telephone = document.querySelector("#telephone");
 const comment = document.querySelector("#comment");
+const message = document.querySelector("#mesageoOculte");
 
 form.addEventListener("submit", (e) => {
   e.preventDefault();
@@ -39,7 +40,7 @@ form.addEventListener("submit", (e) => {
   if (!isValid) {
     alert("Vous devez remplir tous les champs");
   } else {
-    alert("Votre message a été envoyé.");
+    mesageoOculte.style.display = 'block';
   }
   document.querySelector('.contact-form').reset();
 });

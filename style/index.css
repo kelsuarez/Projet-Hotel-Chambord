@@ -1,9 +1,6 @@
 /* MODIF TEXTE */
 .reglageText{
-    font-size: 20px;
-    text-transform: uppercase;
     margin: 10px 0;
-    font-family: 'Aboreto', cursive;
 }
 /* MODIF TEXTE VAR*/
 .reglageText1{
@@ -22,13 +19,18 @@
     width: 80%;
     margin: auto;
 }
-/* CONTROL TAILLE ICON */
-.iconControlLoc{
-    width: 20px;
-    height: 20px;
-    margin: auto 0 auto 20px;
+/* MESSAGE DE FORMULAIRE ENVOIE */
+.messageDeEnvoi{
+    width: 80%;
+    height: 100px;
+    margin: 10px auto;
 }
-
+#mesageoOculte{
+    font-size: 13px;
+    text-align: center;
+    color: grey;
+    display: none;
+}
 
 /* FORMULAIRE */
 .contact-form {
@@ -64,12 +66,6 @@
     font-weight: bold;
     font-family: 'Aboreto', cursive;
 }
-
-
-
-
-
-
 .paragrapheModel{
     width: 500px;
     height: 300px;
@@ -111,5 +107,8 @@
     .mapControl{
         width: 30%;
         margin: auto;
+    }
+    #mesageoOculte{
+        font-size: 20px;
     }
 }
