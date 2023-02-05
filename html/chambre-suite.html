@@ -1,313 +1,337 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hôtel Chambord 5 étoiles, les chambres de notre hôtel 5 étoiles sont conçues pour offrir le confort et le luxe absolu à nos invités.">
+    <link rel="icon" type="image/png" href="../src/logo-126.png">
     <link rel="stylesheet" href="../style/chambres.css">
     <link rel="stylesheet" href="../style/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Roboto:wght@100&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <title>Document</title>
-</head>
-<body>
+    <title>Hotel Chambord - Chambres Suite</title>
+  </head>
+  <body>
     <!-- ICI COMMENCE MON HEADER -->
     <header>
-        <!-- NAVBAR AVEC BOOTSTRAP -->
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-            <div class="container-fluid bg-white">
-
-                <!-- DROPDOWN LANGUES -->
-                <div class="xtrSmall col-lg-2">
-                    <div class="btn-group">
-                        <button class="btn btn-secondary btn-sm dropdown-toggle text-muted bg-white border-0 textSerifBlack" type="button" data-bs-toggle="dropdown" aria-expanded="false">LANGUAGES</button>
-                        <ul class="dropdown-menu bg-dark min-w-null">
-                            <li><a class="dropdown-item text-white textSerifBlack" id="english" href="#">English</a></li>
-                            <li><a class="dropdown-item text-white textSerifBlack" id="spanish" href="#">Spanish</a></li>
-                            <li><a class="dropdown-item text-white textSerifBlack" id="french" href="#">French</a></li>
-                        </ul>
-                        <div class="row align-items-center">
-                            <img src="../src/anglais523.png" alt="drapeu american" id="englishFlag" width="20" height="20" class="flag">
-                            <img src="../src/espagne225.png" alt="drapeu espagnol" id="spanishFlag" width="20" height="20" class="flag">
-                            <img src="../src/france295.png" alt="drapeu français" id="frenchFlag" width="20" height="20" class="flag">
-                        </div>
-                    </div>
-                </div>
-
-                <!-- IMAGE LOGO AVEC LIENS ACCUEIL-->
-                <div class="col-lg-1" id="marginLog">
-                    <a class="navbar-brand" href="../index.html"><img src="../src/logo-126.png" alt="logo hotel chambord" width="75" height="70" class="d-inline-block align-text-top"></a>
-                </div>
-
-                <!-- NAVBAR BURGUER -->
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <!-- NAV AVEC LES DIF PAGES -->
-                <div class="collapse navbar-collapse col-lg-4" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="marginList">
-                            <!-- CHAMBRES -->
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle textSerifBlack" href="chambres.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Hébergement</a>
-                                <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item text-white textSerifBlack" href="chambre-classique.html">Classique</a></li>
-                                    <li><a class="dropdown-item text-white textSerifBlack" href="chambre-confort.html">Confort</a></li>
-                                    <li><a class="dropdown-item text-white textSerifBlack" href="chambre-deluxe.html">Deluxe</a></li>
-                                    <li><a class="dropdown-item text-white textSerifBlack" href="chambre-suite.html">Suite</a></li>
-                                    <li><a class="dropdown-item text-white textSerifBlack" href="chambres.html">Voir toutes les chambres</a></li>
-                                </ul>
-                            </li>
-                            <!-- RESTAURANT -->
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle textSerifBlack" href="restaurant.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Restaurant</a>
-                                <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item text-white textSerifBlack" href="restaurant.html">Restaurant - Le Grand Chambord</a></li>
-                                </ul>
-                            </li>
-                            <!-- SPA -->
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle textSerifBlack" href="spa.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Le Spa</a>
-                                <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item text-white textSerifBlack" href="spa.html">Spa - Divinity Chambord</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active textSerifBlack" aria-current="page" href="reservation.html">Reservation</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle textSerifBlack" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Le Chambord</a>
-                                <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item text-white textSerifBlack" href="lhotel.html">L'hôtel - Qui sommes-nous?</a></li>
-                                    <li><a class="dropdown-item text-white textSerifBlack" href="acces.html">Accès</a></li>
-                                    <li><a class="dropdown-item text-white textSerifBlack" href="contact.html">Nous contacter</a></li>
-                                    <li><a class="dropdown-item text-white textSerifBlack" href="evenement.html">Evénements</a></li>
-                                    <li><a class="dropdown-item text-white textSerifBlack" href="presse.html">Presse</a></li>
-                                    <li><a class="dropdown-item text-white textSerifBlack" href="actualites.html">Actualités</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                        <!-- CHANGEMENT DE L'ELEMENT SHEAR POUR UNE IMG (loupe) -->
-                        <form class="d-flex mb-1" id="marginSearch">
-                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                                <button class="btn btn-outline-success border-0" type="submit"><img src="../src/lupe.png" alt="image d'une loupe pour faire une recherche" width="45" height="45" class="img-fluid"></button>
-                        </form>
-                </div>
+      <!-- NAVBAR AVEC BOOTSTRAP -->
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top col-xl-11 mx-auto">
+        <div class="container-fluid bg-white">
+          <!-- DROPDOWN LANGUES -->
+          <div class="xtrSmall col-lg-2">
+            <div class="btn-group">
+              <button class="btn btn-secondary btn-sm dropdown-toggle text-muted bg-white border-0 textSerifBlack" type="button" data-bs-toggle="dropdown" aria-expanded="false">LANGUAGES</button>
+              <ul class="dropdown-menu bg-dark min-w-null">
+                <li>
+                  <a class="dropdown-item text-white textSerifBlack" id="english" href="#">English</a>
+                </li>
+                <li>
+                  <a class="dropdown-item text-white textSerifBlack" id="spanish" href="#">Spanish</a>
+                </li>
+                <li>
+                  <a class="dropdown-item text-white textSerifBlack" id="french" href="#">French</a>
+                </li>
+              </ul>
+              <div class="row align-items-center">
+                <img src="../src/anglais523.jpg" alt="drapeu american" id="englishFlag" width="20" height="20" class="flag">
+                <img src="../src/espagne225.jpg" alt="drapeu espagnol" id="spanishFlag" width="20" height="20" class="flag">
+                <img src="../src/france295.jpg" alt="drapeu français" id="frenchFlag" width="20" height="20" class="flag">
+              </div>
             </div>
-        </nav>
+          </div>
+          <!-- IMAGE LOGO AVEC LIENS ACCUEIL-->
+          <div class="col-lg-1">
+            <a class="navbar-brand" href="../index.html">
+              <img src="../src/logo-126.png" alt="logo hotel chambord" class="d-inline-block align-text-top imgLogo">
+            </a>
+          </div>
+          <!-- NAVBAR BURGUER -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- NAV AVEC LES DIF PAGES -->
+          <div class="collapse navbar-collapse col-lg-4" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="marginList">
+              <!-- CHAMBRES -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle textSerifBlack" href="chambres.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">Hébergement</a>
+                <ul class="dropdown-menu bg-dark">
+                  <li>
+                    <a class="dropdown-item text-white textSerifBlack" href="chambre-classique.html">Classique</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-white textSerifBlack" href="chambre-confort.html">Confort</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-white textSerifBlack" href="chambre-deluxe.html">Deluxe</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-white textSerifBlack" href="chambre-suite.html">Suite</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-white textSerifBlack" href="chambres.html">Voir toutes les chambres</a>
+                  </li>
+                </ul>
+              </li>
+              <!-- RESTAURANT -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle textSerifBlack" href="restaurant.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">Restaurant</a>
+                <ul class="dropdown-menu bg-dark">
+                  <li>
+                    <a class="dropdown-item text-white textSerifBlack" href="restaurant.html">Restaurant - Le Grand Chambord</a>
+                  </li>
+                </ul>
+              </li>
+              <!-- SPA -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle textSerifBlack" href="spa.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">Le Spa</a>
+                <ul class="dropdown-menu bg-dark">
+                  <li>
+                    <a class="dropdown-item text-white textSerifBlack" href="spa.html">Spa - Divinity Chambord</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active textSerifBlack" aria-current="page" href="reservation.html">Réservation</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle textSerifBlack" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Le Chambord</a>
+                <ul class="dropdown-menu bg-dark">
+                  <li>
+                    <a class="dropdown-item text-white textSerifBlack" href="lhotel.html">L'hôtel - Qui sommes-nous?</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-white textSerifBlack" href="acces.html">Accès</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-white textSerifBlack" href="contact.html">Nous contacter</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-white textSerifBlack" href="evenement.html">Evénements</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-white textSerifBlack" href="presse.html">Presse</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-white textSerifBlack" href="actualites.html">Actualités</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <!-- CHANGEMENT DE L'ELEMENT SHEAR POUR UNE IMG (loupe) -->
+            <form class="d-flex mb-1" id="marginSearch">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success border-0" type="submit">
+                <img src="../src/lupe.png" alt="image d'une loupe pour faire une recherche" width="45" height="45" class="img-fluid">
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
     </header>
-
     <!-- ICI COMMENCE MON MAIN -->
     <main class="col-md-11 mx-auto">
-
-        <!-- CARROUSEL  -->
-        <div id="carouselExampleControls" class="carousel slide carouselControlSize" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="../src/suite/suite-1.5.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="../src/suite/suite-1.8.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="../src/suite/suite-1.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="../src/suite/suite-1.6.jpg" class="d-block w-100" alt="...">
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
+      <!-- CARROUSEL  -->
+      <div id="carouselExampleControls" class="carousel slide carouselControlSize" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../src/suite/suite-1.5.jpg" class="d-block w-100" alt="Salon Suite Chambord">
+          </div>
+          <div class="carousel-item">
+            <img src="../src/suite/suite-1.8.jpg" class="d-block w-100" alt="Piscine Suite Chambord">
+          </div>
+          <div class="carousel-item">
+            <img src="../src/suite/suite-1.jpg" class="d-block w-100" alt="Chambre Suite Chambord">
+          </div>
+          <div class="carousel-item">
+            <img src="../src/suite/suite-1.6.jpg" class="d-block w-100" alt="Salon Suite Chambord">
+          </div>
         </div>
-
-        <!-- DIV SEPARATION -->
-        <div class="separationAvecDiv"></div>
-
-        <!-- TEXTSECTION -->
-        <article class="control-margin-import">
-            <h1 class="reglageText">Suite Chambord</h1>
-            <h6 class="textSerifBlack">1 penthouse luxueux de 150m²</h6>
-        </article>
-
-        <!-- SECTION TEXTE -->
-        <article class="control-margin-import">
-            <p>Ce penthouse luxueux de 150m² offre une vue imprenable sur la ville et une expérience de vie de luxe incomparable.</p>
-            <p>Le décor est élégant et sophistiqué, avec des couleurs chaudes et des finitions haut de gamme.</p>
-        </article>
-
-        <!-- SECTION POUR GROUPE DES PHOTOS -->
-        <div class="col-lg-10 mx-auto">
-            <div>
-                <div class="d-flex justify-content-betwen">
-                    <img src="../src/suite/suite-1.2.jpg" alt="" class="img-fluid w-50 img-row-control">
-                    <img src="../src/suite/suite-1.7.jpg" alt="" class="img-fluid w-50 img-row-control">
-                </div>
-            </div>
-            <div>
-                <div class="d-flex justify-content-betwen">
-                    <img src="../src/suite/suite-1.3.jpg" alt="" class="img-fluid w-50 img-row-control">
-                    <img src="../src/suite/suite-1.4.jpg" alt="" class="img-fluid w-50 img-row-control">
-                </div>
-            </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- DIV SEPARATION -->
+      <div class="separationAvecDiv"></div>
+      <!-- TEXTSECTION -->
+      <article class="control-margin-import">
+        <h1 class="reglageText">Suite Chambord</h1>
+      </article>
+      <!-- SECTION TEXTE -->
+      <article class="control-margin-import">
+        <p>1 penthouse luxueux de 150m²</p>
+        <p>Ce penthouse luxueux de 150m² offre une vue imprenable sur la ville et une expérience de vie de luxe incomparable.</p>
+        <p>Le décor est élégant et sophistiqué, avec des couleurs chaudes et des finitions haut de gamme.</p>
+      </article>
+      <!-- SECTION POUR GROUPE DES PHOTOS -->
+      <div class="col-lg-10 mx-auto">
+        <div>
+          <div class="d-flex justify-content-betwen">
+            <img src="../src/suite/suite-1.2.jpg" alt="Chambre Suite Chambord" class="img-fluid w-50 img-row-control">
+            <img src="../src/suite/suite-1.7.jpg" alt="Salle de bain Suite Chambord" class="img-fluid w-50 img-row-control">
+          </div>
         </div>
-
-        <!-- ARTICLE DESCRIP -->
-        <article class="control-margin-import">
-            <p>La cuisine entièrement équipée comprend tous les appareils nécessaires pour préparer des repas gastronomiques, tandis que la salle à manger spacieuse est idéale pour les dîners en famille ou entre amis.</p>
-            <p>La salle de bain privée est spacieuse et équipée d'une baignoire spa et d'articles de toilette gratuits de grande qualité.</p>
-            <p>Le salon est équipé d'un canapé confortable, d'une télévision à écran plat et d'une cheminée pour des soirées confortables.</p> 
-            <p>La piscine privée offre une vue imprenable sur la ville et est entourée d'un espace terrasse pour des moments de détente en plein air. Enfin, un accès gratuit à internet haut débit est disponible dans le penthouse. Ce penthouse de 150m² avec piscine privée offre une expérience de vie de luxe inoubliable pour les voyageurs les plus exigeants.</p>
-        </article>
-
-        <!-- DIV SEPARATION -->
-        <div class="separationAvecDiv"></div>
-
-        <!-- SECTION ICONOS -->
-        <div class="serviceInclus d-flex justify-content-center mt-5">
-            <div>
-                <!-- NOMBRE DES PERSONNES -->
-                <div class="monIconCham">
-                    <img src="../src/service-room/utilisateurs.png" alt="">
-                    <h6 class="textSerifBlack">2 personnes</h6>
-                </div>
-                <!-- TAILLE DE LIT -->
-                <div class="monIconCham">
-                    <img src="../src/service-room/lit.png" alt="">
-                    <h6 class="textSerifBlack">lit king-size</h6>
-                </div>
-                <!-- TAILLE DE CHAMBRE -->
-                <div class="monIconCham">
-                    <img src="../src/service-room/open-door.png" alt="">
-                    <h6 class="textSerifBlack">25m²</h6>
-                </div>
-                <!-- SALLE DE BAIN AVEC BAIGNOIRE -->
-                <div class="monIconCham">
-                    <img src="../src/service-room/une-baignoire.png" alt="">
-                    <h6 class="textSerifBlack">baignoire</h6>
-                </div>
-            </div>
-            <div class="iconMillieu">
-                <!-- BUREAU -->
-                <div class="monIconCham">
-                    <img src="../src/service-room/desk.png" alt="">
-                    <h6 class="textSerifBlack">bureau</h6>
-                </div>
-                <!-- ECRAN PLAT -->
-                <div class="monIconCham">
-                    <img src="../src/service-room/smart-tv.png" alt="">
-                    <h6 class="textSerifBlack">télévision</h6>
-                </div>
-                <!-- WIFI GRATUIT -->
-                <div class="monIconCham">
-                    <img src="../src/service-room/wifi.png" alt="">
-                    <h6 class="textSerifBlack">wifi haut débit</h6>
-                </div>
-                <!-- DRESSING & CHAUSSON -->
-                <div class="monIconCham">
-                    <img src="../src/service-room/chaussons.png" alt="">
-                    <h6 class="textSerifBlack">dressing & chaussons</h6>
-                </div>
-            </div>
-            <div>
-                <!-- PLATEAU DE COURTOISE -->
-                <div class="monIconCham">
-                    <img src="../src/service-room/fleurs.png" alt="">
-                    <h6 class="textSerifBlack">plateau de courtoise</h6>
-                </div>
-                <!-- SERVICE A LA CHAMBRE -->
-                <div class="monIconCham">
-                    <img src="../src/service-room/plateau-de-nourriture-couvert-sur-une-main-de-service-de-chambre-dhotel.png" alt="">
-                    <h6 class="textSerifBlack">room service</h6>
-                </div>
-                <!-- MINIBAR -->
-                <div class="monIconCham">
-                    <img src="../src/service-room/minibar.png" alt="">
-                    <h6 class="textSerifBlack">minibar (€)</h6>
-                </div>
-                <!-- COFFRE FORT -->
-                <div class="monIconCham">
-                    <img src="../src/service-room/coffre-fort.png" alt="">
-                    <h6 class="textSerifBlack">coffre fort</h6>
-                </div>
-            </div>
+        <div>
+          <div class="d-flex justify-content-betwen">
+            <img src="../src/suite/suite-1.3.jpg" alt="Chambre Suite Chambord" class="img-fluid w-50 img-row-control">
+            <img src="../src/suite/suite-1.4.jpg" alt="Salon Suite Chambord" class="img-fluid w-50 img-row-control">
+          </div>
         </div>
-
-        <!-- DIV SEPARATION -->
-        <div class="separationAvecDiv"></div>
-
-        <!-- SECTION POUR GROUPE DES PHOTOS -->
-        <div class="photoSep">
-            <div class="d-flex justify-content-betwen">
-                <img src="../src/suite/suite-1.7.jpg" alt="" class="img-fluid w-50 img-row-control">
-                <img src="../src/suite/suite-1.4.jpg" alt="" class="img-fluid w-50 img-row-control">
-            </div>
+      </div>
+      <!-- ARTICLE DESCRIP -->
+      <article class="control-margin-import">
+        <p>La cuisine entièrement équipée comprend tous les appareils nécessaires pour préparer des repas gastronomiques, tandis que la salle à manger spacieuse est idéale pour les dîners en famille ou entre amis.</p>
+        <p>La salle de bain privée est spacieuse et équipée d'une baignoire spa et d'articles de toilette gratuits de grande qualité.</p>
+        <p>Le salon est équipé d'un canapé confortable, d'une télévision à écran plat et d'une cheminée pour des soirées confortables.</p>
+        <p>La piscine privée offre une vue imprenable sur la ville et est entourée d'un espace terrasse pour des moments de détente en plein air. Enfin, un accès gratuit à internet haut débit est disponible dans le penthouse. Ce penthouse de 150m² avec piscine privée offre une expérience de vie de luxe inoubliable pour les voyageurs les plus exigeants.</p>
+      </article>
+      <!-- DIV SEPARATION -->
+      <div class="separationAvecDiv"></div>
+      <!-- SECTION ICONOS -->
+      <div class="serviceInclus d-flex justify-content-center mt-5">
+        <div>
+          <!-- NOMBRE DES PERSONNES -->
+          <div class="monIconCham">
+            <img src="../src/service-room/utilisateurs.png" alt="Icône nom de personnes">
+            <p class="textSerifBlack text-center">5 personnes</p>
+          </div>
+          <!-- TAILLE DE LIT -->
+          <div class="monIconCham">
+            <img src="../src/service-room/lit.png" alt="Icône taille de lit">
+            <p class="textSerifBlack text-center">lit king-size</p>
+          </div>
+          <!-- TAILLE DE CHAMBRE -->
+          <div class="monIconCham">
+            <img src="../src/service-room/open-door.png" alt="Icône taille de la chambre">
+            <p class="textSerifBlack text-center">150m²</p>
+          </div>
+          <!-- SALLE DE BAIN AVEC BAIGNOIRE -->
+          <div class="monIconCham">
+            <img src="../src/service-room/une-baignoire.png" alt="Icône baignoire">
+            <p class="textSerifBlack text-center">baignoire</p>
+          </div>
         </div>
-
+        <div>
+          <!-- BUREAU -->
+          <div class="monIconCham">
+            <img src="../src/service-room/desk.png" alt="Icône bureau">
+            <p class="textSerifBlack text-center">bureau</p>
+          </div>
+          <!-- ECRAN PLAT -->
+          <div class="monIconCham">
+            <img src="../src/service-room/smart-tv.png" alt="Icône télévision">
+            <p class="textSerifBlack text-center">télévision</p>
+          </div>
+          <!-- WIFI GRATUIT -->
+          <div class="monIconCham">
+            <img src="../src/service-room/wifi.png" alt="Icône wifi">
+            <p class="textSerifBlack text-center">wifi haut débit</p>
+          </div>
+          <!-- DRESSING & CHAUSSON -->
+          <div class="monIconCham">
+            <img src="../src/service-room/chaussons.png" alt="Icône chaussons">
+            <p class="textSerifBlack text-center">dressing & chaussons</p>
+          </div>
+        </div>
+        <div>
+          <!-- PLATEAU DE COURTOISE -->
+          <div class="monIconCham">
+            <img src="../src/service-room/fleurs.png" alt="Icône plateau de courtoise">
+            <p class="textSerifBlack text-center">plateau de courtoise</p>
+          </div>
+          <!-- SERVICE A LA CHAMBRE -->
+          <div class="monIconCham">
+            <img src="../src/service-room/plateau-de-nourriture-couvert-sur-une-main-de-service-de-chambre-dhotel.png" alt="Icône room service">
+            <p class="textSerifBlack text-center">room service</p>
+          </div>
+          <!-- MINIBAR -->
+          <div class="monIconCham">
+            <img src="../src/service-room/minibar.png" alt="Icône minibar">
+            <p class="textSerifBlack text-center">minibar (€)</p>
+          </div>
+          <!-- COFFRE FORT -->
+          <div class="monIconCham">
+            <img src="../src/service-room/coffre-fort.png" alt="Icône coffre fort">
+            <p class="textSerifBlack text-center">coffre fort</p>
+          </div>
+        </div>
+      </div>
+      <!-- DIV SEPARATION -->
+      <div class="separationAvecDiv"></div>
+      <!-- SECTION POUR GROUPE DES PHOTOS -->
+      <div class="m-3">
+        <div class="d-flex justify-content-betwen">
+          <img src="../src/suite/suite-1.7.jpg" alt="Salle de bain Suite Chambord" class="img-fluid w-50 img-row-control">
+          <img src="../src/suite/suite-1.4.jpg" alt="Salon Suite Chambord" class="img-fluid w-50 img-row-control">
+        </div>
+      </div>
     </main>
-
     <!-- ICI COMMENCE MON PIE DE PAGE -->
     <footer>
-        
-        <!-- TEXT/BUTTON -->
-        <article class="controlFooter">
-            <h2 class="textSerifWhite text-center">recevez la newsletter</h2>
-            <form class="col-5 mx-auto" id="myNewsletter">
-                <div class="form-group">
-                    <label for="emailInput"></label>
-                    <input type="email" class="form-control" id="emailInput" placeholder="Votre adresse mail">
-                </div>
-                <div class="form-group">
-                    <label for="nombre"></label>
-                    <input type="text" class="form-control" id="nombre" placeholder="Votre prenom">
-                </div>
-                <div class="form-group form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" id="monJaccepte" for="exampleCheck1">J'accepte de recevoir des offres commerciales</label>
-                </div>
-                <button class="buttonFooter d-block mx-auto" type="submit">M'inscrire</button>
-            </form>
-        </article>
-
-        <!-- LOGO -->
-        <div class="imgFooterControl">
-            <img class="img-fluid rounded mx-auto d-block" src="../src/logo-126.png" alt="logo hotel chambord">
+      <!-- TEXT/BUTTON -->
+      <article class="controlFooter">
+        <h2 class="textSerifWhite text-center">recevez la newsletter</h2>
+        <form class="col-5 mx-auto" id="myNewsletter">
+          <div class="form-group">
+            <label for="emailInput"></label>
+            <input type="email" class="form-control" id="emailInput" placeholder="Votre adresse mail">
+          </div>
+          <div class="form-group">
+            <label for="nombre"></label>
+            <input type="text" class="form-control" id="nombre" placeholder="Votre prenom">
+          </div>
+          <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" id="monJaccepte" for="exampleCheck1">J'accepte de recevoir des offres commerciales</label>
+          </div>
+          <button class="buttonFooter d-block mx-auto" type="submit">M'inscrire</button>
+        </form>
+      </article>
+      <!-- LOGO -->
+      <div class="imgFooterControl">
+        <img class="img-fluid rounded mx-auto d-block" src="../src/logo-126.png" alt="logo hotel chambord">
+      </div>
+      <!-- TEXTE -->
+      <div class="text-center">
+        <div>
+          <p class="textSerifWhite">09-34-52-52-52</p>
         </div>
-
-        <!-- TEXTE -->
-        <div class="text-center">
-            <div>
-                <h6 class="textSerifWhite">09-34-52-52-52</h6>
-            </div>
-            <div>
-                <h6 class="textSerifWhite">hotel.chambord@contact.fr</h6>
-            </div>
-            <div>
-                <h6 class="textSerifWhite">1 Avenue Montaigne 75008 - Paris</h6>
-            </div>
+        <div>
+          <p class="textSerifWhite">hotel.chambord@contact.fr</p>
         </div>
-        
-        <!-- LIENS -->
-        <section class="text-center textSerifWhite">
-            <nav>
-                <ul class="nav flex-column controlFooter">
-                    <li><a class="nav-link text-white" href="plan-site.html">Plan du site</a></li>
-                    <li><a class="nav-link text-white" href="mention-legales.html">Mention Légales</a></li>
-                    <li><a class="nav-link text-white" href="contidition-generales-de-vente.html">Contidition Generales De Vente</a></li>
-                </ul>
-            </nav>
-        </section>
+        <div>
+          <p class="textSerifWhite">1 Avenue Montaigne 75008 - Paris</p>
+        </div>
+      </div>
+      <!-- LIENS -->
+      <section class="text-center textSerifWhite">
+        <nav>
+          <ul class="nav flex-column controlFooter">
+            <li>
+              <a class="nav-link text-white" href="plan-site.html">Plan du site</a>
+            </li>
+            <li>
+              <a class="nav-link text-white" href="recrutement.html">Recrutement</a>
+            </li>
+            <li>
+              <a class="nav-link text-white" href="mention-legales.html">Mention Légales</a>
+            </li>
+            <li>
+              <a class="nav-link text-white" href="contidition-generales-de-vente.html">Contidition Generales De Vente</a>
+            </li>
+          </ul>
+        </nav>
+      </section>
     </footer>
-
-    <script src="..."></script>
     <script src="../app/app.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-</body>
+  </body>
 </html>

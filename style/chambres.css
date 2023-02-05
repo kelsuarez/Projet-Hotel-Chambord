@@ -16,13 +16,10 @@
     display: block;
     margin: auto;
 }
-.monIconCham h6{
+.monIconCham p{
     margin-top: 5px;
     font-size: 10px;
     text-align: center;
-}
-.photoSep{
-    margin-top: 20px;
 }
 
 /* FORMAT SMARPHONE */
