@@ -60,7 +60,8 @@ header nav{
   width: 100%;
   height: 150px;
   position: absolute;
-  top: 120px;
+  top: 15%;
+  /* top: 120px; */
   right: 0;
   bottom: 0;
   left: 0;
@@ -73,7 +74,9 @@ header nav{
 }
 
 
-
+.justifyParagraphe{
+  text-align: justify;
+}
 
 
 
@@ -153,6 +156,7 @@ footer{
   }
   .titresCentre h1{
     font-size: 75px;
+
   }
   .titresCentre h6{
     font-size: 25px;
@@ -168,14 +172,11 @@ footer{
   .xtrSmall{
     width: 200px !important;
   }
-  .titresCentre{
-    top: 380px;
-  }
   .titresCentre h1{
-    font-size: 105px;
+    font-size: 120px;
   }
   .titresCentre h6{
-    font-size: 45px;
+    font-size: 55px;
   }
   
 }

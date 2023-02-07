@@ -66,11 +66,7 @@
     font-weight: bold;
     font-family: 'Aboreto', cursive;
 }
-.paragrapheModel{
-    width: 500px;
-    height: 300px;
-    border: 1px solid red;
-}
+
 /* FORMAT IPAD */
 @media screen and (min-width: 768px) {
     /* TEXT-PARA-1 */
