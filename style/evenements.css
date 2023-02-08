@@ -1,0 +1,40 @@
+section h2{
+    font-size: 16px !important;
+}
+
+/* .event-card{
+    margin: ;
+} */
+
+.frameVideo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.frameVideo iframe {
+    width: 80%;
+    height: 80%;
+}
+
+
+/************************ FORMAT IPAD ************************/
+@media screen and (min-width: 768px) {
+    .frameVideo iframe {
+        width: 80%;
+        height: 300px;
+    }
+    section h2{
+        font-size: 20px !important;
+    }
+}
+/************************ FORMAT DESTOK ************************/
+@media screen and (min-width: 990px) {
+    section h2{
+        font-size: 35px !important;
+    }
+    .frameVideo iframe {
+        height: 500px;
+    }
+}

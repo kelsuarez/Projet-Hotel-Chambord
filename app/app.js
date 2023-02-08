@@ -37,3 +37,9 @@ document.getElementById("myNewsletter").addEventListener("submit", function(even
   mensaje.innerHTML = "Merci pour votre inscription a notre newsletter!";
   document.getElementById("myNewsletter").appendChild(mensaje);
 });
+
+// IMPRIMER
+
+document.getElementById("print-page").addEventListener("click", function(){
+  window.print();
+});
