@@ -1,7 +1,8 @@
 /* CLASS BACKGROUND PADDING ET FONT */
 body {
   padding-top: 81px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 900 !important;
   background: white !important;
 }
 
