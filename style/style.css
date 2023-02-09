@@ -61,7 +61,6 @@ header nav{
   height: 150px;
   position: absolute;
   top: 15%;
-  /* top: 120px; */
   right: 0;
   bottom: 0;
   left: 0;
@@ -177,6 +176,9 @@ footer{
   }
   .titresCentre h6{
     font-size: 55px;
+  }
+  .reglageText{
+    font-size: 40px;
   }
   
 }

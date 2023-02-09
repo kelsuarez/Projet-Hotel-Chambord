@@ -2,22 +2,27 @@
     color: black !important;
     text-decoration: underline !important;
 }
-
-main ul{
+h2{
+    font-size: 18px !important;
+}
+main ul, li{
     text-decoration: none;
     margin: 0;
     padding: 0;
 }
-
 .controlImg img{
     width: 300px;
+}
+.secondSizeText{
+    font-family: 'Aboreto', cursive;
+    font-weight: bold;
+}
+.tailleTexte{
+    width: 80%;
 }
 
 /************************ FORMAT IPAD ************************/
 @media screen and (min-width: 768px) {
-    section h2{
-        font-size: 20px !important;
-    }
     .forceColorText{
         font-size: 20px;
     }
@@ -25,4 +30,18 @@ main ul{
         width: 500px;
     }
 }
-
+/************************ FORMAT IPAD ************************/
+@media screen and (min-width: 990px) {
+    .forceColorText{
+        font-size: 20px;
+    }
+    .controlImg img{
+        width: 500px;
+    }
+    h2{
+        font-size: 40px !important;
+    }
+    .tailleTexte{
+        width: 60%;
+    }
+}
