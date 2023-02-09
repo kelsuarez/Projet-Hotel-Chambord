@@ -1,11 +1,6 @@
 section h2{
     font-size: 16px !important;
 }
-
-/* .event-card{
-    margin: ;
-} */
-
 .frameVideo{
     display: flex;
     justify-content: center;
@@ -32,7 +27,7 @@ section h2{
 /************************ FORMAT DESTOK ************************/
 @media screen and (min-width: 990px) {
     section h2{
-        font-size: 35px !important;
+        font-size: 40px !important;
     }
     .frameVideo iframe {
         height: 500px;

@@ -1,0 +1,28 @@
+.forceColorText{
+    color: black !important;
+    text-decoration: underline !important;
+}
+
+main ul{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+.controlImg img{
+    width: 300px;
+}
+
+/************************ FORMAT IPAD ************************/
+@media screen and (min-width: 768px) {
+    section h2{
+        font-size: 20px !important;
+    }
+    .forceColorText{
+        font-size: 20px;
+    }
+    .controlImg img{
+        width: 500px;
+    }
+}
+

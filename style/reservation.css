@@ -59,9 +59,17 @@
 }
 .miTotal{
     width: 90%;
-    height: 100%;
-    background-color: aqua;
+    height: 150px;
     margin-bottom: 20px;
+}
+
+#prixAffichage{
+  width: 40%;
+  box-sizing: border-box;
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px;
+  font-family: 'Aboreto', cursive;
 }
 
 .menusVarios{
@@ -82,9 +90,6 @@
     height: 200px;
   }
   .miTotal{
-    height: 300px;
-    width: 600px;
-    background-color: aqua;
     margin-bottom: 20px;
   }
   .monIconReser img{

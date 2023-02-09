@@ -175,10 +175,13 @@
       </form>
       <!-- CARTE CHAMBRE CLASSIQUE -->
       <article class="reservChoisi p-2 col mx-auto" id="classiqueRoom">
+        <!-- IMG+ICONES -->
         <div class="imgChoisi d-flex mx-auto">
+          <!-- IMG CHAMBRE -->
           <div class="mx-auto">
             <img src="../src/classique/classique3.1.jpg" alt="menu déjeuner" class="imgPortrait " data-id="1">
           </div>
+          <!-- MES ICONES -->
           <div class="mx-auto">
             <div class="d-flex mx-auto">
               <div class="">
@@ -242,23 +245,30 @@
             </div>
           </div>
         </div>
+        <!-- DESCRIPTION CHAMBRE -->
         <div class="col m-3">
           <h3 class="textSerifBlack text-center">Chambre Classique</h3>
           <p class="text-center">2 personnes | King size | 25m²</p>
           <p class="text-center">Chambre de 25m² offre un niveau de luxe digne d'un hôtel 5 étoiles.</p>
         </div>
+        <!-- BUTTON + PRIX -->
         <div class="d-flex mesButtons">
           <button type="button" class="btn text-lin-gar-font butonConClick butonGeneral" data-id="1">Choisir</button>
-          <div class="tableuPrix"></div>
+          <!-- PRIX DE CHAMBRE -->
+          <div id="prixAffichage">
+            <h2 class="text-center">1495€</h2>
+          </div>
           <!-- <button type="button" class="btn text-lin-gar-font butonConClick butonGeneral">Voir plus</button> -->
         </div>
       </article>
       <!-- CARTE CHAMBRE CONFORT -->
       <article class="reservChoisi p-2 col mx-auto" id="confortRoom">
         <div class="imgChoisi d-flex mx-auto">
+          <!-- IMG CHAMBRE -->
           <div class="mx-auto">
             <img src="../src/confort/confort1.1.jpg" alt="menu déjeuner" class="imgPortrait" data-id="1">
           </div>
+          <!-- MES ICONES -->
           <div class="mx-auto">
             <div class="d-flex mx-auto">
               <div class="">
@@ -322,6 +332,7 @@
             </div>
           </div>
         </div>
+        <!-- DESCRIPTION CHAMBRE -->
         <div class="col m-3">
           <h3 class="textSerifBlack text-center">Chambre Confort</h3>
           <p class="text-center">3 personnes | King size | 40m²</p>
@@ -329,15 +340,20 @@
         </div>
         <div class="d-flex mesButtons">
           <button type="button" class="btn text-lin-gar-font butonConClick butonGeneral" data-id="2">Choisir</button>
-          <!-- <button type="button" class="btn text-lin-gar-font butonConClick butonGeneral">Voir plus</button> -->
+          <!-- PRIX DE CHAMBRE -->
+          <div id="prixAffichage">
+            <h2 class="text-center">1895€</h2>
+          </div>
         </div>
       </article>
       <!-- CARTE CHAMBRE DELUXE -->
       <article class="reservChoisi p-2 col mx-auto" id="deluxeRoom">
         <div class="imgChoisi d-flex mx-auto">
+          <!-- IMG CHAMBRE -->
           <div class="mx-auto">
-            <img src="../src/deluxe/deluxe1.jpg" alt="menu déjeuner" class="imgPortrait " data-id="1">
+            <img src="../src/deluxe/deluxe1.jpg" alt="chambre confort" class="imgPortrait " data-id="1">
           </div>
+          <!-- MES ICONES -->
           <div class="mx-auto">
             <div class="d-flex mx-auto">
               <div class="">
@@ -401,6 +417,7 @@
             </div>
           </div>
         </div>
+        <!-- DESCRIPTION CHAMBRE -->
         <div class="col m-3">
           <h3 class="textSerifBlack text-center">Chambre Deluxe</h3>
           <p class="text-center">3 personnes | King size | 80m²</p>
@@ -408,15 +425,20 @@
         </div>
         <div class="d-flex mesButtons">
           <button type="button" class="btn text-lin-gar-font butonConClick butonGeneral" data-id="3">Choisir</button>
-          <!-- <button type="button" class="btn text-lin-gar-font butonConClick butonGeneral">Voir plus</button> -->
+          <!-- PRIX DE CHAMBRE -->
+          <div id="prixAffichage">
+            <h2 class="text-center">2395€</h2>
+          </div>
         </div>
       </article>
-      <!-- CARTE CHAMBRE DELUXE -->
+      <!-- CARTE CHAMBRE SUITE -->
       <article class="reservChoisi p-2 col mx-auto" id="suiteRoom">
         <div class="imgChoisi d-flex mx-auto">
+          <!-- IMG CHAMBRE -->
           <div class="mx-auto">
             <img src="../src/suite/suite-1.jpg" alt="menu déjeuner" class="imgPortrait" data-id="1">
           </div>
+          <!-- MES ICONES -->
           <div class="mx-auto">
             <div class="d-flex mx-auto">
               <div class="">
@@ -480,6 +502,7 @@
             </div>
           </div>
         </div>
+        <!-- DESCRIPTION CHAMBRE -->
         <div class="col m-3">
           <h3 class="textSerifBlack text-center">SUITE chambord</h3>
           <p class="text-center">4 personnes | King size | 150m²</p>
@@ -487,14 +510,51 @@
         </div>
         <div class="d-flex mesButtons">
           <button type="button" class="btn text-lin-gar-font butonConClick butonGeneral" data-id="4">Choisir</button>
-          <!-- <button type="button" class="btn text-lin-gar-font butonConClick butonGeneral">Voir plus</button> -->
+          <!-- PRIX DE CHAMBRE -->
+          <div id="prixAffichage">
+            <h2 class="text-center">3595€</h2>
+          </div>
         </div>
       </article>
+      <!-- SECTION DE VALIDATION -->
       <article class="miTotal col mx-auto maSectionJs ">
-        <p data-id="1" class="menusVarios">PRECIO 1</p>
-        <p data-id="2" class="menusVarios">PRECIO 2</p>
-        <p data-id="3" class="menusVarios">PRECIO 3</p>
-        <p data-id="4" class="menusVarios">PRECIO 4</p>
+        <!-- PANIER CLASSIQUE -->
+        <div data-id="1" class="menusVarios mx-auto">
+          <h3 class="text-center textSerifBlack">Validation</h3>
+          <h4 class="text-center textSerifBlack">Chambre Classique</h4>
+          <h2 class="text-center textSerifBlack">1495€</h2>
+          <div class="d-flex mx-auto">
+            <a class="buttonGeneralW text-center mb-3" href="panier.html" role="button">Valider mon panier</a>
+          </div>
+        </div>
+        <!-- PANIER CONFORT -->
+        <div data-id="2" class="menusVarios mx-auto">
+          <h3 class="text-center textSerifBlack">Validation</h3>
+          <h4 class="text-center textSerifBlack">Chambre Confort</h4>
+          <h2 class="text-center textSerifBlack">1895€</h2>
+          <div class="d-flex mx-auto">
+            <a class="buttonGeneralW text-center mb-3" href="panier.html" role="button">Valider mon panier</a>
+          </div>
+        </div>
+        <!-- PANIER DELUXE -->
+        <div data-id="3" class="menusVarios mx-auto">
+          <h3 class="text-center textSerifBlack">Validation</h3>
+          <h4 class="text-center textSerifBlack">Chambre Deluxe</h4>
+          <h2 class="text-center textSerifBlack">2395€</h2>
+          <div class="d-flex mx-auto">
+            <a class="buttonGeneralW text-center mb-3" href="panier.html" role="button">Valider mon panier</a>
+          </div>
+        </div>
+        <!-- PANIER SUITE -->
+        <div data-id="4" class="menusVarios mx-auto">
+          <h3 class="text-center textSerifBlack">Validation</h3>
+          <h4 class="textSerifBlack">Chambre Suite</h4>
+          <h2 class="text-center textSerifBlack">3595€</h2>
+          <div class="d-flex mx-auto">
+            <a class="buttonGeneralW text-center mb-3" href="panier.html" role="button">Valider mon panier</a>
+          </div>
+        </div>
+
       </article>
     </main>
     <!-- ICI COMMENCE MON PIE DE PAGE -->
