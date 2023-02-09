@@ -162,7 +162,7 @@ footer {
 /************************ FORMAT SMARPHONE MAX ************************/
 @media screen and (max-width: 990px) {
   .xtrSmall {
-    width: 140px !important;
+    width: 80px !important;
   }
 }
 

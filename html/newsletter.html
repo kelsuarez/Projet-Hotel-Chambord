@@ -1,263 +1,463 @@
 <!DOCTYPE html>
 <html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Hôtel Chambord 5 étoiles, un environnement luxueux et raffiné pour les voyageurs les plus exigeants. Hébergement, Restaurant, Spa... Hotel Chambord, le meilleur du luxe"
+    />
+    <link rel="icon" type="image/png" href="../src/logo-126.png" />
+    <link rel="stylesheet" href="../style/index.css" />
+    <link rel="stylesheet" href="../style/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aboreto&family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <title>Hotel Chambor - Newsletter</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description"
-    content="Hôtel Chambord 5 étoiles, un environnement luxueux et raffiné pour les voyageurs les plus exigeants. Hébergement, Restaurant, Spa... Hotel Chambord, le meilleur du luxe">
-  <link rel="icon" type="image/png" href="../src/logo-126.png">
-  <link rel="stylesheet" href="../style/index.css">
-  <link rel="stylesheet" href="../style/style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Roboto:wght@100&display=swap" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-  <title>Hotel Chambor - Newsletter</title>
-</head>
-
-<body>
-  <!-- ICI COMMENCE MON HEADER -->
-  <header>
-    <!-- NAVBAR AVEC BOOTSTRAP -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top col-xl-11 mx-auto">
-      <div class="container-fluid bg-white">
-        <!-- DROPDOWN LANGUES -->
-        <div class="xtrSmall col-lg-2">
-          <div class="btn-group">
-            <button class="btn btn-secondary btn-sm dropdown-toggle text-muted bg-white border-0 textSerifBlack"
-              type="button" data-bs-toggle="dropdown" aria-expanded="false">LANGUAGES</button>
-            <ul class="dropdown-menu bg-dark min-w-null">
-              <li>
-                <a class="dropdown-item text-white textSerifBlack" id="english" href="#">English</a>
-              </li>
-              <li>
-                <a class="dropdown-item text-white textSerifBlack" id="spanish" href="#">Spanish</a>
-              </li>
-              <li>
-                <a class="dropdown-item text-white textSerifBlack" id="french" href="#">French</a>
-              </li>
-            </ul>
-            <div class="row align-items-center">
-              <img src="../src/anglais523.jpg" alt="drapeu american" id="englishFlag" width="20" height="20"
-                class="flag">
-              <img src="../src/espagne225.jpg" alt="drapeu espagnol" id="spanishFlag" width="20" height="20"
-                class="flag">
-              <img src="../src/france295.jpg" alt="drapeu français" id="frenchFlag" width="20" height="20" class="flag">
+  <body>
+    <!-- ICI COMMENCE MON HEADER -->
+    <header>
+      <!-- NAVBAR AVEC BOOTSTRAP -->
+      <nav
+        class="navbar navbar-expand-lg navbar-light fixed-top col-xl-11 mx-auto"
+      >
+        <div class="container-fluid bg-white">
+          <!-- DROPDOWN LANGUES -->
+          <div class="xtrSmall col-lg-2">
+            <div class="btn-group">
+              <button
+                class="btn btn-secondary btn-sm dropdown-toggle text-muted bg-white border-0 textSerifBlack"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                LNG
+              </button>
+              <ul class="dropdown-menu bg-dark min-w-null">
+                <li>
+                  <a
+                    class="dropdown-item text-white textSerifBlack"
+                    id="english"
+                    href="#"
+                    >English</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item text-white textSerifBlack"
+                    id="spanish"
+                    href="#"
+                    >Spanish</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item text-white textSerifBlack"
+                    id="french"
+                    href="#"
+                    >French</a
+                  >
+                </li>
+              </ul>
+              <div class="row align-items-center">
+                <img
+                  src="../src/anglais523.jpg"
+                  alt="drapeu american"
+                  id="englishFlag"
+                  width="20"
+                  height="20"
+                  class="flag"
+                />
+                <img
+                  src="../src/espagne225.jpg"
+                  alt="drapeu espagnol"
+                  id="spanishFlag"
+                  width="20"
+                  height="20"
+                  class="flag"
+                />
+                <img
+                  src="../src/france295.jpg"
+                  alt="drapeu français"
+                  id="frenchFlag"
+                  width="20"
+                  height="20"
+                  class="flag"
+                />
+              </div>
             </div>
           </div>
+          <!-- IMAGE LOGO AVEC LIENS ACCUEIL-->
+          <div class="col-lg-1">
+            <a class="navbar-brand" href="../index.html">
+              <img
+                src="../src/logo-126.png"
+                alt="logo hotel chambord"
+                class="d-inline-block align-text-top imgLogo"
+              />
+            </a>
+          </div>
+          <!-- NAVBAR BURGUER -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- NAV AVEC LES DIF PAGES -->
+          <div
+            class="collapse navbar-collapse col-lg-4"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="marginList">
+              <!-- CHAMBRES -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle textSerifBlack"
+                  href="chambres.html"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >Hébergement</a
+                >
+                <ul class="dropdown-menu bg-dark">
+                  <li>
+                    <a
+                      class="dropdown-item text-white textSerifBlack"
+                      href="chambre-classique.html"
+                      >Classique</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item text-white textSerifBlack"
+                      href="chambre-confort.html"
+                      >Confort</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item text-white textSerifBlack"
+                      href="chambre-deluxe.html"
+                      >Deluxe</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item text-white textSerifBlack"
+                      href="chambre-suite.html"
+                      >Suite</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item text-white textSerifBlack"
+                      href="chambres.html"
+                      >Voir toutes les chambres</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <!-- RESTAURANT -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle textSerifBlack"
+                  href="restaurant.html"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >Restaurant</a
+                >
+                <ul class="dropdown-menu bg-dark">
+                  <li>
+                    <a
+                      class="dropdown-item text-white textSerifBlack"
+                      href="restaurant.html"
+                      >Restaurant - Le Grand Chambord</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <!-- SPA -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle textSerifBlack"
+                  href="spa.html"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >Le Spa</a
+                >
+                <ul class="dropdown-menu bg-dark">
+                  <li>
+                    <a
+                      class="dropdown-item text-white textSerifBlack"
+                      href="spa.html"
+                      >Spa - Divinity Chambord</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active textSerifBlack"
+                  aria-current="page"
+                  href="reservation.html"
+                  >Réservation</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle textSerifBlack"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >Le Chambord</a
+                >
+                <ul class="dropdown-menu bg-dark">
+                  <li>
+                    <a
+                      class="dropdown-item text-white textSerifBlack"
+                      href="lhotel.html"
+                      >L'hôtel - Qui sommes-nous?</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item text-white textSerifBlack"
+                      href="acces.html"
+                      >Accès</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item text-white textSerifBlack"
+                      href="contact.html"
+                      >Nous contacter</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item text-white textSerifBlack"
+                      href="avis-client.html"
+                      >Avis clients</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item text-white textSerifBlack"
+                      href="evenement.html"
+                      >Événement</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item text-white textSerifBlack"
+                      href="presse.html"
+                      >Presse</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item text-white textSerifBlack"
+                      href="actualites.html"
+                      >Actualités</a
+                    >
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <!-- CHANGEMENT DE L'ELEMENT SHEAR POUR UNE IMG (loupe) -->
+            <form class="d-flex mb-1" id="marginSearch">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success border-0" type="submit">
+                <img
+                  src="../src/lupe.png"
+                  alt="image d'une loupe pour faire une recherche"
+                  width="45"
+                  height="45"
+                  class="img-fluid"
+                />
+              </button>
+            </form>
+          </div>
         </div>
-        <!-- IMAGE LOGO AVEC LIENS ACCUEIL-->
-        <div class="col-lg-1">
-          <a class="navbar-brand" href="../index.html">
-            <img src="../src/logo-126.png" alt="logo hotel chambord" class="d-inline-block align-text-top imgLogo">
-          </a>
+      </nav>
+    </header>
+    <!-- ICI COMMENCE MON MAIN -->
+    <main class="col-md-11 mx-auto">
+      <!-- ****************************** CONTACT ****************************** -->
+      <!-- DIV SEPARATION -->
+      <div class="separationAvecDiv"></div>
+      <!-- TEXTSECTION -->
+      <article>
+        <h1 class="reglageText">Newsletter</h1>
+      </article>
+      <!-- FORMULAIRE CONTACT -->
+      <form class="contact-form">
+        <div class="form-group">
+          <label class="form-label" for="lastname">Nom:</label>
+          <input class="form-input" type="text" id="lastname" name="lastname" />
         </div>
-        <!-- NAVBAR BURGUER -->
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <!-- NAV AVEC LES DIF PAGES -->
-        <div class="collapse navbar-collapse col-lg-4" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="marginList">
-            <!-- CHAMBRES -->
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle textSerifBlack" href="chambres.html" role="button"
-                data-bs-toggle="dropdown" aria-expanded="false">Hébergement</a>
-              <ul class="dropdown-menu bg-dark">
-                <li>
-                  <a class="dropdown-item text-white textSerifBlack" href="chambre-classique.html">Classique</a>
-                </li>
-                <li>
-                  <a class="dropdown-item text-white textSerifBlack" href="chambre-confort.html">Confort</a>
-                </li>
-                <li>
-                  <a class="dropdown-item text-white textSerifBlack" href="chambre-deluxe.html">Deluxe</a>
-                </li>
-                <li>
-                  <a class="dropdown-item text-white textSerifBlack" href="chambre-suite.html">Suite</a>
-                </li>
-                <li>
-                  <a class="dropdown-item text-white textSerifBlack" href="chambres.html">Voir toutes les chambres</a>
-                </li>
-              </ul>
+        <div class="form-group">
+          <label class="form-label" for="firstname">Prenom:</label>
+          <input
+            class="form-input"
+            type="text"
+            id="firstname"
+            name="firstname"
+          />
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="eMail">E-mail:</label>
+          <input class="form-input" type="email" id="eMail" name="eMail" />
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="categorie">Catégorie:</label>
+          <select class="form-input" id="categorie" name="categorie">
+            <option value="">Choisir une option</option>
+            <option value="classiqueRoom">Hébergements</option>
+            <option value="confortRoom">Restaurant Le Grand Chambord</option>
+            <option value="deluxeRoom">Spa - Divinity Chambord</option>
+          </select>
+        </div>
+        <button class="form-button" type="submit">Envoyer</button>
+      </form>
+      <div class="messageDeEnvoi">
+        <div id="mesageoOculte">
+          <p>
+            Merci de votre intérêt pour notre Newsletter! Nous avons bien reçu
+            votre demande et nous allons y répondre dès que possible. Nous
+            apprécions votre intérêt pour le Hotel Chambord et nous nous
+            réjouissons de vous aider.
+          </p>
+        </div>
+      </div>
+      <!-- DIV SEPARATION -->
+      <div class="separationAvecDiv"></div>
+    </main>
+    <!-- ICI COMMENCE MON PIE DE PAGE -->
+    <footer>
+      <!-- TEXT/BUTTON -->
+      <article class="controlFooter">
+        <h2 class="textSerifWhite text-center">recevez la newsletter</h2>
+        <form class="col-5 mx-auto" id="myNewsletter">
+          <div class="form-group">
+            <label for="emailInput"></label>
+            <input
+              type="email"
+              class="form-control"
+              id="emailInput"
+              placeholder="Votre adresse mail"
+            />
+          </div>
+          <div class="form-group">
+            <label for="nombre"></label>
+            <input
+              type="text"
+              class="form-control"
+              id="nombre"
+              placeholder="Votre prenom"
+            />
+          </div>
+          <div class="form-group form-check">
+            <input
+              type="checkbox"
+              class="form-check-input"
+              id="exampleCheck1"
+            />
+            <label class="form-check-label" id="monJaccepte" for="exampleCheck1"
+              >J'accepte de recevoir des offres commerciales</label
+            >
+          </div>
+          <button class="buttonFooter d-block mx-auto" type="submit">
+            M'inscrire
+          </button>
+        </form>
+      </article>
+      <!-- LOGO -->
+      <div class="imgFooterControl">
+        <img
+          class="img-fluid rounded mx-auto d-block"
+          src="../src/logo-126.png"
+          alt="logo hotel chambord"
+        />
+      </div>
+      <!-- TEXTE -->
+      <div class="text-center">
+        <div>
+          <p class="textSerifWhite">09-34-52-52-52</p>
+        </div>
+        <div>
+          <p class="textSerifWhite">hotel.chambord@contact.fr</p>
+        </div>
+        <div>
+          <p class="textSerifWhite">1 Avenue Montaigne 75008 - Paris</p>
+        </div>
+      </div>
+      <!-- BOUTON IMPRIMER -->
+      <button class="d-block mx-auto buttonFooter" id="print-page">
+        Imprimer
+      </button>
+      <!-- LIENS -->
+      <section class="text-center textSerifWhite">
+        <nav>
+          <ul class="nav flex-column controlFooter">
+            <li>
+              <a class="nav-link text-white" href="plan-site.html"
+                >Plan du site</a
+              >
             </li>
-            <!-- RESTAURANT -->
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle textSerifBlack" href="restaurant.html" role="button"
-                data-bs-toggle="dropdown" aria-expanded="false">Restaurant</a>
-              <ul class="dropdown-menu bg-dark">
-                <li>
-                  <a class="dropdown-item text-white textSerifBlack" href="restaurant.html">Restaurant - Le Grand
-                    Chambord</a>
-                </li>
-              </ul>
+            <li>
+              <a class="nav-link text-white" href="recrutement.html"
+                >Recrutement</a
+              >
             </li>
-            <!-- SPA -->
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle textSerifBlack" href="spa.html" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">Le Spa</a>
-              <ul class="dropdown-menu bg-dark">
-                <li>
-                  <a class="dropdown-item text-white textSerifBlack" href="spa.html">Spa - Divinity Chambord</a>
-                </li>
-              </ul>
+            <li>
+              <a class="nav-link text-white" href="mention-legales.html"
+                >Mention Légales</a
+              >
             </li>
-            <li class="nav-item">
-              <a class="nav-link active textSerifBlack" aria-current="page" href="reservation.html">Réservation</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle textSerifBlack" href="#" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">Le Chambord</a>
-              <ul class="dropdown-menu bg-dark">
-                <li>
-                  <a class="dropdown-item text-white textSerifBlack" href="lhotel.html">L'hôtel - Qui sommes-nous?</a>
-                </li>
-                <li>
-                  <a class="dropdown-item text-white textSerifBlack" href="acces.html">Accès</a>
-                </li>
-                <li>
-                  <a class="dropdown-item text-white textSerifBlack" href="contact.html">Nous contacter</a>
-                </li>
-                <li>
-                  <a class="dropdown-item text-white textSerifBlack" href="avis-client.html">Avis clients</a>
-                </li>
-                <li>
-                  <a class="dropdown-item text-white textSerifBlack" href="evenement.html">Événement</a>
-                </li>
-                <li>
-                  <a class="dropdown-item text-white textSerifBlack" href="presse.html">Presse</a>
-                </li>
-                <li>
-                  <a class="dropdown-item text-white textSerifBlack" href="actualites.html">Actualités</a>
-                </li>
-              </ul>
+            <li>
+              <a
+                class="nav-link text-white"
+                href="contidition-generales-de-vente.html"
+                >Contidition Generales De Vente</a
+              >
             </li>
           </ul>
-          <!-- CHANGEMENT DE L'ELEMENT SHEAR POUR UNE IMG (loupe) -->
-          <form class="d-flex mb-1" id="marginSearch">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success border-0" type="submit">
-              <img src="../src/lupe.png" alt="image d'une loupe pour faire une recherche" width="45" height="45"
-                class="img-fluid">
-            </button>
-          </form>
-        </div>
-      </div>
-    </nav>
-  </header>
-  <!-- ICI COMMENCE MON MAIN -->
-  <main class="col-md-11 mx-auto">
-    <!-- ****************************** CONTACT ****************************** -->
-    <!-- DIV SEPARATION -->
-    <div class="separationAvecDiv"></div>
-    <!-- TEXTSECTION -->
-    <article>
-      <h1 class="reglageText">Newsletter</h1>
-    </article>
-    <!-- FORMULAIRE CONTACT -->
-    <form class="contact-form">
-      <div class="form-group">
-        <label class="form-label" for="lastname">Nom:</label>
-        <input class="form-input" type="text" id="lastname" name="lastname">
-      </div>
-      <div class="form-group">
-        <label class="form-label" for="firstname">Prenom:</label>
-        <input class="form-input" type="text" id="firstname" name="firstname">
-      </div>
-      <div class="form-group">
-        <label class="form-label" for="eMail">E-mail:</label>
-        <input class="form-input" type="email" id="eMail" name="eMail">
-      </div>
-      <div class="form-group">
-        <label class="form-label" for="categorie">Catégorie:</label>
-        <select class="form-input" id="categorie" name="categorie">
-          <option value="">Choisir une option</option>
-          <option value="classiqueRoom">Hébergements</option>
-          <option value="confortRoom">Restaurant Le Grand Chambord</option>
-          <option value="deluxeRoom">Spa - Divinity Chambord</option>
-        </select>
-      </div>
-      <button class="form-button" type="submit">Envoyer</button>
-    </form>
-    <div class="messageDeEnvoi">
-      <div id="mesageoOculte">
-        <p>Merci de votre intérêt pour notre Newsletter! Nous avons bien reçu votre demande et nous allons y répondre
-          dès que possible. Nous apprécions votre intérêt pour le Hotel Chambord et nous nous réjouissons de vous aider.
-        </p>
-      </div>
-    </div>
-    <!-- DIV SEPARATION -->
-    <div class="separationAvecDiv"></div>
-  </main>
-  <!-- ICI COMMENCE MON PIE DE PAGE -->
-  <footer>
-    <!-- TEXT/BUTTON -->
-    <article class="controlFooter">
-      <h2 class="textSerifWhite text-center">recevez la newsletter</h2>
-      <form class="col-5 mx-auto" id="myNewsletter">
-        <div class="form-group">
-          <label for="emailInput"></label>
-          <input type="email" class="form-control" id="emailInput" placeholder="Votre adresse mail">
-        </div>
-        <div class="form-group">
-          <label for="nombre"></label>
-          <input type="text" class="form-control" id="nombre" placeholder="Votre prenom">
-        </div>
-        <div class="form-group form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-          <label class="form-check-label" id="monJaccepte" for="exampleCheck1">J'accepte de recevoir des offres
-            commerciales</label>
-        </div>
-        <button class="buttonFooter d-block mx-auto" type="submit">M'inscrire</button>
-      </form>
-    </article>
-    <!-- LOGO -->
-    <div class="imgFooterControl">
-      <img class="img-fluid rounded mx-auto d-block" src="../src/logo-126.png" alt="logo hotel chambord">
-    </div>
-    <!-- TEXTE -->
-    <div class="text-center">
-      <div>
-        <p class="textSerifWhite">09-34-52-52-52</p>
-      </div>
-      <div>
-        <p class="textSerifWhite">hotel.chambord@contact.fr</p>
-      </div>
-      <div>
-        <p class="textSerifWhite">1 Avenue Montaigne 75008 - Paris</p>
-      </div>
-    </div>
-    <!-- BOUTON IMPRIMER -->
-    <button class="d-block mx-auto buttonFooter" id="print-page">Imprimer</button>
-    <!-- LIENS -->
-    <section class="text-center textSerifWhite">
-      <nav>
-        <ul class="nav flex-column controlFooter">
-          <li>
-            <a class="nav-link text-white" href="plan-site.html">Plan du site</a>
-          </li>
-          <li>
-            <a class="nav-link text-white" href="recrutement.html">Recrutement</a>
-          </li>
-          <li>
-            <a class="nav-link text-white" href="mention-legales.html">Mention Légales</a>
-          </li>
-          <li>
-            <a class="nav-link text-white" href="contidition-generales-de-vente.html">Contidition Generales De Vente</a>
-          </li>
-        </ul>
-      </nav>
-    </section>
-  </footer>
-  <script src="../app/newsletter.js"></script>
-  <script src="../app/app.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-    crossorigin="anonymous"></script>
-</body>
-
+        </nav>
+      </section>
+    </footer>
+    <script src="../app/newsletter.js"></script>
+    <script src="../app/app.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

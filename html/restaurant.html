@@ -1,360 +1,641 @@
 <!DOCTYPE html>
 <html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Hôtel Chambord 5 étoiles - Restaurant Le Grand Chambord, l’excellence culinaire fait depuis longtemps partie intégrante de l’expérience Chambord."
+    />
+    <link rel="icon" type="image/png" href="../src/logo-126.png" />
+    <link rel="stylesheet" href="../style/style.css" />
+    <link rel="stylesheet" href="../style/rest.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aboreto&family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <title>Restaurant Le Grand Chambord</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description"
-    content="Hôtel Chambord 5 étoiles - Restaurant Le Grand Chambord, l’excellence culinaire fait depuis longtemps partie intégrante de l’expérience Chambord.">
-  <link rel="icon" type="image/png" href="../src/logo-126.png">
-  <link rel="stylesheet" href="../style/style.css">
-  <link rel="stylesheet" href="../style/rest.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Roboto:wght@100&display=swap" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-  <title>Restaurant Le Grand Chambord</title>
-</head>
-
-<body>
-  <!-- ICI COMMENCE MON HEADER -->
-  <header>
-    <!-- NAVBAR AVEC BOOTSTRAP -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top col-xl-11 mx-auto">
-      <div class="container-fluid bg-white">
-        <!-- DROPDOWN LANGUES -->
-        <div class="xtrSmall col-lg-2">
-          <div class="btn-group">
-            <button class="btn btn-secondary btn-sm dropdown-toggle text-muted bg-white border-0 textSerifBlack"
-              type="button" data-bs-toggle="dropdown" aria-expanded="false">LANGUAGES</button>
-            <ul class="dropdown-menu bg-dark min-w-null">
-              <li>
-                <a class="dropdown-item text-white textSerifBlack" id="english" href="#">English</a>
-              </li>
-              <li>
-                <a class="dropdown-item text-white textSerifBlack" id="spanish" href="#">Spanish</a>
-              </li>
-              <li>
-                <a class="dropdown-item text-white textSerifBlack" id="french" href="#">French</a>
-              </li>
-            </ul>
-            <div class="row align-items-center">
-              <img src="../src/anglais523.jpg" alt="drapeu american" id="englishFlag" width="20" height="20"
-                class="flag">
-              <img src="../src/espagne225.jpg" alt="drapeu espagnol" id="spanishFlag" width="20" height="20"
-                class="flag">
-              <img src="../src/france295.jpg" alt="drapeu français" id="frenchFlag" width="20" height="20" class="flag">
+  <body>
+    <!-- ICI COMMENCE MON HEADER -->
+    <header>
+      <!-- NAVBAR AVEC BOOTSTRAP -->
+      <nav
+        class="navbar navbar-expand-lg navbar-light fixed-top col-xl-11 mx-auto"
+      >
+        <div class="container-fluid bg-white">
+          <!-- DROPDOWN LANGUES -->
+          <div class="xtrSmall col-lg-2">
+            <div class="btn-group">
+              <button
+                class="btn btn-secondary btn-sm dropdown-toggle text-muted bg-white border-0 textSerifBlack"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                LNG
+              </button>
+              <ul class="dropdown-menu bg-dark min-w-null">
+                <li>
+                  <a
+                    class="dropdown-item text-white textSerifBlack"
+                    id="english"
+                    href="#"
+                    >English</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item text-white textSerifBlack"
+                    id="spanish"
+                    href="#"
+                    >Spanish</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item text-white textSerifBlack"
+                    id="french"
+                    href="#"
+                    >French</a
+                  >
+                </li>
+              </ul>
+              <div class="row align-items-center">
+                <img
+                  src="../src/anglais523.jpg"
+                  alt="drapeu american"
+                  id="englishFlag"
+                  width="20"
+                  height="20"
+                  class="flag"
+                />
+                <img
+                  src="../src/espagne225.jpg"
+                  alt="drapeu espagnol"
+                  id="spanishFlag"
+                  width="20"
+                  height="20"
+                  class="flag"
+                />
+                <img
+                  src="../src/france295.jpg"
+                  alt="drapeu français"
+                  id="frenchFlag"
+                  width="20"
+                  height="20"
+                  class="flag"
+                />
+              </div>
             </div>
           </div>
+          <!-- IMAGE LOGO AVEC LIENS ACCUEIL-->
+          <div class="col-lg-1">
+            <a class="navbar-brand" href="../index.html">
+              <img
+                src="../src/logo-126.png"
+                alt="logo hotel chambord"
+                class="d-inline-block align-text-top imgLogo"
+              />
+            </a>
+          </div>
+          <!-- NAVBAR BURGUER -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- NAV AVEC LES DIF PAGES -->
+          <div
+            class="collapse navbar-collapse col-lg-4"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="marginList">
+              <!-- CHAMBRES -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle textSerifBlack"
+                  href="chambres.html"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >Hébergement</a
+                >
+                <ul class="dropdown-menu bg-dark">
+                  <li>
+                    <a
+                      class="dropdown-item text-white textSerifBlack"
+                      href="chambre-classique.html"
+                      >Classique</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item text-white textSerifBlack"
+                      href="chambre-confort.html"
+                      >Confort</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item text-white textSerifBlack"
+                      href="chambre-deluxe.html"
+                      >Deluxe</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item text-white textSerifBlack"
+                      href="chambre-suite.html"
+                      >Suite</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item text-white textSerifBlack"
+                      href="chambres.html"
+                      >Voir toutes les chambres</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <!-- RESTAURANT -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle textSerifBlack"
+                  href="restaurant.html"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >Restaurant</a
+                >
+                <ul class="dropdown-menu bg-dark">
+                  <li>
+                    <a
+                      class="dropdown-item text-white textSerifBlack"
+                      href="restaurant.html"
+                      >Restaurant - Le Grand Chambord</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <!-- SPA -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle textSerifBlack"
+                  href="spa.html"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >Le Spa</a
+                >
+                <ul class="dropdown-menu bg-dark">
+                  <li>
+                    <a
+                      class="dropdown-item text-white textSerifBlack"
+                      href="spa.html"
+                      >Spa - Divinity Chambord</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active textSerifBlack"
+                  aria-current="page"
+                  href="reservation.html"
+                  >Réservation</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle textSerifBlack"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >Le Chambord</a
+                >
+                <ul class="dropdown-menu bg-dark">
+                  <li>
+                    <a
+                      class="dropdown-item text-white textSerifBlack"
+                      href="lhotel.html"
+                      >L'hôtel - Qui sommes-nous?</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item text-white textSerifBlack"
+                      href="acces.html"
+                      >Accès</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item text-white textSerifBlack"
+                      href="contact.html"
+                      >Nous contacter</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item text-white textSerifBlack"
+                      href="avis-client.html"
+                      >Avis clients</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item text-white textSerifBlack"
+                      href="evenement.html"
+                      >Événement</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item text-white textSerifBlack"
+                      href="presse.html"
+                      >Presse</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item text-white textSerifBlack"
+                      href="actualites.html"
+                      >Actualités</a
+                    >
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <!-- CHANGEMENT DE L'ELEMENT SHEAR POUR UNE IMG (loupe) -->
+            <form class="d-flex mb-1" id="marginSearch">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success border-0" type="submit">
+                <img
+                  src="../src/lupe.png"
+                  alt="image d'une loupe pour faire une recherche"
+                  width="45"
+                  height="45"
+                  class="img-fluid"
+                />
+              </button>
+            </form>
+          </div>
         </div>
-        <!-- IMAGE LOGO AVEC LIENS ACCUEIL-->
-        <div class="col-lg-1">
-          <a class="navbar-brand" href="../index.html">
-            <img src="../src/logo-126.png" alt="logo hotel chambord" class="d-inline-block align-text-top imgLogo">
-          </a>
-        </div>
-        <!-- NAVBAR BURGUER -->
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <!-- NAV AVEC LES DIF PAGES -->
-        <div class="collapse navbar-collapse col-lg-4" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="marginList">
-            <!-- CHAMBRES -->
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle textSerifBlack" href="chambres.html" role="button"
-                data-bs-toggle="dropdown" aria-expanded="false">Hébergement</a>
-              <ul class="dropdown-menu bg-dark">
-                <li>
-                  <a class="dropdown-item text-white textSerifBlack" href="chambre-classique.html">Classique</a>
-                </li>
-                <li>
-                  <a class="dropdown-item text-white textSerifBlack" href="chambre-confort.html">Confort</a>
-                </li>
-                <li>
-                  <a class="dropdown-item text-white textSerifBlack" href="chambre-deluxe.html">Deluxe</a>
-                </li>
-                <li>
-                  <a class="dropdown-item text-white textSerifBlack" href="chambre-suite.html">Suite</a>
-                </li>
-                <li>
-                  <a class="dropdown-item text-white textSerifBlack" href="chambres.html">Voir toutes les chambres</a>
-                </li>
-              </ul>
-            </li>
-            <!-- RESTAURANT -->
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle textSerifBlack" href="restaurant.html" role="button"
-                data-bs-toggle="dropdown" aria-expanded="false">Restaurant</a>
-              <ul class="dropdown-menu bg-dark">
-                <li>
-                  <a class="dropdown-item text-white textSerifBlack" href="restaurant.html">Restaurant - Le Grand
-                    Chambord</a>
-                </li>
-              </ul>
-            </li>
-            <!-- SPA -->
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle textSerifBlack" href="spa.html" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">Le Spa</a>
-              <ul class="dropdown-menu bg-dark">
-                <li>
-                  <a class="dropdown-item text-white textSerifBlack" href="spa.html">Spa - Divinity Chambord</a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active textSerifBlack" aria-current="page" href="reservation.html">Réservation</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle textSerifBlack" href="#" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">Le Chambord</a>
-              <ul class="dropdown-menu bg-dark">
-                <li>
-                  <a class="dropdown-item text-white textSerifBlack" href="lhotel.html">L'hôtel - Qui sommes-nous?</a>
-                </li>
-                <li>
-                  <a class="dropdown-item text-white textSerifBlack" href="acces.html">Accès</a>
-                </li>
-                <li>
-                  <a class="dropdown-item text-white textSerifBlack" href="contact.html">Nous contacter</a>
-                </li>
-                <li>
-                  <a class="dropdown-item text-white textSerifBlack" href="avis-client.html">Avis clients</a>
-                </li>
-                <li>
-                  <a class="dropdown-item text-white textSerifBlack" href="evenement.html">Événement</a>
-                </li>
-                <li>
-                  <a class="dropdown-item text-white textSerifBlack" href="presse.html">Presse</a>
-                </li>
-                <li>
-                  <a class="dropdown-item text-white textSerifBlack" href="actualites.html">Actualités</a>
-                </li>
-              </ul>
-            </li>
-          </ul>
-          <!-- CHANGEMENT DE L'ELEMENT SHEAR POUR UNE IMG (loupe) -->
-          <form class="d-flex mb-1" id="marginSearch">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success border-0" type="submit">
-              <img src="../src/lupe.png" alt="image d'une loupe pour faire une recherche" width="45" height="45"
-                class="img-fluid">
-            </button>
-          </form>
-        </div>
+      </nav>
+    </header>
+    <!-- ICI COMMENCE MA PAGE RESTAURANT -->
+    <main class="col-md-11 mx-auto">
+      <!-- SECTION TITRE -->
+      <article class="justify-content-center align-items-center titresCentre">
+        <h1 class="textSerifWhite text-center">le Chambord</h1>
+        <h6 class="textSerifWhite text-center">restaurant gastronomique</h6>
+        <h6 class="textSerifWhite text-center">
+          1 avenue montaigne paris 75008
+        </h6>
+      </article>
+      <!-- VIDEO -->
+      <div>
+        <video autoplay loop muted id="video-background" class="scrollopcty">
+          <source src="../src/video-rest-124.mp4" type="video/mp4" />
+        </video>
       </div>
-    </nav>
-  </header>
-  <!-- ICI COMMENCE MA PAGE RESTAURANT -->
-  <main class="col-md-11 mx-auto">
-    <!-- SECTION TITRE -->
-    <article class="justify-content-center align-items-center titresCentre">
-      <h1 class="textSerifWhite text-center">le Chambord</h1>
-      <h6 class="textSerifWhite text-center">restaurant gastronomique</h6>
-      <h6 class="textSerifWhite text-center">1 avenue montaigne paris 75008</h6>
-    </article>
-    <!-- VIDEO -->
-    <div>
-      <video autoplay loop muted id="video-background" class="scrollopcty">
-        <source src="../src/video-rest-124.mp4" type="video/mp4">
-      </video>
-    </div>
-    <!-- DIV SEPARATION -->
-    <div class="separationAvecDiv "></div>
-    <!-- PRESENTATION DU RESTAURANT -->
-    <article class="control-margin-import ">
-      <h5 class="reglageText">L’excellence culinaire fait depuis longtemps partie intégrante de l’expérience Chambord.
-      </h5>
-    </article>
-    <!-- SECTION TEXTE -->
-    <article class="control-margin-import  d-md-none">
-      <p class="justifyParagraphe">Le restaurant de cet hôtel 5 étoiles offre une expérience culinaire de premier ordre.
-        La cuisine est inventive et les plats sont préparés avec les ingrédients les plus frais et les plus de saison.
-        Le menu propose une sélection de plats internationaux et locaux pour satisfaire les goûts de tous les invités.
-      </p>
-    </article>
-    <!-- IMG  -->
-    <div class="col imagesVarias d-md-none">
-      <img src="../src/cucharas-256.jpg" alt="3 cuillères avec des épices" class="img-fluid">
-    </div>
-    <div class="d-none d-lg-flex" id="monTextWImg">
+      <!-- DIV SEPARATION -->
+      <div class="separationAvecDiv"></div>
+      <!-- PRESENTATION DU RESTAURANT -->
+      <article class="control-margin-import">
+        <h5 class="reglageText">
+          L’excellence culinaire fait depuis longtemps partie intégrante de
+          l’expérience Chambord.
+        </h5>
+      </article>
+      <!-- SECTION TEXTE -->
+      <article class="control-margin-import d-md-none">
+        <p class="justifyParagraphe">
+          Le restaurant de cet hôtel 5 étoiles offre une expérience culinaire de
+          premier ordre. La cuisine est inventive et les plats sont préparés
+          avec les ingrédients les plus frais et les plus de saison. Le menu
+          propose une sélection de plats internationaux et locaux pour
+          satisfaire les goûts de tous les invités.
+        </p>
+      </article>
       <!-- IMG  -->
-      <div class="imagesVarias col-5">
-        <img src="../src/cucharas-256.jpg" alt="cuillères avec des épices" class="img-fluid">
+      <div class="col imagesVarias d-md-none">
+        <img
+          src="../src/cucharas-256.jpg"
+          alt="3 cuillères avec des épices"
+          class="img-fluid"
+        />
+      </div>
+      <div class="d-none d-lg-flex" id="monTextWImg">
+        <!-- IMG  -->
+        <div class="imagesVarias col-5">
+          <img
+            src="../src/cucharas-256.jpg"
+            alt="cuillères avec des épices"
+            class="img-fluid"
+          />
+        </div>
+        <!-- SECTION TEXTE -->
+        <div class="col-5">
+          <article class="control-margin-import">
+            <p class="monParaGraphe justifyParagraphe">
+              Le restaurant de cet hôtel 5 étoiles offre une expérience
+              culinaire de premier ordre. La cuisine est inventive et les plats
+              sont préparés avec les ingrédients les plus frais et les plus de
+              saison. Le menu propose une sélection de plats internationaux et
+              locaux pour satisfaire les goûts de tous les invités.
+            </p>
+          </article>
+          <!-- SECTION TEXTE -->
+          <article class="control-margin-import">
+            <p class="monParaGraphe justifyParagraphe">
+              Le bar du restaurant propose une sélection de boissons et de
+              cocktails haut de gamme pour accompagner votre repas. Enfin, un
+              service en chambre est également disponible pour les invités
+              souhaitant manger dans le confort de leur chambre. Le restaurant
+              de cet hôtel 5 étoiles offre une expérience culinaire inoubliable
+              pour les voyageurs les plus exigeants.
+            </p>
+          </article>
+        </div>
       </div>
       <!-- SECTION TEXTE -->
-      <div class="col-5">
-        <article class="control-margin-import ">
-          <p class="monParaGraphe justifyParagraphe">Le restaurant de cet hôtel 5 étoiles offre une expérience culinaire
-            de premier ordre. La cuisine est inventive et les plats sont préparés avec les ingrédients les plus frais et
-            les plus de saison. Le menu propose une sélection de plats internationaux et locaux pour satisfaire les
-            goûts de tous les invités. </p>
+      <article class="control-margin-import d-md-none">
+        <p class="justifyParagraphe">
+          Le bar du restaurant propose une sélection de boissons et de cocktails
+          haut de gamme pour accompagner votre repas. Enfin, un service en
+          chambre est également disponible pour les invités souhaitant manger
+          dans le confort de leur chambre. Le restaurant de cet hôtel 5 étoiles
+          offre une expérience culinaire inoubliable pour les voyageurs les plus
+          exigeants.
+        </p>
+      </article>
+      <!-- TEXT VIDEO 2 -->
+      <div class="position-relative">
+        <div
+          class="position-absolute top-0 start-50 translate-middle-x spacealone"
+        >
+          <!-- <div class="spacealone"></div> -->
+          <h2 class="textSerifWhite text-center">
+            Une carte dédiée à chaque occasion
+          </h2>
+        </div>
+      </div>
+      <!-- SECTION VIDEO -->
+      <div>
+        <video autoplay loop muted class="scrollopcty">
+          <source src="../src/video-rest-128.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <!-- SECTION TEXTE -->
+      <article class="control-margin-import">
+        <p class="monParaGraphe justifyParagraphe">
+          Le personnel attentionné et professionnel est à votre disposition pour
+          vous guider dans le choix de votre menu et pour répondre à toutes vos
+          demandes. La salle à manger spacieuse et élégante est décorée avec
+          goût et dotée de larges fenêtres pour profiter de la vue sur la ville
+          ou la nature environnante.
+        </p>
+      </article>
+      <!-- **************************** LES CARTES **************************** -->
+      <div class="maSectionJs">
+        <!-- BUTTON/CARTE -->
+        <article
+          class="d-flex flex-column align-items-center justify-content-center menusCartesM"
+        >
+          <h3 class="textSerifBlack">Brasserie</h3>
+          <button
+            type="button"
+            class="btn text-lin-gar-font butonConClick butonGeneral"
+            data-id="1"
+          >
+            Voir la carte
+          </button>
+          <img
+            src="../src/menu-brasserie-452.jpg"
+            alt="menu déjeuner"
+            class="menusVarios"
+            data-id="1"
+          />
         </article>
-        <!-- SECTION TEXTE -->
-        <article class="control-margin-import ">
-          <p class="monParaGraphe justifyParagraphe">Le bar du restaurant propose une sélection de boissons et de
-            cocktails haut de gamme pour accompagner votre repas. Enfin, un service en chambre est également disponible
-            pour les invités souhaitant manger dans le confort de leur chambre. Le restaurant de cet hôtel 5 étoiles
-            offre une expérience culinaire inoubliable pour les voyageurs les plus exigeants.</p>
+        <!-- DIV SEPARATION -->
+        <div class="separationAvecDiv"></div>
+        <!-- IMG ENTRE CARTES -->
+        <div class="col imagesVarias">
+          <img
+            src="../src/restaurant/plat-1-resto.jpg"
+            alt="Assiettes dessert"
+            class="img-fluid"
+          />
+        </div>
+        <!-- BUTTON/CARTE -->
+        <article
+          class="d-flex flex-column align-items-center justify-content-center menusCartesM"
+        >
+          <h3 class="textSerifBlack">Dégustation</h3>
+          <button
+            type="button"
+            class="btn text-lin-gar-font butonConClick butonGeneral"
+            data-id="2"
+          >
+            Voir la carte
+          </button>
+          <img
+            src="../src/menu-degustation-462.jpg"
+            alt="menu dégustation"
+            class="menusVarios"
+            data-id="2"
+          />
         </article>
-      </div>
-    </div>
-    <!-- SECTION TEXTE -->
-    <article class="control-margin-import  d-md-none">
-      <p class="justifyParagraphe">Le bar du restaurant propose une sélection de boissons et de cocktails haut de gamme
-        pour accompagner votre repas. Enfin, un service en chambre est également disponible pour les invités souhaitant
-        manger dans le confort de leur chambre. Le restaurant de cet hôtel 5 étoiles offre une expérience culinaire
-        inoubliable pour les voyageurs les plus exigeants.</p>
-    </article>
-    <!-- TEXT VIDEO 2 -->
-    <div class="position-relative">
-      <div class="position-absolute top-0 start-50 translate-middle-x spacealone">
-        <!-- <div class="spacealone"></div> -->
-        <h2 class="textSerifWhite text-center">Une carte dédiée à chaque occasion</h2>
-      </div>
-    </div>
-    <!-- SECTION VIDEO -->
-    <div>
-      <video autoplay loop muted class="scrollopcty">
-        <source src="../src/video-rest-128.mp4" type="video/mp4">
-      </video>
-    </div>
-    <!-- SECTION TEXTE -->
-    <article class="control-margin-import ">
-      <p class="monParaGraphe justifyParagraphe">Le personnel attentionné et professionnel est à votre disposition pour
-        vous guider dans le choix de votre menu et pour répondre à toutes vos demandes. La salle à manger spacieuse et
-        élégante est décorée avec goût et dotée de larges fenêtres pour profiter de la vue sur la ville ou la nature
-        environnante.</p>
-    </article>
-    <!-- **************************** LES CARTES **************************** -->
-    <div class="maSectionJs">
-      <!-- BUTTON/CARTE -->
-      <article class="d-flex flex-column align-items-center justify-content-center menusCartesM">
-        <h3 class="textSerifBlack">Brasserie</h3>
-        <button type="button" class="btn text-lin-gar-font butonConClick butonGeneral" data-id="1">Voir la
-          carte</button>
-        <img src="../src/menu-brasserie-452.jpg" alt="menu déjeuner" class="menusVarios" data-id="1">
-      </article>
-      <!-- DIV SEPARATION -->
-      <div class="separationAvecDiv "></div>
-      <!-- IMG ENTRE CARTES -->
-      <div class="col imagesVarias">
-        <img src="../src/restaurant/plat-1-resto.jpg" alt="Assiettes dessert" class="img-fluid">
-      </div>
-      <!-- BUTTON/CARTE -->
-      <article class="d-flex flex-column align-items-center justify-content-center menusCartesM">
-        <h3 class="textSerifBlack">Dégustation</h3>
-        <button type="button" class="btn text-lin-gar-font butonConClick butonGeneral" data-id="2">Voir la
-          carte</button>
-        <img src="../src/menu-degustation-462.jpg" alt="menu dégustation" class="menusVarios" data-id="2">
-      </article>
-      <!-- DIV SEPARATION -->
-      <div class="separationAvecDiv "></div>
-      <!-- IMG ENTRE CARTES -->
-      <div class="col imagesVarias">
-        <img src="../src/restaurant/plat-2-resto.jpg" alt="Assiette dessert" class="img-fluid">
-      </div>
-      <!-- BUTTON/CARTE -->
-      <article class="d-flex flex-column align-items-center justify-content-center menusCartesM">
-        <h3 class="textSerifBlack">Restaurant</h3>
-        <button type="button" class="btn text-lin-gar-font butonConClick butonGeneral" data-id="3">Voir la
-          carte</button>
-        <img src="../src/menu-restaurant-45412.jpg" alt="menu restaurant de soir" class="menusVarios" data-id="3">
-      </article>
-      <!-- DIV SEPARATION -->
-      <div class="separationAvecDiv "></div>
-      <!-- IMG ENTRE CARTES -->
-      <div class="col imagesVarias">
-        <img src="../src/chef-125.jpg" alt="Chef Nicolas Boreez" class="img-fluid">
-      </div>
-    </div>
-    <!-- **************************** LE CHEF **************************** -->
-    <!-- PRESENTATION DU RESTAURANT -->
-    <article class="control-margin-import ">
-      <h5 class="reglageText">Notre chef étoilé.</h5>
-    </article>
-    <!-- SECTION TEXTE -->
-    <article class="control-margin-import ">
-      <p class="monParaGraphe justifyParagraphe">Nicolas Boreez débute son aventure gastronomique par de petits
-        établissements parisiens, puis des maisons étoilées tels que Le Beauvilliers et le restaurant doublement étoilé
-        Michel Rostang, en tant qu’apprenti.</p>
-      <p class="monParaGraphe justifyParagraphe">De son passage dans l’émission TOP CHEF 2017, Boreez gardera le goût de
-        la compétition et du défi. Dans la même période, il ouvre son premier restaurant Leuvron en février 2018 à
-        Saint-Germain-en-Laye.</p>
-      <p class="monParaGraphe justifyParagraphe">La sensibilité artistique de Boreez fait le succès de ses assiettes
-        inventives et tout en équilibre. Une cuisine poétique, empreinte de couleurs, senteurs et textures, inspirée de
-        la terre, du végétal et du minéral.</p>
-    </article>
-  </main>
-  <!-- ICI COMMENCE MON PIE DE PAGE -->
-  <footer>
-    <!-- TEXT/BUTTON -->
-    <article class="controlFooter">
-      <h2 class="textSerifWhite text-center">recevez la newsletter</h2>
-      <form class="col-5 mx-auto" id="myNewsletter">
-        <div class="form-group">
-          <label for="emailInput"></label>
-          <input type="email" class="form-control" id="emailInput" placeholder="Votre adresse mail">
+        <!-- DIV SEPARATION -->
+        <div class="separationAvecDiv"></div>
+        <!-- IMG ENTRE CARTES -->
+        <div class="col imagesVarias">
+          <img
+            src="../src/restaurant/plat-2-resto.jpg"
+            alt="Assiette dessert"
+            class="img-fluid"
+          />
         </div>
-        <div class="form-group">
-          <label for="nombre"></label>
-          <input type="text" class="form-control" id="nombre" placeholder="Votre prenom">
+        <!-- BUTTON/CARTE -->
+        <article
+          class="d-flex flex-column align-items-center justify-content-center menusCartesM"
+        >
+          <h3 class="textSerifBlack">Restaurant</h3>
+          <button
+            type="button"
+            class="btn text-lin-gar-font butonConClick butonGeneral"
+            data-id="3"
+          >
+            Voir la carte
+          </button>
+          <img
+            src="../src/menu-restaurant-45412.jpg"
+            alt="menu restaurant de soir"
+            class="menusVarios"
+            data-id="3"
+          />
+        </article>
+        <!-- DIV SEPARATION -->
+        <div class="separationAvecDiv"></div>
+        <!-- IMG ENTRE CARTES -->
+        <div class="col imagesVarias">
+          <img
+            src="../src/chef-125.jpg"
+            alt="Chef Nicolas Boreez"
+            class="img-fluid"
+          />
         </div>
-        <div class="form-group form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-          <label class="form-check-label" id="monJaccepte" for="exampleCheck1">J'accepte de recevoir des offres
-            commerciales</label>
+      </div>
+      <!-- **************************** LE CHEF **************************** -->
+      <!-- PRESENTATION DU RESTAURANT -->
+      <article class="control-margin-import">
+        <h5 class="reglageText">Notre chef étoilé.</h5>
+      </article>
+      <!-- SECTION TEXTE -->
+      <article class="control-margin-import">
+        <p class="monParaGraphe justifyParagraphe">
+          Nicolas Boreez débute son aventure gastronomique par de petits
+          établissements parisiens, puis des maisons étoilées tels que Le
+          Beauvilliers et le restaurant doublement étoilé Michel Rostang, en
+          tant qu’apprenti.
+        </p>
+        <p class="monParaGraphe justifyParagraphe">
+          De son passage dans l’émission TOP CHEF 2017, Boreez gardera le goût
+          de la compétition et du défi. Dans la même période, il ouvre son
+          premier restaurant Leuvron en février 2018 à Saint-Germain-en-Laye.
+        </p>
+        <p class="monParaGraphe justifyParagraphe">
+          La sensibilité artistique de Boreez fait le succès de ses assiettes
+          inventives et tout en équilibre. Une cuisine poétique, empreinte de
+          couleurs, senteurs et textures, inspirée de la terre, du végétal et du
+          minéral.
+        </p>
+      </article>
+    </main>
+    <!-- ICI COMMENCE MON PIE DE PAGE -->
+    <footer>
+      <!-- TEXT/BUTTON -->
+      <article class="controlFooter">
+        <h2 class="textSerifWhite text-center">recevez la newsletter</h2>
+        <form class="col-5 mx-auto" id="myNewsletter">
+          <div class="form-group">
+            <label for="emailInput"></label>
+            <input
+              type="email"
+              class="form-control"
+              id="emailInput"
+              placeholder="Votre adresse mail"
+            />
+          </div>
+          <div class="form-group">
+            <label for="nombre"></label>
+            <input
+              type="text"
+              class="form-control"
+              id="nombre"
+              placeholder="Votre prenom"
+            />
+          </div>
+          <div class="form-group form-check">
+            <input
+              type="checkbox"
+              class="form-check-input"
+              id="exampleCheck1"
+            />
+            <label class="form-check-label" id="monJaccepte" for="exampleCheck1"
+              >J'accepte de recevoir des offres commerciales</label
+            >
+          </div>
+          <button class="buttonFooter d-block mx-auto" type="submit">
+            M'inscrire
+          </button>
+        </form>
+      </article>
+      <!-- LOGO -->
+      <div class="imgFooterControl">
+        <img
+          class="img-fluid rounded mx-auto d-block"
+          src="../src/logo-126.png"
+          alt="logo hotel chambord"
+        />
+      </div>
+      <!-- TEXTE -->
+      <div class="text-center">
+        <div>
+          <p class="textSerifWhite">09-34-52-52-52</p>
         </div>
-        <button class="buttonFooter d-block mx-auto" type="submit">M'inscrire</button>
-      </form>
-    </article>
-    <!-- LOGO -->
-    <div class="imgFooterControl">
-      <img class="img-fluid rounded mx-auto d-block" src="../src/logo-126.png" alt="logo hotel chambord">
-    </div>
-    <!-- TEXTE -->
-    <div class="text-center">
-      <div>
-        <p class="textSerifWhite">09-34-52-52-52</p>
+        <div>
+          <p class="textSerifWhite">hotel.chambord@contact.fr</p>
+        </div>
+        <div>
+          <p class="textSerifWhite">1 Avenue Montaigne 75008 - Paris</p>
+        </div>
       </div>
-      <div>
-        <p class="textSerifWhite">hotel.chambord@contact.fr</p>
-      </div>
-      <div>
-        <p class="textSerifWhite">1 Avenue Montaigne 75008 - Paris</p>
-      </div>
-    </div>
-    <!-- BOUTON IMPRIMER -->
-    <button class="d-block mx-auto buttonFooter" id="print-page">Imprimer</button>
-    <!-- LIENS -->
-    <section class="text-center textSerifWhite">
-      <nav>
-        <ul class="nav flex-column controlFooter">
-          <li>
-            <a class="nav-link text-white" href="plan-site.html">Plan du site</a>
-          </li>
-          <li>
-            <a class="nav-link text-white" href="recrutement.html">Recrutement</a>
-          </li>
-          <li>
-            <a class="nav-link text-white" href="mention-legales.html">Mention Légales</a>
-          </li>
-          <li>
-            <a class="nav-link text-white" href="contidition-generales-de-vente.html">Contidition Generales De Vente</a>
-          </li>
-        </ul>
-      </nav>
-    </section>
-  </footer>
-  <script src="../app/rest.js"></script>
-  <script src="../app/app.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-    crossorigin="anonymous"></script>
-</body>
-
+      <!-- BOUTON IMPRIMER -->
+      <button class="d-block mx-auto buttonFooter" id="print-page">
+        Imprimer
+      </button>
+      <!-- LIENS -->
+      <section class="text-center textSerifWhite">
+        <nav>
+          <ul class="nav flex-column controlFooter">
+            <li>
+              <a class="nav-link text-white" href="plan-site.html"
+                >Plan du site</a
+              >
+            </li>
+            <li>
+              <a class="nav-link text-white" href="recrutement.html"
+                >Recrutement</a
+              >
+            </li>
+            <li>
+              <a class="nav-link text-white" href="mention-legales.html"
+                >Mention Légales</a
+              >
+            </li>
+            <li>
+              <a
+                class="nav-link text-white"
+                href="contidition-generales-de-vente.html"
+                >Contidition Generales De Vente</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </section>
+    </footer>
+    <script src="../app/rest.js"></script>
+    <script src="../app/app.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
