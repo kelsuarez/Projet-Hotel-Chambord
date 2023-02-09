@@ -158,7 +158,14 @@ footer {
   font-size: 80%;
   color: white;
 }
+.iconesPartage{
+  width: 50px !important;
+  height: 50px !important;
+}
 
+.partageRss{
+  width: 247px;
+}
 /************************ FORMAT SMARPHONE MAX ************************/
 @media screen and (max-width: 990px) {
   .xtrSmall {
