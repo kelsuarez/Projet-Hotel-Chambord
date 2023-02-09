@@ -2,47 +2,57 @@
 body {
   padding-top: 81px;
   font-family: 'Roboto', sans-serif;
-  background: white!important;
+  background: white !important;
 }
+
 /* PADDING-NAV */
-header nav{
+header nav {
   padding-top: 0 !important;
 }
+
 /* CLASS DRAPEU */
-.flag{
+.flag {
   display: none;
 }
-.carousel{
+
+.carousel {
   max-height: 100%;
 }
-.min-w-null{
+
+.min-w-null {
   min-width: 0 !important;
 }
+
 /* TEXT-SERIF-GOLD */
-.textSerifGold{
+.textSerifGold {
   color: #e7b718;
   font-family: 'Aboreto', cursive;
 }
+
 /* TEXT-SERIF-WHITE */
-.textSerifWhite{
+.textSerifWhite {
   color: white;
   font-family: 'Aboreto', cursive;
 }
+
 /* TEXT-SERIF-BLACK */
-.textSerifBlack{
+.textSerifBlack {
   font-family: 'Aboreto', cursive;
   font-weight: bold;
 }
+
 /* DIV SEPARATION */
-.separationAvecDiv{
-  margin-top: 25px  !important;
+.separationAvecDiv {
+  margin-top: 25px !important;
   margin-bottom: 25px;
   border: 1px solid gray;
 }
+
 /* CLASS CONTROL MARGIN */
-.control-margin-import{
+.control-margin-import {
   margin: 20px 10px !important;
 }
+
 /* CLASS CONTROL VIDEO */
 .scrollopcty {
   top: 0;
@@ -56,7 +66,7 @@ header nav{
 
 
 
-.titresCentre{
+.titresCentre {
   width: 100%;
   height: 150px;
   position: absolute;
@@ -67,13 +77,13 @@ header nav{
   margin: 0 auto;
 }
 
-.imgLogo{
+.imgLogo {
   width: 75px;
   height: 70px;
 }
 
 
-.justifyParagraphe{
+.justifyParagraphe {
   text-align: justify;
 }
 
@@ -81,23 +91,25 @@ header nav{
 
 
 /* MODIF TEXTE */
-.reglageText{
+.reglageText {
   font-size: 20px;
   text-transform: uppercase;
   margin: 10px 0 10px 20px;
   font-family: 'Aboreto', cursive;
 }
+
 /* CONTROL TAILLE ICON */
-.iconControlLoc{
+.iconControlLoc {
   width: 20px;
   height: 20px;
   margin: auto 0 auto 20px;
 }
-.controlMargin{
+
+.controlMargin {
   margin-top: 20px;
 }
 
-.buttonGeneralW{
+.buttonGeneralW {
   width: 300px !important;
   margin: auto;
   padding: 10px;
@@ -110,85 +122,102 @@ header nav{
 }
 
 /************************ FOOTER ************************/
-footer{
+footer {
   background-color: rgb(10, 10, 10);
 }
-.buttonFooter{
-    width: 180px;
-    margin-top: 10px;
-    padding: 10px;
-    background-color: rgb(112, 110, 110);
-    color: black;
-    border-radius: 5px;
-    cursor: pointer;
-    font-weight: bold;
-    font-family: 'Aboreto', cursive;
+
+.buttonFooter {
+  width: 180px;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: rgb(112, 110, 110);
+  color: black;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: 'Aboreto', cursive;
 }
-.controlFooter{
+
+.controlFooter {
   padding: 20px 0;
 }
+
 /* LOGO FOOTER */
-.imgFooterControl{
+.imgFooterControl {
   padding-bottom: 20px;
 }
+
 /* LARGEUR INPUT NEWSLETTER */
-#myNewsletter{
+#myNewsletter {
   width: 50%;
 }
+
 /* TAILLE TEXT */
-#monJaccepte{
+#monJaccepte {
   font-size: 80%;
   color: white;
 }
 
 /************************ FORMAT SMARPHONE MAX ************************/
 @media screen and (max-width: 990px) {
-  .xtrSmall{
+  .xtrSmall {
     width: 140px !important;
   }
 }
+
 /************************ FORMAT IPAD ************************/
 @media screen and (min-width: 768px) {
+
   /* TITRES-VIDEO */
-  .xtrSmall{
+  .xtrSmall {
     width: 150px !important;
   }
-  .titresCentre h1{
+
+  .titresCentre h1 {
     font-size: 75px;
 
   }
-  .titresCentre h6{
+
+  .titresCentre h6 {
     font-size: 25px;
   }
 }
+
 /************************ FORMAT DESTOK ************************/
 @media screen and (min-width: 990px) {
+
   /* CAROUSEL-CONTROL */
-  .carouselControlSize{
+  .carouselControlSize {
     max-width: 70% !important;
     margin: auto;
   }
-  .xtrSmall{
+
+  .xtrSmall {
     width: 200px !important;
   }
-  .titresCentre h1{
+
+  .titresCentre h1 {
     font-size: 120px;
   }
-  .titresCentre h6{
+
+  .titresCentre h6 {
     font-size: 55px;
   }
-  .reglageText{
+
+  .reglageText {
     font-size: 40px;
   }
-  
+
 }
+
 /************************ FORMAT DESTOK XXL************************/
 @media screen and (min-width: 1320px) {
-  .textSerifBlack{
+  .textSerifBlack {
     font-size: 20px !important;
   }
+
   /* TEXT-PARA-1 */
-  .reglageText{
+  .reglageText {
     font-size: 80px;
     margin: 50px 0;
   }

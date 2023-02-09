@@ -3,27 +3,28 @@
     padding: 0;
 }
 
-.img-row-control{
+.img-row-control {
     padding: 0 !important;
     margin: 0 !important;
 }
 
-.text-serif-gold-sans{
+.text-serif-gold-sans {
     color: #000000;
     text-align: center !important;
     font-family: 'Aboreto', cursive;
 }
 
 /* CONTROL TAILLE MAP */
-.mapControl{
+.mapControl {
     width: 80%;
     margin: auto;
 }
 
 /* FORMAT DESTOK */
 @media screen and (min-width: 990px) {
+
     /* TAILLE-MAP */
-    .mapControl{
+    .mapControl {
         width: 30%;
         margin: auto;
     }

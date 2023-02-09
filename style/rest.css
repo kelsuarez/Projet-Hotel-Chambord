@@ -1,17 +1,20 @@
 /*ESPACE TITLE VIDEO*/
-.spacealone{
+.spacealone {
     margin-top: 50px;
 }
+
 /*CARTES MENUS D-NONE*/
-.menusVarios{
+.menusVarios {
     display: none;
 }
+
 /* SEPARATION DES TITLES MENUS */
-.menusCartesM{
+.menusCartesM {
     margin-top: 40px;
 }
+
 /* BUTTON GENERAL */
-.butonGeneral{
+.butonGeneral {
     width: 40%;
     font-family: 'Aboreto', cursive;
     background-color: grey !important;
@@ -21,37 +24,43 @@
 
 /* FORMAT SMARPHONE */
 @media screen and (min-width: 768px) {
-    article{
+    article {
         width: 90%;
         margin: auto;
     }
-    .imagesVarias{
+
+    .imagesVarias {
         width: 70%;
         margin: 20px auto;
     }
-    .spacealone h2{
+
+    .spacealone h2 {
         margin-top: 40px;
         font-size: 50px;
     }
 }
+
 /* FORMAT SMARPHONE */
 @media screen and (min-width: 990px) {
-    .imagesVarias{
+    .imagesVarias {
         width: 30% !important;
         margin: 20px auto;
     }
-    .spacealone h2{
+
+    .spacealone h2 {
         margin-top: 30%;
         font-size: 10vh;
     }
-    .monParaGraphe{
+
+    .monParaGraphe {
         font-size: 3.4vh;
     }
+
     #monTextWImg {
         margin-bottom: 50px;
     }
-    .maSectionJs h3{
+
+    .maSectionJs h3 {
         font-size: 50px !important;
     }
 }
-

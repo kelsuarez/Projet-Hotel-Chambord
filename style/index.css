@@ -1,31 +1,36 @@
 /* MODIF TEXTE */
-.reglageText{
+.reglageText {
     margin: 10px 0;
 }
+
 /* MODIF TEXTE VAR*/
-.reglageText1{
+.reglageText1 {
     font-size: 20px;
     margin: 10px 0;
     font-family: 'Aboreto', cursive;
 }
+
 /* MODIF TEXTE ONLY FONT */
-.reglageText2{
+.reglageText2 {
     text-transform: uppercase;
     font-family: 'Aboreto', cursive;
     font-size: 15px;
 }
+
 /* CONTROL TAILLE MAP */
-.mapControl{
+.mapControl {
     width: 80%;
     margin: auto;
 }
+
 /* MESSAGE DE FORMULAIRE ENVOIE */
-.messageDeEnvoi{
+.messageDeEnvoi {
     width: 80%;
     height: 100px;
     margin: 10px auto;
 }
-#mesageoOculte{
+
+#mesageoOculte {
     font-size: 13px;
     text-align: center;
     color: grey;
@@ -40,14 +45,17 @@
     background-color: rgb(231, 231, 219);
     border-radius: 15px;
 }
+
 .form-group {
     margin-top: 5px;
 }
+
 .form-label {
     font-weight: bold;
     font-family: 'Aboreto', cursive;
     display: block;
 }
+
 .form-input {
     width: 100%;
     padding: 10px;
@@ -55,6 +63,7 @@
     border-radius: 5px;
     box-sizing: border-box;
 }
+
 .form-button {
     width: 100%;
     margin-top: 20px;
@@ -69,42 +78,51 @@
 
 /* FORMAT IPAD */
 @media screen and (min-width: 768px) {
+
     /* TEXT-PARA-1 */
-    .reglageText{
+    .reglageText {
         font-size: 40px;
         margin: 20px 0;
     }
+
     /* MODIF TEXTE VAR*/
-    .reglageText1{
+    .reglageText1 {
         font-size: 25px;
-    } 
+    }
+
     /* MODIF TEXTE ONLY FONT */
-    .reglageText2{
+    .reglageText2 {
         font-size: 20px;
     }
 }
 
 /* FORMAT DESTOK */
 @media screen and (min-width: 990px) {
+
     /* TITRES-VIDEO */
-    .titres-DOS-centres{
+    .titres-DOS-centres {
         top: 300px;
     }
-    .titres-DOS-centres h1{
+
+    .titres-DOS-centres h1 {
         font-size: 150px;
     }
-    .titres-DOS-centres h6{
+
+    .titres-DOS-centres h6 {
         font-size: 50px;
     }
-    .maCardDestok{
+
+    .maCardDestok {
         width: 400px !important;
     }
+
     /* TAILLE-MAP */
-    .mapControl{
+    .mapControl {
         width: 30%;
         margin: auto;
     }
-    #mesageoOculte{
+
+    #mesageoOculte {
         font-size: 20px;
     }
 }

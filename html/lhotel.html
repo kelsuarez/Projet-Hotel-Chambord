@@ -1,229 +1,298 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Hôtel Chambord 5 étoiles, un environnement luxueux et raffiné pour les voyageurs les plus exigeants. Hébergement, Restaurant, Spa... Hotel Chambord, le meilleur du luxe">
-    <link rel="icon" type="image/png" href="../src/logo-126.png">
-    <link rel="stylesheet" href="../style/style.css">
-    <link rel="stylesheet" href="../style/lhotel.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Roboto:wght@100&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <title>Hotel Chambor</title>
-  </head>
-  <body>
-    <!-- ICI COMMENCE MON HEADER -->
-    <header>
-      <!-- NAVBAR AVEC BOOTSTRAP -->
-      <nav class="navbar navbar-expand-lg navbar-light fixed-top col-xl-11 mx-auto">
-        <div class="container-fluid bg-white">
-          <!-- DROPDOWN LANGUES -->
-          <div class="xtrSmall col-lg-2">
-            <div class="btn-group">
-              <button class="btn btn-secondary btn-sm dropdown-toggle text-muted bg-white border-0 textSerifBlack" type="button" data-bs-toggle="dropdown" aria-expanded="false">LANGUAGES</button>
-              <ul class="dropdown-menu bg-dark min-w-null">
-                <li>
-                  <a class="dropdown-item text-white textSerifBlack" id="english" href="#">English</a>
-                </li>
-                <li>
-                  <a class="dropdown-item text-white textSerifBlack" id="spanish" href="#">Spanish</a>
-                </li>
-                <li>
-                  <a class="dropdown-item text-white textSerifBlack" id="french" href="#">French</a>
-                </li>
-              </ul>
-              <div class="row align-items-center">
-                <img src="../src/anglais523.jpg" alt="drapeu american" id="englishFlag" width="20" height="20" class="flag">
-                <img src="../src/espagne225.jpg" alt="drapeu espagnol" id="spanishFlag" width="20" height="20" class="flag">
-                <img src="../src/france295.jpg" alt="drapeu français" id="frenchFlag" width="20" height="20" class="flag">
-              </div>
-            </div>
-          </div>
-          <!-- IMAGE LOGO AVEC LIENS ACCUEIL-->
-          <div class="col-lg-1">
-            <a class="navbar-brand" href="../index.html">
-              <img src="../src/logo-126.png" alt="logo hotel chambord" class="d-inline-block align-text-top imgLogo">
-            </a>
-          </div>
-          <!-- NAVBAR BURGUER -->
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <!-- NAV AVEC LES DIF PAGES -->
-          <div class="collapse navbar-collapse col-lg-4" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="marginList">
-              <!-- CHAMBRES -->
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle textSerifBlack" href="chambres.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">Hébergement</a>
-                <ul class="dropdown-menu bg-dark">
-                  <li>
-                    <a class="dropdown-item text-white textSerifBlack" href="chambre-classique.html">Classique</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item text-white textSerifBlack" href="chambre-confort.html">Confort</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item text-white textSerifBlack" href="chambre-deluxe.html">Deluxe</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item text-white textSerifBlack" href="chambre-suite.html">Suite</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item text-white textSerifBlack" href="chambres.html">Voir toutes les chambres</a>
-                  </li>
-                </ul>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Hôtel Chambord 5 étoiles, un environnement luxueux et raffiné pour les voyageurs les plus exigeants. Hébergement, Restaurant, Spa... Hotel Chambord, le meilleur du luxe">
+  <link rel="icon" type="image/png" href="../src/logo-126.png">
+  <link rel="stylesheet" href="../style/style.css">
+  <link rel="stylesheet" href="../style/lhotel.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Roboto:wght@100&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <title>Hotel Chambor</title>
+</head>
+
+<body>
+  <!-- ICI COMMENCE MON HEADER -->
+  <header>
+    <!-- NAVBAR AVEC BOOTSTRAP -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top col-xl-11 mx-auto">
+      <div class="container-fluid bg-white">
+        <!-- DROPDOWN LANGUES -->
+        <div class="xtrSmall col-lg-2">
+          <div class="btn-group">
+            <button class="btn btn-secondary btn-sm dropdown-toggle text-muted bg-white border-0 textSerifBlack"
+              type="button" data-bs-toggle="dropdown" aria-expanded="false">LANGUAGES</button>
+            <ul class="dropdown-menu bg-dark min-w-null">
+              <li>
+                <a class="dropdown-item text-white textSerifBlack" id="english" href="#">English</a>
               </li>
-              <!-- RESTAURANT -->
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle textSerifBlack" href="restaurant.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">Restaurant</a>
-                <ul class="dropdown-menu bg-dark">
-                  <li>
-                    <a class="dropdown-item text-white textSerifBlack" href="restaurant.html">Restaurant - Le Grand Chambord</a>
-                  </li>
-                </ul>
+              <li>
+                <a class="dropdown-item text-white textSerifBlack" id="spanish" href="#">Spanish</a>
               </li>
-              <!-- SPA -->
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle textSerifBlack" href="spa.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">Le Spa</a>
-                <ul class="dropdown-menu bg-dark">
-                  <li>
-                    <a class="dropdown-item text-white textSerifBlack" href="spa.html">Spa - Divinity Chambord</a>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active textSerifBlack" aria-current="page" href="reservation.html">Réservation</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle textSerifBlack" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Le Chambord</a>
-                <ul class="dropdown-menu bg-dark">
-                  <li>
-                    <a class="dropdown-item text-white textSerifBlack" href="lhotel.html">L'hôtel - Qui sommes-nous?</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item text-white textSerifBlack" href="acces.html">Accès</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item text-white textSerifBlack" href="contact.html">Nous contacter</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item text-white textSerifBlack" href="avis-client.html">Avis clients</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item text-white textSerifBlack" href="evenement.html">Événement</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item text-white textSerifBlack" href="presse.html">Presse</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item text-white textSerifBlack" href="actualites.html">Actualités</a>
-                  </li>
-                </ul>
+              <li>
+                <a class="dropdown-item text-white textSerifBlack" id="french" href="#">French</a>
               </li>
             </ul>
-            <!-- CHANGEMENT DE L'ELEMENT SHEAR POUR UNE IMG (loupe) -->
-            <form class="d-flex mb-1" id="marginSearch">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success border-0" type="submit">
-                <img src="../src/lupe.png" alt="image d'une loupe pour faire une recherche" width="45" height="45" class="img-fluid">
-              </button>
-            </form>
+            <div class="row align-items-center">
+              <img src="../src/anglais523.jpg" alt="drapeu american" id="englishFlag" width="20" height="20"
+                class="flag">
+              <img src="../src/espagne225.jpg" alt="drapeu espagnol" id="spanishFlag" width="20" height="20"
+                class="flag">
+              <img src="../src/france295.jpg" alt="drapeu français" id="frenchFlag" width="20" height="20" class="flag">
+            </div>
           </div>
         </div>
-      </nav>
-    </header>
-    <!-- ICI COMMENCE MON MAIN DE PAGE -->
-    <main class="col-md-11 mx-auto">
-      <!-- CARROUSEL  -->
-      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="../src/hotel/vieux-hotel-562.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="../src/hotel/new-hotel-454.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="../src/hotel/hotel-last.jpg" class="d-block w-100" alt="...">
-          </div>
+        <!-- IMAGE LOGO AVEC LIENS ACCUEIL-->
+        <div class="col-lg-1">
+          <a class="navbar-brand" href="../index.html">
+            <img src="../src/logo-126.png" alt="logo hotel chambord" class="d-inline-block align-text-top imgLogo">
+          </a>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+        <!-- NAVBAR BURGUER -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-      <!-- DIV SEPARATION -->
-      <div class="separationAvecDiv"></div>
-      <!--L'HOTEL -->
-      <section>
-        <h1 class="reglageText">hotel chambord</h1>
-      </section>
-      <!-- PRES HOTEL SMART -->
-      <section class="textSerifBlack control-margin-import">
-        <p class="justifyParagraphe">L'hôtel Chambord a été fondé dans les années 1930, à une époque où la ville de Paris était en pleine effervescence artistique et culturelle. Un groupe d'entrepreneurs visionnaires a décidé de construire un hôtel de luxe pour accueillir les visiteurs élégants de la ville, et ils ont choisi une emplacement prestigieux sur l'Avenue Montaigne, au cœur du triangle d'or de la mode et de la haute couture.</p>
-      </section>
-      <!-- SECTION POUR GROUPE DES PHOTOS -->
-      <div>
-        <div class="d-flex justify-content-betwen">
-          <img src="../src/hotel/hotel-1.1.jpg" alt="" class="img-fluid w-50 img-row-control">
-          <img src="../src/hotel/hotel-1.7.jpg" alt="" class="img-fluid w-50 img-row-control">
+        <!-- NAV AVEC LES DIF PAGES -->
+        <div class="collapse navbar-collapse col-lg-4" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="marginList">
+            <!-- CHAMBRES -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle textSerifBlack" href="chambres.html" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">Hébergement</a>
+              <ul class="dropdown-menu bg-dark">
+                <li>
+                  <a class="dropdown-item text-white textSerifBlack" href="chambre-classique.html">Classique</a>
+                </li>
+                <li>
+                  <a class="dropdown-item text-white textSerifBlack" href="chambre-confort.html">Confort</a>
+                </li>
+                <li>
+                  <a class="dropdown-item text-white textSerifBlack" href="chambre-deluxe.html">Deluxe</a>
+                </li>
+                <li>
+                  <a class="dropdown-item text-white textSerifBlack" href="chambre-suite.html">Suite</a>
+                </li>
+                <li>
+                  <a class="dropdown-item text-white textSerifBlack" href="chambres.html">Voir toutes les chambres</a>
+                </li>
+              </ul>
+            </li>
+            <!-- RESTAURANT -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle textSerifBlack" href="restaurant.html" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">Restaurant</a>
+              <ul class="dropdown-menu bg-dark">
+                <li>
+                  <a class="dropdown-item text-white textSerifBlack" href="restaurant.html">Restaurant - Le Grand
+                    Chambord</a>
+                </li>
+              </ul>
+            </li>
+            <!-- SPA -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle textSerifBlack" href="spa.html" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">Le Spa</a>
+              <ul class="dropdown-menu bg-dark">
+                <li>
+                  <a class="dropdown-item text-white textSerifBlack" href="spa.html">Spa - Divinity Chambord</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active textSerifBlack" aria-current="page" href="reservation.html">Réservation</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle textSerifBlack" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">Le Chambord</a>
+              <ul class="dropdown-menu bg-dark">
+                <li>
+                  <a class="dropdown-item text-white textSerifBlack" href="lhotel.html">L'hôtel - Qui sommes-nous?</a>
+                </li>
+                <li>
+                  <a class="dropdown-item text-white textSerifBlack" href="acces.html">Accès</a>
+                </li>
+                <li>
+                  <a class="dropdown-item text-white textSerifBlack" href="contact.html">Nous contacter</a>
+                </li>
+                <li>
+                  <a class="dropdown-item text-white textSerifBlack" href="avis-client.html">Avis clients</a>
+                </li>
+                <li>
+                  <a class="dropdown-item text-white textSerifBlack" href="evenement.html">Événement</a>
+                </li>
+                <li>
+                  <a class="dropdown-item text-white textSerifBlack" href="presse.html">Presse</a>
+                </li>
+                <li>
+                  <a class="dropdown-item text-white textSerifBlack" href="actualites.html">Actualités</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <!-- CHANGEMENT DE L'ELEMENT SHEAR POUR UNE IMG (loupe) -->
+          <form class="d-flex mb-1" id="marginSearch">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success border-0" type="submit">
+              <img src="../src/lupe.png" alt="image d'une loupe pour faire une recherche" width="45" height="45"
+                class="img-fluid">
+            </button>
+          </form>
         </div>
       </div>
-      <!-- DIV SEPARATION -->
-      <div class="separationAvecDiv"></div>
-      <!--TEXTE -->
-      <section>
-        <h2 class="reglageText">Un vrai défi</h2>
-      </section>
-      <!-- PRES HOTEL SMART -->
-      <section class="textSerifBlack control-margin-import">
-        <p class="justifyParagraphe">La construction de l'hôtel a été un défi majeur, car les entrepreneurs devaient trouver un moyen de construire un bâtiment à la fois imposant et élégant, qui se fondrait parfaitement dans le paysage urbain de l'Avenue Montaigne. Ils ont finalement embauché l'un des architectes les plus talentueux de l'époque, qui a conçu un bâtiment en marbre et en verre qui reflétait la sophistication et l'élégance de la ville elle-même.</p>
-        <p class="justifyParagraphe">Lorsque l'hôtel Chambord a finalement ouvert ses portes, il a immédiatement attiré l'attention de la haute société de Paris. Les invités venaient de partout dans le monde pour séjourner dans ses chambres luxueuses, déguster les délicieux plats préparés par son chef étoilé, et se détendre dans son spa découvert. L'hôtel est rapidement devenu l'une des destinations les plus prisées de la ville, et est resté un symbole de l'élégance et du raffinement pendant des décennies.</p>
-      </section>
-      <!-- SECTION POUR GROUPE DES PHOTOS -->
-      <div>
-        <div class="d-flex justify-content-betwen">
-          <img src="../src/hotel/hotel-1.2.jpg" alt="" class="img-fluid w-50 img-row-control">
-          <img src="../src/hotel/hotel-1.6.jpg" alt="" class="img-fluid w-50 img-row-control">
+    </nav>
+  </header>
+  <!-- ICI COMMENCE MON MAIN DE PAGE -->
+  <main class="col-md-11 mx-auto">
+    <!-- CARROUSEL  -->
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="../src/hotel/vieux-hotel-562.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="../src/hotel/new-hotel-454.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="../src/hotel/hotel-last.jpg" class="d-block w-100" alt="...">
         </div>
       </div>
-      <!-- DIV SEPARATION -->
-      <div class="separationAvecDiv"></div>
-      <!-- PRES HOTEL SMART -->
-      <section class="textSerifBlack control-margin-import">
-        <p class="justifyParagraphe">Aujourd'hui, l'hôtel Chambord continue de figurer parmi les destinations les plus prestigieuses de Paris, accueillant toujours des célébrités, des diplomates et des familles aisées. Les invités viennent toujours de partout dans le monde pour séjourner dans ses chambres luxueuses, se détendre dans son spa découvert, et déguster les délicieux plats préparés par son chef étoilé. Et bien que de nombreuses années se soient écoulées depuis sa création, l'hôtel Chambord reste l'un des symboles les plus prestigieux de l'élégance et du raffinement à Paris.</p>
-      </section>
-      <!-- SECTION VIDEO  -->
-      <div>
-        <video autoplay loop muted class="scrollopcty">
-          <source src="../src/video-metro-552.mp4" type="video/mp4">
-        </video>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- DIV SEPARATION -->
+    <div class="separationAvecDiv"></div>
+    <!--L'HOTEL -->
+    <section>
+      <h1 class="reglageText">hotel chambord</h1>
+    </section>
+    <!-- PRES HOTEL SMART -->
+    <section class="textSerifBlack control-margin-import">
+      <p class="justifyParagraphe">L'hôtel Chambord a été fondé dans les années 1930, à une époque où la ville de Paris
+        était en pleine effervescence artistique et culturelle. Un groupe d'entrepreneurs visionnaires a décidé de
+        construire un hôtel de luxe pour accueillir les visiteurs élégants de la ville, et ils ont choisi une
+        emplacement prestigieux sur l'Avenue Montaigne, au cœur du triangle d'or de la mode et de la haute couture.</p>
+    </section>
+    <!-- SECTION POUR GROUPE DES PHOTOS -->
+    <div>
+      <div class="d-flex justify-content-betwen">
+        <img src="../src/hotel/hotel-1.1.jpg" alt="" class="img-fluid w-50 img-row-control">
+        <img src="../src/hotel/hotel-1.7.jpg" alt="" class="img-fluid w-50 img-row-control">
       </div>
-      <!-- TEXTSECTION -->
-      <article class="d-sm-none">
-        <h2 class="reglageText">plan & accés</h2>
-      </article>
-      <!-- TITRE H2 -->
-      <article class="d-none d-md-flex">
-        <h2 class="reglageText">plan & accés</h2>
-      </article>
-      <!-- PLAN GOOGLEMAPS -->
-      <div class="mapControl d-lg-none">
+    </div>
+    <!-- DIV SEPARATION -->
+    <div class="separationAvecDiv"></div>
+    <!--TEXTE -->
+    <section>
+      <h2 class="reglageText">Un vrai défi</h2>
+    </section>
+    <!-- PRES HOTEL SMART -->
+    <section class="textSerifBlack control-margin-import">
+      <p class="justifyParagraphe">La construction de l'hôtel a été un défi majeur, car les entrepreneurs devaient
+        trouver un moyen de construire un bâtiment à la fois imposant et élégant, qui se fondrait parfaitement dans le
+        paysage urbain de l'Avenue Montaigne. Ils ont finalement embauché l'un des architectes les plus talentueux de
+        l'époque, qui a conçu un bâtiment en marbre et en verre qui reflétait la sophistication et l'élégance de la
+        ville elle-même.</p>
+      <p class="justifyParagraphe">Lorsque l'hôtel Chambord a finalement ouvert ses portes, il a immédiatement attiré
+        l'attention de la haute société de Paris. Les invités venaient de partout dans le monde pour séjourner dans ses
+        chambres luxueuses, déguster les délicieux plats préparés par son chef étoilé, et se détendre dans son spa
+        découvert. L'hôtel est rapidement devenu l'une des destinations les plus prisées de la ville, et est resté un
+        symbole de l'élégance et du raffinement pendant des décennies.</p>
+    </section>
+    <!-- SECTION POUR GROUPE DES PHOTOS -->
+    <div>
+      <div class="d-flex justify-content-betwen">
+        <img src="../src/hotel/hotel-1.2.jpg" alt="" class="img-fluid w-50 img-row-control">
+        <img src="../src/hotel/hotel-1.6.jpg" alt="" class="img-fluid w-50 img-row-control">
+      </div>
+    </div>
+    <!-- DIV SEPARATION -->
+    <div class="separationAvecDiv"></div>
+    <!-- PRES HOTEL SMART -->
+    <section class="textSerifBlack control-margin-import">
+      <p class="justifyParagraphe">Aujourd'hui, l'hôtel Chambord continue de figurer parmi les destinations les plus
+        prestigieuses de Paris, accueillant toujours des célébrités, des diplomates et des familles aisées. Les invités
+        viennent toujours de partout dans le monde pour séjourner dans ses chambres luxueuses, se détendre dans son spa
+        découvert, et déguster les délicieux plats préparés par son chef étoilé. Et bien que de nombreuses années se
+        soient écoulées depuis sa création, l'hôtel Chambord reste l'un des symboles les plus prestigieux de l'élégance
+        et du raffinement à Paris.</p>
+    </section>
+    <!-- SECTION VIDEO  -->
+    <div>
+      <video autoplay loop muted class="scrollopcty">
+        <source src="../src/video-metro-552.mp4" type="video/mp4">
+      </video>
+    </div>
+    <!-- TEXTSECTION -->
+    <article class="d-sm-none">
+      <h2 class="reglageText">plan & accés</h2>
+    </article>
+    <!-- TITRE H2 -->
+    <article class="d-none d-md-flex">
+      <h2 class="reglageText">plan & accés</h2>
+    </article>
+    <!-- PLAN GOOGLEMAPS -->
+    <div class="mapControl d-lg-none">
+      <div class="ratio ratio-1x1">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.6400071672824!2d2.2998897158407536!3d48.86507470818992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fdd0dd39a4d%3A0x508194b82b12f012!2s1%20Av.%20Montaigne%2C%2075008%20Paris!5e0!3m2!1sfr!2sfr!4v1674844708907!5m2!1sfr!2sfr"
+          title="Google Maps" width="800" height="600" style="border:0;"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+    <!-- ICONS LOC/CONT -->
+    <div class="control-margin-import d-lg-none">
+      <div class="d-flex justify-content-center">
+        <img class="iconControlLoc" src="../src/service-room/telephone.png" alt="Icône Téléphone">
+        <h6 class="reglageText1">Teléphone</h6>
+      </div>
+      <div>
+        <h6 class="d-flex justify-content-center reglageText2">09-34-52-52-52</h6>
+      </div>
+      <div class="d-flex justify-content-center">
+        <img class="iconControlLoc" src="../src/service-room/email.png" alt="Icône Mail">
+        <h6 class="reglageText1">Email</h6>
+      </div>
+      <div>
+        <h6 class="d-flex justify-content-center reglageText2">hotel.chambord@contact.fr</h6>
+      </div>
+      <div class="d-flex justify-content-center">
+        <img class="iconControlLoc" src="../src/service-room/location.png" alt="Icône Localisation">
+        <h6 class="reglageText1">Localisation</h6>
+      </div>
+      <div>
+        <h6 class="d-flex justify-content-center reglageText2">1 Avenue Montaigne 75008 - Paris</h6>
+      </div>
+    </div>
+    <!-- GOOGLEMAPS FLEX -->
+    <div class="d-none d-lg-flex iconControlText m-3">
+      <div class="mapControl">
         <div class="ratio ratio-1x1">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.6400071672824!2d2.2998897158407536!3d48.86507470818992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fdd0dd39a4d%3A0x508194b82b12f012!2s1%20Av.%20Montaigne%2C%2075008%20Paris!5e0!3m2!1sfr!2sfr!4v1674844708907!5m2!1sfr!2sfr" title="Google Maps" width="800" height="600" style="border:0;" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.6400071672824!2d2.2998897158407536!3d48.86507470818992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fdd0dd39a4d%3A0x508194b82b12f012!2s1%20Av.%20Montaigne%2C%2075008%20Paris!5e0!3m2!1sfr!2sfr!4v1674844708907!5m2!1sfr!2sfr"
+            title="Google Maps" width="800" height="600" style="border:0;" allowfullscreen=""
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </div>
       <!-- ICONS LOC/CONT -->
-      <div class="control-margin-import d-lg-none">
+      <div class="control-margin-import col-6">
         <div class="d-flex justify-content-center">
-          <img class="iconControlLoc" src="../src/service-room/telephone.png" alt="Icône Téléphone">
+          <img class="iconControlLoc" src="../src/service-room/telephone.png" alt="Icône Teléphone">
           <h6 class="reglageText1">Teléphone</h6>
         </div>
         <div>
@@ -243,103 +312,76 @@
         <div>
           <h6 class="d-flex justify-content-center reglageText2">1 Avenue Montaigne 75008 - Paris</h6>
         </div>
-      </div>
-      <!-- GOOGLEMAPS FLEX -->
-      <div class="d-none d-lg-flex iconControlText m-3">
-        <div class="mapControl">
-          <div class="ratio ratio-1x1">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.6400071672824!2d2.2998897158407536!3d48.86507470818992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fdd0dd39a4d%3A0x508194b82b12f012!2s1%20Av.%20Montaigne%2C%2075008%20Paris!5e0!3m2!1sfr!2sfr!4v1674844708907!5m2!1sfr!2sfr" title="Google Maps" width="800" height="600" style="border:0;" allowfullscreen="" referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </div>
-        </div>
-        <!-- ICONS LOC/CONT -->
-        <div class="control-margin-import col-6">
-          <div class="d-flex justify-content-center">
-            <img class="iconControlLoc" src="../src/service-room/telephone.png" alt="Icône Teléphone">
-            <h6 class="reglageText1">Teléphone</h6>
-          </div>
-          <div>
-            <h6 class="d-flex justify-content-center reglageText2">09-34-52-52-52</h6>
-          </div>
-          <div class="d-flex justify-content-center">
-            <img class="iconControlLoc" src="../src/service-room/email.png" alt="Icône Mail">
-            <h6 class="reglageText1">Email</h6>
-          </div>
-          <div>
-            <h6 class="d-flex justify-content-center reglageText2">hotel.chambord@contact.fr</h6>
-          </div>
-          <div class="d-flex justify-content-center">
-            <img class="iconControlLoc" src="../src/service-room/location.png" alt="Icône Localisation">
-            <h6 class="reglageText1">Localisation</h6>
-          </div>
-          <div>
-            <h6 class="d-flex justify-content-center reglageText2">1 Avenue Montaigne 75008 - Paris</h6>
-          </div>
-          <div class="d-flex justify-content-center">
-            <img src="../src/service-room/logo-126.png" alt="Logo Hotel Chambord">
-          </div>
+        <div class="d-flex justify-content-center">
+          <img src="../src/service-room/logo-126.png" alt="Logo Hotel Chambord">
         </div>
       </div>
-    </main>
-    <!-- ICI COMMENCE MON PIE DE PAGE -->
-    <footer>
-      <!-- TEXT/BUTTON -->
-      <article class="controlFooter">
-        <h2 class="textSerifWhite text-center">recevez la newsletter</h2>
-        <form class="col-5 mx-auto" id="myNewsletter">
-          <div class="form-group">
-            <label for="emailInput"></label>
-            <input type="email" class="form-control" id="emailInput" placeholder="Votre adresse mail">
-          </div>
-          <div class="form-group">
-            <label for="nombre"></label>
-            <input type="text" class="form-control" id="nombre" placeholder="Votre prenom">
-          </div>
-          <div class="form-group form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" id="monJaccepte" for="exampleCheck1">J'accepte de recevoir des offres commerciales</label>
-          </div>
-          <button class="buttonFooter d-block mx-auto" type="submit">M'inscrire</button>
-        </form>
-      </article>
-      <!-- LOGO -->
-      <div class="imgFooterControl">
-        <img class="img-fluid rounded mx-auto d-block" src="../src/logo-126.png" alt="logo hotel chambord">
+    </div>
+  </main>
+  <!-- ICI COMMENCE MON PIE DE PAGE -->
+  <footer>
+    <!-- TEXT/BUTTON -->
+    <article class="controlFooter">
+      <h2 class="textSerifWhite text-center">recevez la newsletter</h2>
+      <form class="col-5 mx-auto" id="myNewsletter">
+        <div class="form-group">
+          <label for="emailInput"></label>
+          <input type="email" class="form-control" id="emailInput" placeholder="Votre adresse mail">
+        </div>
+        <div class="form-group">
+          <label for="nombre"></label>
+          <input type="text" class="form-control" id="nombre" placeholder="Votre prenom">
+        </div>
+        <div class="form-group form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" id="monJaccepte" for="exampleCheck1">J'accepte de recevoir des offres
+            commerciales</label>
+        </div>
+        <button class="buttonFooter d-block mx-auto" type="submit">M'inscrire</button>
+      </form>
+    </article>
+    <!-- LOGO -->
+    <div class="imgFooterControl">
+      <img class="img-fluid rounded mx-auto d-block" src="../src/logo-126.png" alt="logo hotel chambord">
+    </div>
+    <!-- TEXTE -->
+    <div class="text-center">
+      <div>
+        <p class="textSerifWhite">09-34-52-52-52</p>
       </div>
-      <!-- TEXTE -->
-      <div class="text-center">
-        <div>
-          <p class="textSerifWhite">09-34-52-52-52</p>
-        </div>
-        <div>
-          <p class="textSerifWhite">hotel.chambord@contact.fr</p>
-        </div>
-        <div>
-          <p class="textSerifWhite">1 Avenue Montaigne 75008 - Paris</p>
-        </div>
+      <div>
+        <p class="textSerifWhite">hotel.chambord@contact.fr</p>
       </div>
-      <!-- BOUTON IMPRIMER -->
-      <button class="d-block mx-auto buttonFooter" id="print-page">Imprimer</button>
-      <!-- LIENS -->
-      <section class="text-center textSerifWhite">
-        <nav>
-          <ul class="nav flex-column controlFooter">
-            <li>
-              <a class="nav-link text-white" href="plan-site.html">Plan du site</a>
-            </li>
-            <li>
-              <a class="nav-link text-white" href="recrutement.html">Recrutement</a>
-            </li>
-            <li>
-              <a class="nav-link text-white" href="mention-legales.html">Mention Légales</a>
-            </li>
-            <li>
-              <a class="nav-link text-white" href="contidition-generales-de-vente.html">Contidition Generales De Vente</a>
-            </li>
-          </ul>
-        </nav>
-      </section>
-    </footer>
-    <script src="../app/app.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-  </body>
+      <div>
+        <p class="textSerifWhite">1 Avenue Montaigne 75008 - Paris</p>
+      </div>
+    </div>
+    <!-- BOUTON IMPRIMER -->
+    <button class="d-block mx-auto buttonFooter" id="print-page">Imprimer</button>
+    <!-- LIENS -->
+    <section class="text-center textSerifWhite">
+      <nav>
+        <ul class="nav flex-column controlFooter">
+          <li>
+            <a class="nav-link text-white" href="plan-site.html">Plan du site</a>
+          </li>
+          <li>
+            <a class="nav-link text-white" href="recrutement.html">Recrutement</a>
+          </li>
+          <li>
+            <a class="nav-link text-white" href="mention-legales.html">Mention Légales</a>
+          </li>
+          <li>
+            <a class="nav-link text-white" href="contidition-generales-de-vente.html">Contidition Generales De Vente</a>
+          </li>
+        </ul>
+      </nav>
+    </section>
+  </footer>
+  <script src="../app/app.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>

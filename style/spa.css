@@ -1,9 +1,9 @@
-.menusSpa{
+.menusSpa {
     display: none;
 }
 
 @media screen and (min-width: 990px) {
-    article p{
+    article p {
         font-size: 20px;
     }
 }

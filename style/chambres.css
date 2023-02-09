@@ -1,22 +1,24 @@
-.reglageDest1{
+.reglageDest1 {
     margin-top: 50px;
     margin-right: 80px;
 }
 
-.serviceInclus img{
+.serviceInclus img {
     width: 20px;
 }
 
-.monIconCham{
+.monIconCham {
     width: 100px;
     height: 50px;
     margin-bottom: 20px;
 }
-.monIconCham img{
+
+.monIconCham img {
     display: block;
     margin: auto;
 }
-.monIconCham p{
+
+.monIconCham p {
     margin-top: 5px;
     font-size: 10px;
     text-align: center;
@@ -24,19 +26,22 @@
 
 /* FORMAT SMARPHONE */
 @media screen and (max-width: 768px) {
-    article{
+    article {
         width: 90%;
         margin: auto;
     }
 }
+
 @media screen and (min-width: 990px) {
-    article p{
+    article p {
         font-size: 20px;
     }
-    .serviceInclus img{
+
+    .serviceInclus img {
         width: 40px;
     }
-    .monIconCham{
+
+    .monIconCham {
         width: 300px;
         height: 80px;
         margin-bottom: 50px;
