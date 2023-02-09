@@ -1,7 +1,7 @@
 /* CLASS BACKGROUND PADDING ET FONT */
 body {
   padding-top: 81px;
-  font-family: 'Roboto', sans-serif !important;
+  font-family: "Roboto", sans-serif !important;
   font-weight: 900 !important;
   background: white !important;
 }
@@ -27,18 +27,18 @@ header nav {
 /* TEXT-SERIF-GOLD */
 .textSerifGold {
   color: #e7b718;
-  font-family: 'Aboreto', cursive;
+  font-family: "Aboreto", cursive;
 }
 
 /* TEXT-SERIF-WHITE */
 .textSerifWhite {
   color: white;
-  font-family: 'Aboreto', cursive;
+  font-family: "Aboreto", cursive;
 }
 
 /* TEXT-SERIF-BLACK */
 .textSerifBlack {
-  font-family: 'Aboreto', cursive;
+  font-family: "Aboreto", cursive;
   font-weight: bold;
 }
 
@@ -62,11 +62,6 @@ header nav {
   height: 100%;
 }
 
-
-
-
-
-
 .titresCentre {
   width: 100%;
   height: 150px;
@@ -83,20 +78,16 @@ header nav {
   height: 70px;
 }
 
-
 .justifyParagraphe {
   text-align: justify;
 }
-
-
-
 
 /* MODIF TEXTE */
 .reglageText {
   font-size: 20px;
   text-transform: uppercase;
   margin: 10px 0 10px 20px;
-  font-family: 'Aboreto', cursive;
+  font-family: "Aboreto", cursive;
 }
 
 /* CONTROL TAILLE ICON */
@@ -118,7 +109,7 @@ header nav {
   color: white;
   border-radius: 5px;
   cursor: pointer;
-  font-family: 'Aboreto', cursive;
+  font-family: "Aboreto", cursive;
   text-decoration: none;
 }
 
@@ -136,7 +127,7 @@ footer {
   border-radius: 5px;
   cursor: pointer;
   font-weight: bold;
-  font-family: 'Aboreto', cursive;
+  font-family: "Aboreto", cursive;
 }
 
 .controlFooter {
@@ -158,12 +149,12 @@ footer {
   font-size: 80%;
   color: white;
 }
-.iconesPartage{
+.iconesPartage {
   width: 50px !important;
   height: 50px !important;
 }
 
-.partageRss{
+.partageRss {
   width: 247px;
 }
 /************************ FORMAT SMARPHONE MAX ************************/
@@ -175,7 +166,6 @@ footer {
 
 /************************ FORMAT IPAD ************************/
 @media screen and (min-width: 768px) {
-
   /* TITRES-VIDEO */
   .xtrSmall {
     width: 150px !important;
@@ -183,7 +173,6 @@ footer {
 
   .titresCentre h1 {
     font-size: 75px;
-
   }
 
   .titresCentre h6 {
@@ -193,7 +182,6 @@ footer {
 
 /************************ FORMAT DESTOK ************************/
 @media screen and (min-width: 990px) {
-
   /* CAROUSEL-CONTROL */
   .carouselControlSize {
     max-width: 70% !important;
@@ -215,7 +203,6 @@ footer {
   .reglageText {
     font-size: 40px;
   }
-
 }
 
 /************************ FORMAT DESTOK XXL************************/

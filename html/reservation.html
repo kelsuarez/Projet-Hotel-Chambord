@@ -4,303 +4,131 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Hôtel Chambord 5 étoiles, un environnement luxueux et raffiné pour les voyageurs les plus exigeants. Hébergement, Restaurant, Spa... Hotel Chambord, le meilleur du luxe"
-    />
+    <meta name="description" content="Hôtel Chambord 5 étoiles, un environnement luxueux et raffiné pour les voyageurs les plus exigeants. Hébergement, Restaurant, Spa... Hotel Chambord, le meilleur du luxe" />
     <link rel="icon" type="image/png" href="../src/logo-126.png" />
     <link rel="stylesheet" href="../style/reservation.css" />
     <link rel="stylesheet" href="../style/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Aboreto&family=Roboto:wght@100&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-      crossorigin="anonymous"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Roboto:wght@100&display=swap" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
     <title>Hotel Chambor - Réservation</title>
   </head>
-
   <body>
     <!-- ICI COMMENCE MON HEADER -->
     <header>
       <!-- NAVBAR AVEC BOOTSTRAP -->
-      <nav
-        class="navbar navbar-expand-lg navbar-light fixed-top col-xl-11 mx-auto"
-      >
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top col-xl-11 mx-auto">
         <div class="container-fluid bg-white">
           <!-- DROPDOWN LANGUES -->
           <div class="xtrSmall col-lg-2">
             <div class="btn-group">
-              <button
-                class="btn btn-secondary btn-sm dropdown-toggle text-muted bg-white border-0 textSerifBlack"
-                type="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                LNG
-              </button>
+              <button class="btn btn-secondary btn-sm dropdown-toggle text-muted bg-white border-0 textSerifBlack" type="button" data-bs-toggle="dropdown" aria-expanded="false"> LNG </button>
               <ul class="dropdown-menu bg-dark min-w-null">
                 <li>
-                  <a
-                    class="dropdown-item text-white textSerifBlack"
-                    id="english"
-                    href="#"
-                    >English</a
-                  >
+                  <a class="dropdown-item text-white textSerifBlack" id="english" href="#">English</a>
                 </li>
                 <li>
-                  <a
-                    class="dropdown-item text-white textSerifBlack"
-                    id="spanish"
-                    href="#"
-                    >Spanish</a
-                  >
+                  <a class="dropdown-item text-white textSerifBlack" id="spanish" href="#">Spanish</a>
                 </li>
                 <li>
-                  <a
-                    class="dropdown-item text-white textSerifBlack"
-                    id="french"
-                    href="#"
-                    >French</a
-                  >
+                  <a class="dropdown-item text-white textSerifBlack" id="french" href="#">French</a>
                 </li>
               </ul>
               <div class="row align-items-center">
-                <img
-                  src="../src/anglais523.jpg"
-                  alt="drapeu american"
-                  id="englishFlag"
-                  width="20"
-                  height="20"
-                  class="flag"
-                />
-                <img
-                  src="../src/espagne225.jpg"
-                  alt="drapeu espagnol"
-                  id="spanishFlag"
-                  width="20"
-                  height="20"
-                  class="flag"
-                />
-                <img
-                  src="../src/france295.jpg"
-                  alt="drapeu français"
-                  id="frenchFlag"
-                  width="20"
-                  height="20"
-                  class="flag"
-                />
+                <img src="../src/anglais523.jpg" alt="drapeu american" id="englishFlag" width="20" height="20" class="flag" />
+                <img src="../src/espagne225.jpg" alt="drapeu espagnol" id="spanishFlag" width="20" height="20" class="flag" />
+                <img src="../src/france295.jpg" alt="drapeu français" id="frenchFlag" width="20" height="20" class="flag" />
               </div>
             </div>
           </div>
           <!-- IMAGE LOGO AVEC LIENS ACCUEIL-->
           <div class="col-lg-1">
             <a class="navbar-brand" href="../index.html">
-              <img
-                src="../src/logo-126.png"
-                alt="logo hotel chambord"
-                class="d-inline-block align-text-top imgLogo"
-              />
+              <img src="../src/logo-126.png" alt="logo hotel chambord" class="d-inline-block align-text-top imgLogo" />
             </a>
           </div>
           <!-- NAVBAR BURGUER -->
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <!-- NAV AVEC LES DIF PAGES -->
-          <div
-            class="collapse navbar-collapse col-lg-4"
-            id="navbarSupportedContent"
-          >
+          <div class="collapse navbar-collapse col-lg-4" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="marginList">
               <!-- CHAMBRES -->
               <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle textSerifBlack"
-                  href="chambres.html"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                  >Hébergement</a
-                >
+                <a class="nav-link dropdown-toggle textSerifBlack" href="chambres.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">Hébergement</a>
                 <ul class="dropdown-menu bg-dark">
                   <li>
-                    <a
-                      class="dropdown-item text-white textSerifBlack"
-                      href="chambre-classique.html"
-                      >Classique</a
-                    >
+                    <a class="dropdown-item text-white textSerifBlack" href="chambre-classique.html">Classique</a>
                   </li>
                   <li>
-                    <a
-                      class="dropdown-item text-white textSerifBlack"
-                      href="chambre-confort.html"
-                      >Confort</a
-                    >
+                    <a class="dropdown-item text-white textSerifBlack" href="chambre-confort.html">Confort</a>
                   </li>
                   <li>
-                    <a
-                      class="dropdown-item text-white textSerifBlack"
-                      href="chambre-deluxe.html"
-                      >Deluxe</a
-                    >
+                    <a class="dropdown-item text-white textSerifBlack" href="chambre-deluxe.html">Deluxe</a>
                   </li>
                   <li>
-                    <a
-                      class="dropdown-item text-white textSerifBlack"
-                      href="chambre-suite.html"
-                      >Suite</a
-                    >
+                    <a class="dropdown-item text-white textSerifBlack" href="chambre-suite.html">Suite</a>
                   </li>
                   <li>
-                    <a
-                      class="dropdown-item text-white textSerifBlack"
-                      href="chambres.html"
-                      >Voir toutes les chambres</a
-                    >
+                    <a class="dropdown-item text-white textSerifBlack" href="chambres.html">Voir toutes les chambres</a>
                   </li>
                 </ul>
               </li>
               <!-- RESTAURANT -->
               <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle textSerifBlack"
-                  href="restaurant.html"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                  >Restaurant</a
-                >
+                <a class="nav-link dropdown-toggle textSerifBlack" href="restaurant.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">Restaurant</a>
                 <ul class="dropdown-menu bg-dark">
                   <li>
-                    <a
-                      class="dropdown-item text-white textSerifBlack"
-                      href="restaurant.html"
-                      >Restaurant - Le Grand Chambord</a
-                    >
+                    <a class="dropdown-item text-white textSerifBlack" href="restaurant.html">Restaurant - Le Grand Chambord</a>
                   </li>
                 </ul>
               </li>
               <!-- SPA -->
               <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle textSerifBlack"
-                  href="spa.html"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                  >Le Spa</a
-                >
+                <a class="nav-link dropdown-toggle textSerifBlack" href="spa.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">Le Spa</a>
                 <ul class="dropdown-menu bg-dark">
                   <li>
-                    <a
-                      class="dropdown-item text-white textSerifBlack"
-                      href="spa.html"
-                      >Spa - Divinity Chambord</a
-                    >
+                    <a class="dropdown-item text-white textSerifBlack" href="spa.html">Spa - Divinity Chambord</a>
                   </li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a
-                  class="nav-link active textSerifBlack"
-                  aria-current="page"
-                  href="reservation.html"
-                  >Réservation</a
-                >
+                <a class="nav-link active textSerifBlack" aria-current="page" href="reservation.html">Réservation</a>
               </li>
               <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle textSerifBlack"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                  >Le Chambord</a
-                >
+                <a class="nav-link dropdown-toggle textSerifBlack" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Le Chambord</a>
                 <ul class="dropdown-menu bg-dark">
                   <li>
-                    <a
-                      class="dropdown-item text-white textSerifBlack"
-                      href="lhotel.html"
-                      >L'hôtel - Qui sommes-nous?</a
-                    >
+                    <a class="dropdown-item text-white textSerifBlack" href="lhotel.html">L'hôtel - Qui sommes-nous?</a>
                   </li>
                   <li>
-                    <a
-                      class="dropdown-item text-white textSerifBlack"
-                      href="acces.html"
-                      >Accès</a
-                    >
+                    <a class="dropdown-item text-white textSerifBlack" href="acces.html">Accès</a>
                   </li>
                   <li>
-                    <a
-                      class="dropdown-item text-white textSerifBlack"
-                      href="contact.html"
-                      >Nous contacter</a
-                    >
+                    <a class="dropdown-item text-white textSerifBlack" href="contact.html">Nous contacter</a>
                   </li>
                   <li>
-                    <a
-                      class="dropdown-item text-white textSerifBlack"
-                      href="avis-client.html"
-                      >Avis clients</a
-                    >
+                    <a class="dropdown-item text-white textSerifBlack" href="avis-client.html">Avis clients</a>
                   </li>
                   <li>
-                    <a
-                      class="dropdown-item text-white textSerifBlack"
-                      href="evenement.html"
-                      >Événement</a
-                    >
+                    <a class="dropdown-item text-white textSerifBlack" href="evenement.html">Événement</a>
                   </li>
                   <li>
-                    <a
-                      class="dropdown-item text-white textSerifBlack"
-                      href="presse.html"
-                      >Presse</a
-                    >
+                    <a class="dropdown-item text-white textSerifBlack" href="presse.html">Presse</a>
                   </li>
                   <li>
-                    <a
-                      class="dropdown-item text-white textSerifBlack"
-                      href="actualites.html"
-                      >Actualités</a
-                    >
+                    <a class="dropdown-item text-white textSerifBlack" href="actualites.html">Actualités</a>
                   </li>
                 </ul>
               </li>
             </ul>
             <!-- CHANGEMENT DE L'ELEMENT SHEAR POUR UNE IMG (loupe) -->
             <form class="d-flex mb-1" id="marginSearch">
-              <input
-                class="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
               <button class="btn btn-outline-success border-0" type="submit">
-                <img
-                  src="../src/lupe.png"
-                  alt="image d'une loupe pour faire une recherche"
-                  width="45"
-                  height="45"
-                  class="img-fluid"
-                />
+                <img src="../src/lupe.png" alt="image d'une loupe pour faire une recherche" width="45" height="45" class="img-fluid" />
               </button>
             </form>
           </div>
@@ -322,27 +150,21 @@
         <input type="date" id="date_arrivee" name="date_arrivee" />
         <label class="textSerifBlack" for="date_depart">Date de départ:</label>
         <input type="date" id="date_depart" name="date_depart" />
-        <label class="textSerifBlack" for="nombre_chambres"
-          >Nombre de chambres:</label
-        >
+        <label class="textSerifBlack" for="nombre_chambres">Nombre de chambres:</label>
         <select id="nombre_chambres" name="nombre_chambres">
           <option value="1">1</option>
           <option value="2">2</option>
           <option value="3">3</option>
           <option value="4">4</option>
         </select>
-        <label class="textSerifBlack" for="nombre_personnes"
-          >Nombre de personnes:</label
-        >
+        <label class="textSerifBlack" for="nombre_personnes">Nombre de personnes:</label>
         <select id="nombre_personnes" name="nombre_chambres">
           <option value="1">1</option>
           <option value="2">2</option>
           <option value="3">3</option>
           <option value="4">4</option>
         </select>
-        <label class="textSerifBlack" for="modele_chambre"
-          >Sélectionner une chambre:</label
-        >
+        <label class="textSerifBlack" for="modele_chambre">Sélectionner une chambre:</label>
         <select id="modele_chambre" name="modele_chambre">
           <option value="">Choisir une option</option>
           <option value="classiqueRoom">Chambre Classique</option>
@@ -357,12 +179,7 @@
         <div class="imgChoisi d-flex mx-auto">
           <!-- IMG CHAMBRE -->
           <div class="mx-auto">
-            <img
-              src="../src/classique/classique3.1.jpg"
-              alt="menu déjeuner"
-              class="imgPortrait"
-              data-id="1"
-            />
+            <img src="../src/classique/classique3.1.jpg" alt="menu déjeuner" class="imgPortrait" data-id="1" />
           </div>
           <!-- MES ICONES -->
           <div class="mx-auto">
@@ -370,34 +187,22 @@
               <div class="">
                 <!-- NOMBRE DES PERSONNES -->
                 <div class="monIconReser d-flex">
-                  <img
-                    src="../src/service-room/utilisateurs.png"
-                    alt="Icône nom de personnes"
-                  />
+                  <img src="../src/service-room/utilisateurs.png" alt="Icône nom de personnes" />
                   <h6 class="textSerifBlack"></h6>
                 </div>
                 <!-- TAILLE DE LIT -->
                 <div class="monIconReser">
-                  <img
-                    src="../src/service-room/lit.png"
-                    alt="Icône taille de lit"
-                  />
+                  <img src="../src/service-room/lit.png" alt="Icône taille de lit" />
                   <h6 class="textSerifBlack"></h6>
                 </div>
                 <!-- TAILLE DE CHAMBRE -->
                 <div class="monIconReser d-flex">
-                  <img
-                    src="../src/service-room/open-door.png"
-                    alt="Icône taille de la chambre"
-                  />
+                  <img src="../src/service-room/open-door.png" alt="Icône taille de la chambre" />
                   <h6 class="textSerifBlack"></h6>
                 </div>
                 <!-- SALLE DE BAIN AVEC BAIGNOIRE -->
                 <div class="monIconReser">
-                  <img
-                    src="../src/service-room/une-baignoire.png"
-                    alt="Icône baignoire"
-                  />
+                  <img src="../src/service-room/une-baignoire.png" alt="Icône baignoire" />
                 </div>
               </div>
               <div>
@@ -407,10 +212,7 @@
                 </div>
                 <!-- ECRAN PLAT -->
                 <div class="monIconReser d-flex">
-                  <img
-                    src="../src/service-room/smart-tv.png"
-                    alt="Icône télévision"
-                  />
+                  <img src="../src/service-room/smart-tv.png" alt="Icône télévision" />
                 </div>
                 <!-- WIFI GRATUIT -->
                 <div class="monIconReser">
@@ -418,41 +220,26 @@
                 </div>
                 <!-- DRESSING & CHAUSSON -->
                 <div class="monIconReser">
-                  <img
-                    src="../src/service-room/chaussons.png"
-                    alt="Icône chaussons"
-                  />
+                  <img src="../src/service-room/chaussons.png" alt="Icône chaussons" />
                 </div>
               </div>
               <div>
                 <!-- PLATEAU DE COURTOISE -->
                 <div class="monIconReser">
-                  <img
-                    src="../src/service-room/fleurs.png"
-                    alt="Icône plateau de courtoise"
-                  />
+                  <img src="../src/service-room/fleurs.png" alt="Icône plateau de courtoise" />
                 </div>
                 <!-- SERVICE A LA CHAMBRE -->
                 <div class="monIconReser">
-                  <img
-                    src="../src/service-room/plateau-de-nourriture-couvert-sur-une-main-de-service-de-chambre-dhotel.png"
-                    alt="Icône room service"
-                  />
+                  <img src="../src/service-room/plateau-de-nourriture-couvert-sur-une-main-de-service-de-chambre-dhotel.png" alt="Icône room service" />
                 </div>
                 <!-- MINIBAR -->
                 <div class="monIconReser d-flex">
-                  <img
-                    src="../src/service-room/minibar.png"
-                    alt="Icône minibar"
-                  />
+                  <img src="../src/service-room/minibar.png" alt="Icône minibar" />
                   <h6 class="textSerifBlack"></h6>
                 </div>
                 <!-- COFFRE FORT -->
                 <div class="monIconReser">
-                  <img
-                    src="../src/service-room/coffre-fort.png"
-                    alt="Icône coffre fort"
-                  />
+                  <img src="../src/service-room/coffre-fort.png" alt="Icône coffre fort" />
                 </div>
               </div>
             </div>
@@ -462,19 +249,11 @@
         <div class="col m-3">
           <h3 class="textSerifBlack text-center">Chambre Classique</h3>
           <p class="text-center">2 personnes | King size | 25m²</p>
-          <p class="text-center">
-            Chambre de 25m² offre un niveau de luxe digne d'un hôtel 5 étoiles.
-          </p>
+          <p class="text-center"> Chambre de 25m² offre un niveau de luxe digne d'un hôtel 5 étoiles. </p>
         </div>
         <!-- BUTTON + PRIX -->
         <div class="d-flex mesButtons">
-          <button
-            type="button"
-            class="btn text-lin-gar-font butonConClick butonGeneral"
-            data-id="1"
-          >
-            Choisir
-          </button>
+          <button type="button" class="btn text-lin-gar-font butonConClick butonGeneral" data-id="1"> Choisir </button>
           <!-- PRIX DE CHAMBRE -->
           <div id="prixAffichage">
             <h2 class="text-center">1495€</h2>
@@ -487,12 +266,7 @@
         <div class="imgChoisi d-flex mx-auto">
           <!-- IMG CHAMBRE -->
           <div class="mx-auto">
-            <img
-              src="../src/confort/confort1.1.jpg"
-              alt="menu déjeuner"
-              class="imgPortrait"
-              data-id="1"
-            />
+            <img src="../src/confort/confort1.1.jpg" alt="menu déjeuner" class="imgPortrait" data-id="1" />
           </div>
           <!-- MES ICONES -->
           <div class="mx-auto">
@@ -500,34 +274,22 @@
               <div class="">
                 <!-- NOMBRE DES PERSONNES -->
                 <div class="monIconReser d-flex">
-                  <img
-                    src="../src/service-room/utilisateurs.png"
-                    alt="Icône nom de personnes"
-                  />
+                  <img src="../src/service-room/utilisateurs.png" alt="Icône nom de personnes" />
                   <h6 class="textSerifBlack"></h6>
                 </div>
                 <!-- TAILLE DE LIT -->
                 <div class="monIconReser">
-                  <img
-                    src="../src/service-room/lit.png"
-                    alt="Icône taille de lit"
-                  />
+                  <img src="../src/service-room/lit.png" alt="Icône taille de lit" />
                   <h6 class="textSerifBlack"></h6>
                 </div>
                 <!-- TAILLE DE CHAMBRE -->
                 <div class="monIconReser d-flex">
-                  <img
-                    src="../src/service-room/open-door.png"
-                    alt="Icône taille de la chambre"
-                  />
+                  <img src="../src/service-room/open-door.png" alt="Icône taille de la chambre" />
                   <h6 class="textSerifBlack"></h6>
                 </div>
                 <!-- SALLE DE BAIN AVEC BAIGNOIRE -->
                 <div class="monIconReser">
-                  <img
-                    src="../src/service-room/une-baignoire.png"
-                    alt="Icône baignoire"
-                  />
+                  <img src="../src/service-room/une-baignoire.png" alt="Icône baignoire" />
                 </div>
               </div>
               <div>
@@ -537,10 +299,7 @@
                 </div>
                 <!-- ECRAN PLAT -->
                 <div class="monIconReser d-flex">
-                  <img
-                    src="../src/service-room/smart-tv.png"
-                    alt="Icône télévision"
-                  />
+                  <img src="../src/service-room/smart-tv.png" alt="Icône télévision" />
                 </div>
                 <!-- WIFI GRATUIT -->
                 <div class="monIconReser">
@@ -548,41 +307,26 @@
                 </div>
                 <!-- DRESSING & CHAUSSON -->
                 <div class="monIconReser">
-                  <img
-                    src="../src/service-room/chaussons.png"
-                    alt="Icône chaussons"
-                  />
+                  <img src="../src/service-room/chaussons.png" alt="Icône chaussons" />
                 </div>
               </div>
               <div>
                 <!-- PLATEAU DE COURTOISE -->
                 <div class="monIconReser">
-                  <img
-                    src="../src/service-room/fleurs.png"
-                    alt="Icône plateau de courtoise"
-                  />
+                  <img src="../src/service-room/fleurs.png" alt="Icône plateau de courtoise" />
                 </div>
                 <!-- SERVICE A LA CHAMBRE -->
                 <div class="monIconReser">
-                  <img
-                    src="../src/service-room/plateau-de-nourriture-couvert-sur-une-main-de-service-de-chambre-dhotel.png"
-                    alt="Icône room service"
-                  />
+                  <img src="../src/service-room/plateau-de-nourriture-couvert-sur-une-main-de-service-de-chambre-dhotel.png" alt="Icône room service" />
                 </div>
                 <!-- MINIBAR -->
                 <div class="monIconReser d-flex">
-                  <img
-                    src="../src/service-room/minibar.png"
-                    alt="Icône minibar"
-                  />
+                  <img src="../src/service-room/minibar.png" alt="Icône minibar" />
                   <h6 class="textSerifBlack"></h6>
                 </div>
                 <!-- COFFRE FORT -->
                 <div class="monIconReser">
-                  <img
-                    src="../src/service-room/coffre-fort.png"
-                    alt="Icône coffre fort"
-                  />
+                  <img src="../src/service-room/coffre-fort.png" alt="Icône coffre fort" />
                 </div>
               </div>
             </div>
@@ -592,19 +336,10 @@
         <div class="col m-3">
           <h3 class="textSerifBlack text-center">Chambre Confort</h3>
           <p class="text-center">3 personnes | King size | 40m²</p>
-          <p class="text-center">
-            Espace de 40m² offre un confort optimal pour les voyageurs en quête
-            d'indépendance.
-          </p>
+          <p class="text-center"> Espace de 40m² offre un confort optimal pour les voyageurs en quête d'indépendance. </p>
         </div>
         <div class="d-flex mesButtons">
-          <button
-            type="button"
-            class="btn text-lin-gar-font butonConClick butonGeneral"
-            data-id="2"
-          >
-            Choisir
-          </button>
+          <button type="button" class="btn text-lin-gar-font butonConClick butonGeneral" data-id="2"> Choisir </button>
           <!-- PRIX DE CHAMBRE -->
           <div id="prixAffichage">
             <h2 class="text-center">1895€</h2>
@@ -616,12 +351,7 @@
         <div class="imgChoisi d-flex mx-auto">
           <!-- IMG CHAMBRE -->
           <div class="mx-auto">
-            <img
-              src="../src/deluxe/deluxe1.jpg"
-              alt="chambre confort"
-              class="imgPortrait"
-              data-id="1"
-            />
+            <img src="../src/deluxe/deluxe1.jpg" alt="chambre confort" class="imgPortrait" data-id="1" />
           </div>
           <!-- MES ICONES -->
           <div class="mx-auto">
@@ -629,34 +359,22 @@
               <div class="">
                 <!-- NOMBRE DES PERSONNES -->
                 <div class="monIconReser d-flex">
-                  <img
-                    src="../src/service-room/utilisateurs.png"
-                    alt="Icône nom de personnes"
-                  />
+                  <img src="../src/service-room/utilisateurs.png" alt="Icône nom de personnes" />
                   <h6 class="textSerifBlack"></h6>
                 </div>
                 <!-- TAILLE DE LIT -->
                 <div class="monIconReser">
-                  <img
-                    src="../src/service-room/lit.png"
-                    alt="Icône taille de lit"
-                  />
+                  <img src="../src/service-room/lit.png" alt="Icône taille de lit" />
                   <h6 class="textSerifBlack"></h6>
                 </div>
                 <!-- TAILLE DE CHAMBRE -->
                 <div class="monIconReser d-flex">
-                  <img
-                    src="../src/service-room/open-door.png"
-                    alt="Icône taille de la chambre"
-                  />
+                  <img src="../src/service-room/open-door.png" alt="Icône taille de la chambre" />
                   <h6 class="textSerifBlack"></h6>
                 </div>
                 <!-- SALLE DE BAIN AVEC BAIGNOIRE -->
                 <div class="monIconReser">
-                  <img
-                    src="../src/service-room/une-baignoire.png"
-                    alt="Icône baignoire"
-                  />
+                  <img src="../src/service-room/une-baignoire.png" alt="Icône baignoire" />
                 </div>
               </div>
               <div>
@@ -666,10 +384,7 @@
                 </div>
                 <!-- ECRAN PLAT -->
                 <div class="monIconReser d-flex">
-                  <img
-                    src="../src/service-room/smart-tv.png"
-                    alt="Icône télévision"
-                  />
+                  <img src="../src/service-room/smart-tv.png" alt="Icône télévision" />
                 </div>
                 <!-- WIFI GRATUIT -->
                 <div class="monIconReser">
@@ -677,41 +392,26 @@
                 </div>
                 <!-- DRESSING & CHAUSSON -->
                 <div class="monIconReser">
-                  <img
-                    src="../src/service-room/chaussons.png"
-                    alt="Icône chaussons"
-                  />
+                  <img src="../src/service-room/chaussons.png" alt="Icône chaussons" />
                 </div>
               </div>
               <div>
                 <!-- PLATEAU DE COURTOISE -->
                 <div class="monIconReser">
-                  <img
-                    src="../src/service-room/fleurs.png"
-                    alt="Icône plateau de courtoise"
-                  />
+                  <img src="../src/service-room/fleurs.png" alt="Icône plateau de courtoise" />
                 </div>
                 <!-- SERVICE A LA CHAMBRE -->
                 <div class="monIconReser">
-                  <img
-                    src="../src/service-room/plateau-de-nourriture-couvert-sur-une-main-de-service-de-chambre-dhotel.png"
-                    alt="Icône room service"
-                  />
+                  <img src="../src/service-room/plateau-de-nourriture-couvert-sur-une-main-de-service-de-chambre-dhotel.png" alt="Icône room service" />
                 </div>
                 <!-- MINIBAR -->
                 <div class="monIconReser d-flex">
-                  <img
-                    src="../src/service-room/minibar.png"
-                    alt="Icône minibar"
-                  />
+                  <img src="../src/service-room/minibar.png" alt="Icône minibar" />
                   <h6 class="textSerifBlack"></h6>
                 </div>
                 <!-- COFFRE FORT -->
                 <div class="monIconReser">
-                  <img
-                    src="../src/service-room/coffre-fort.png"
-                    alt="Icône coffre fort"
-                  />
+                  <img src="../src/service-room/coffre-fort.png" alt="Icône coffre fort" />
                 </div>
               </div>
             </div>
@@ -721,19 +421,10 @@
         <div class="col m-3">
           <h3 class="textSerifBlack text-center">Chambre Deluxe</h3>
           <p class="text-center">3 personnes | King size | 80m²</p>
-          <p class="text-center">
-            Espace luxueux de 80m² offre tout le confort nécessaire pour des
-            vacances inoubliables.
-          </p>
+          <p class="text-center"> Espace luxueux de 80m² offre tout le confort nécessaire pour des vacances inoubliables. </p>
         </div>
         <div class="d-flex mesButtons">
-          <button
-            type="button"
-            class="btn text-lin-gar-font butonConClick butonGeneral"
-            data-id="3"
-          >
-            Choisir
-          </button>
+          <button type="button" class="btn text-lin-gar-font butonConClick butonGeneral" data-id="3"> Choisir </button>
           <!-- PRIX DE CHAMBRE -->
           <div id="prixAffichage">
             <h2 class="text-center">2395€</h2>
@@ -745,12 +436,7 @@
         <div class="imgChoisi d-flex mx-auto">
           <!-- IMG CHAMBRE -->
           <div class="mx-auto">
-            <img
-              src="../src/suite/suite-1.jpg"
-              alt="menu déjeuner"
-              class="imgPortrait"
-              data-id="1"
-            />
+            <img src="../src/suite/suite-1.jpg" alt="menu déjeuner" class="imgPortrait" data-id="1" />
           </div>
           <!-- MES ICONES -->
           <div class="mx-auto">
@@ -758,34 +444,22 @@
               <div class="">
                 <!-- NOMBRE DES PERSONNES -->
                 <div class="monIconReser d-flex">
-                  <img
-                    src="../src/service-room/utilisateurs.png"
-                    alt="Icône nom de personnes"
-                  />
+                  <img src="../src/service-room/utilisateurs.png" alt="Icône nom de personnes" />
                   <h6 class="textSerifBlack"></h6>
                 </div>
                 <!-- TAILLE DE LIT -->
                 <div class="monIconReser">
-                  <img
-                    src="../src/service-room/lit.png"
-                    alt="Icône taille de lit"
-                  />
+                  <img src="../src/service-room/lit.png" alt="Icône taille de lit" />
                   <h6 class="textSerifBlack"></h6>
                 </div>
                 <!-- TAILLE DE CHAMBRE -->
                 <div class="monIconReser d-flex">
-                  <img
-                    src="../src/service-room/open-door.png"
-                    alt="Icône taille de la chambre"
-                  />
+                  <img src="../src/service-room/open-door.png" alt="Icône taille de la chambre" />
                   <h6 class="textSerifBlack"></h6>
                 </div>
                 <!-- SALLE DE BAIN AVEC BAIGNOIRE -->
                 <div class="monIconReser">
-                  <img
-                    src="../src/service-room/une-baignoire.png"
-                    alt="Icône baignoire"
-                  />
+                  <img src="../src/service-room/une-baignoire.png" alt="Icône baignoire" />
                 </div>
               </div>
               <div>
@@ -795,10 +469,7 @@
                 </div>
                 <!-- ECRAN PLAT -->
                 <div class="monIconReser d-flex">
-                  <img
-                    src="../src/service-room/smart-tv.png"
-                    alt="Icône télévision"
-                  />
+                  <img src="../src/service-room/smart-tv.png" alt="Icône télévision" />
                 </div>
                 <!-- WIFI GRATUIT -->
                 <div class="monIconReser">
@@ -806,41 +477,26 @@
                 </div>
                 <!-- DRESSING & CHAUSSON -->
                 <div class="monIconReser">
-                  <img
-                    src="../src/service-room/chaussons.png"
-                    alt="Icône chaussons"
-                  />
+                  <img src="../src/service-room/chaussons.png" alt="Icône chaussons" />
                 </div>
               </div>
               <div>
                 <!-- PLATEAU DE COURTOISE -->
                 <div class="monIconReser">
-                  <img
-                    src="../src/service-room/fleurs.png"
-                    alt="Icône plateau de courtoise"
-                  />
+                  <img src="../src/service-room/fleurs.png" alt="Icône plateau de courtoise" />
                 </div>
                 <!-- SERVICE A LA CHAMBRE -->
                 <div class="monIconReser">
-                  <img
-                    src="../src/service-room/plateau-de-nourriture-couvert-sur-une-main-de-service-de-chambre-dhotel.png"
-                    alt="Icône room service"
-                  />
+                  <img src="../src/service-room/plateau-de-nourriture-couvert-sur-une-main-de-service-de-chambre-dhotel.png" alt="Icône room service" />
                 </div>
                 <!-- MINIBAR -->
                 <div class="monIconReser d-flex">
-                  <img
-                    src="../src/service-room/minibar.png"
-                    alt="Icône minibar"
-                  />
+                  <img src="../src/service-room/minibar.png" alt="Icône minibar" />
                   <h6 class="textSerifBlack"></h6>
                 </div>
                 <!-- COFFRE FORT -->
                 <div class="monIconReser">
-                  <img
-                    src="../src/service-room/coffre-fort.png"
-                    alt="Icône coffre fort"
-                  />
+                  <img src="../src/service-room/coffre-fort.png" alt="Icône coffre fort" />
                 </div>
               </div>
             </div>
@@ -850,19 +506,10 @@
         <div class="col m-3">
           <h3 class="textSerifBlack text-center">SUITE chambord</h3>
           <p class="text-center">4 personnes | King size | 150m²</p>
-          <p class="text-center">
-            Penthouse luxueux de 150m² offre une vue imprenable sur la ville et
-            une expérience de vie de luxe incomparable.
-          </p>
+          <p class="text-center"> Penthouse luxueux de 150m² offre une vue imprenable sur la ville et une expérience de vie de luxe incomparable. </p>
         </div>
         <div class="d-flex mesButtons">
-          <button
-            type="button"
-            class="btn text-lin-gar-font butonConClick butonGeneral"
-            data-id="4"
-          >
-            Choisir
-          </button>
+          <button type="button" class="btn text-lin-gar-font butonConClick butonGeneral" data-id="4"> Choisir </button>
           <!-- PRIX DE CHAMBRE -->
           <div id="prixAffichage">
             <h2 class="text-center">3595€</h2>
@@ -877,12 +524,7 @@
           <h4 class="text-center textSerifBlack">Chambre Classique</h4>
           <h2 class="text-center textSerifBlack">1495€</h2>
           <div class="d-flex mx-auto">
-            <a
-              class="buttonGeneralW text-center mb-3"
-              href="panier.html"
-              role="button"
-              >Valider mon panier</a
-            >
+            <a class="buttonGeneralW text-center mb-3" href="panier.html" role="button">Valider mon panier</a>
           </div>
         </div>
         <!-- PANIER CONFORT -->
@@ -891,12 +533,7 @@
           <h4 class="text-center textSerifBlack">Chambre Confort</h4>
           <h2 class="text-center textSerifBlack">1895€</h2>
           <div class="d-flex mx-auto">
-            <a
-              class="buttonGeneralW text-center mb-3"
-              href="panier.html"
-              role="button"
-              >Valider mon panier</a
-            >
+            <a class="buttonGeneralW text-center mb-3" href="panier.html" role="button">Valider mon panier</a>
           </div>
         </div>
         <!-- PANIER DELUXE -->
@@ -905,12 +542,7 @@
           <h4 class="text-center textSerifBlack">Chambre Deluxe</h4>
           <h2 class="text-center textSerifBlack">2395€</h2>
           <div class="d-flex mx-auto">
-            <a
-              class="buttonGeneralW text-center mb-3"
-              href="panier.html"
-              role="button"
-              >Valider mon panier</a
-            >
+            <a class="buttonGeneralW text-center mb-3" href="panier.html" role="button">Valider mon panier</a>
           </div>
         </div>
         <!-- PANIER SUITE -->
@@ -919,12 +551,7 @@
           <h4 class="textSerifBlack">Chambre Suite</h4>
           <h2 class="text-center textSerifBlack">3595€</h2>
           <div class="d-flex mx-auto">
-            <a
-              class="buttonGeneralW text-center mb-3"
-              href="panier.html"
-              role="button"
-              >Valider mon panier</a
-            >
+            <a class="buttonGeneralW text-center mb-3" href="panier.html" role="button">Valider mon panier</a>
           </div>
         </div>
       </article>
@@ -937,44 +564,22 @@
         <form class="col-5 mx-auto" id="myNewsletter">
           <div class="form-group">
             <label for="emailInput"></label>
-            <input
-              type="email"
-              class="form-control"
-              id="emailInput"
-              placeholder="Votre adresse mail"
-            />
+            <input type="email" class="form-control" id="emailInput" placeholder="Votre adresse mail" />
           </div>
           <div class="form-group">
             <label for="nombre"></label>
-            <input
-              type="text"
-              class="form-control"
-              id="nombre"
-              placeholder="Votre prenom"
-            />
+            <input type="text" class="form-control" id="nombre" placeholder="Votre prenom" />
           </div>
           <div class="form-group form-check">
-            <input
-              type="checkbox"
-              class="form-check-input"
-              id="exampleCheck1"
-            />
-            <label class="form-check-label" id="monJaccepte" for="exampleCheck1"
-              >J'accepte de recevoir des offres commerciales</label
-            >
+            <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+            <label class="form-check-label" id="monJaccepte" for="exampleCheck1">J'accepte de recevoir des offres commerciales</label>
           </div>
-          <button class="buttonFooter d-block mx-auto" type="submit">
-            M'inscrire
-          </button>
+          <button class="buttonFooter d-block mx-auto" type="submit"> M'inscrire </button>
         </form>
       </article>
       <!-- LOGO -->
       <div class="imgFooterControl">
-        <img
-          class="img-fluid rounded mx-auto d-block"
-          src="../src/logo-126.png"
-          alt="logo hotel chambord"
-        />
+        <img class="img-fluid rounded mx-auto d-block" src="../src/logo-126.png" alt="logo hotel chambord" />
       </div>
       <!-- PARTAGE -->
       <div class="d-flex mx-auto partageRss imgFooterControl">
@@ -1001,34 +606,22 @@
         </div>
       </div>
       <!-- BOUTON IMPRIMER -->
-      <button class="d-block mx-auto buttonFooter" id="print-page">
-        Imprimer
-      </button>
+      <button class="d-block mx-auto buttonFooter" id="print-page"> Imprimer </button>
       <!-- LIENS -->
       <section class="text-center textSerifWhite">
         <nav>
           <ul class="nav flex-column controlFooter">
             <li>
-              <a class="nav-link text-white" href="plan-site.html"
-                >Plan du site</a
-              >
+              <a class="nav-link text-white" href="plan-site.html">Plan du site</a>
             </li>
             <li>
-              <a class="nav-link text-white" href="recrutement.html"
-                >Recrutement</a
-              >
+              <a class="nav-link text-white" href="recrutement.html">Recrutement</a>
             </li>
             <li>
-              <a class="nav-link text-white" href="mention-legales.html"
-                >Mention Légales</a
-              >
+              <a class="nav-link text-white" href="mention-legales.html">Mention Légales</a>
             </li>
             <li>
-              <a
-                class="nav-link text-white"
-                href="contidition-generales-de-vente.html"
-                >Contidition Generales De Vente</a
-              >
+              <a class="nav-link text-white" href="contidition-generales-de-vente.html">Contidition Generales De Vente</a>
             </li>
           </ul>
         </nav>
@@ -1036,10 +629,6 @@
     </footer>
     <script src="../app/reservation.js"></script>
     <script src="../app/app.js"></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </body>
 </html>

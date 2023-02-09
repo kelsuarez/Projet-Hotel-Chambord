@@ -1,49 +1,50 @@
 .reglageDest1 {
     margin-top: 50px;
     margin-right: 80px;
-}
-
-.serviceInclus img {
+  }
+  
+  .serviceInclus img {
     width: 20px;
-}
-
-.monIconCham {
+  }
+  
+  .monIconCham {
     width: 100px;
     height: 50px;
     margin-bottom: 20px;
-}
-
-.monIconCham img {
+  }
+  
+  .monIconCham img {
     display: block;
     margin: auto;
-}
-
-.monIconCham p {
+  }
+  
+  .monIconCham p {
     margin-top: 5px;
     font-size: 10px;
     text-align: center;
-}
-
-/* FORMAT SMARPHONE */
-@media screen and (max-width: 768px) {
+  }
+  
+  /* FORMAT SMARPHONE */
+  @media screen and (max-width: 768px) {
     article {
-        width: 90%;
-        margin: auto;
+      width: 90%;
+      margin: auto;
     }
-}
-
-@media screen and (min-width: 990px) {
+  }
+  
+  @media screen and (min-width: 990px) {
     article p {
-        font-size: 20px;
+      font-size: 20px;
     }
-
+  
     .serviceInclus img {
-        width: 40px;
+      width: 40px;
     }
-
+  
     .monIconCham {
-        width: 300px;
-        height: 80px;
-        margin-bottom: 50px;
+      width: 300px;
+      height: 80px;
+      margin-bottom: 50px;
     }
-}
+  }
+  

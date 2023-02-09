@@ -1,70 +1,70 @@
 /* MODIF TEXTE */
 .reglageText {
     margin: 10px 0;
-}
-
-/* MODIF TEXTE VAR*/
-.reglageText1 {
+  }
+  
+  /* MODIF TEXTE VAR*/
+  .reglageText1 {
     font-size: 20px;
     margin: 10px 0;
-    font-family: 'Aboreto', cursive;
-}
-
-/* MODIF TEXTE ONLY FONT */
-.reglageText2 {
+    font-family: "Aboreto", cursive;
+  }
+  
+  /* MODIF TEXTE ONLY FONT */
+  .reglageText2 {
     text-transform: uppercase;
-    font-family: 'Aboreto', cursive;
+    font-family: "Aboreto", cursive;
     font-size: 15px;
-}
-
-/* CONTROL TAILLE MAP */
-.mapControl {
+  }
+  
+  /* CONTROL TAILLE MAP */
+  .mapControl {
     width: 80%;
     margin: auto;
-}
-
-/* MESSAGE DE FORMULAIRE ENVOIE */
-.messageDeEnvoi {
+  }
+  
+  /* MESSAGE DE FORMULAIRE ENVOIE */
+  .messageDeEnvoi {
     width: 80%;
     height: 100px;
     margin: 10px auto;
-}
-
-#mesageoOculte {
+  }
+  
+  #mesageoOculte {
     font-size: 13px;
     text-align: center;
     color: grey;
     display: none;
-}
-
-/* FORMULAIRE */
-.contact-form {
+  }
+  
+  /* FORMULAIRE */
+  .contact-form {
     width: 80%;
     margin: 0 auto;
     padding: 20px;
     background-color: rgb(231, 231, 219);
     border-radius: 15px;
-}
-
-.form-group {
+  }
+  
+  .form-group {
     margin-top: 5px;
-}
-
-.form-label {
+  }
+  
+  .form-label {
     font-weight: bold;
-    font-family: 'Aboreto', cursive;
+    font-family: "Aboreto", cursive;
     display: block;
-}
-
-.form-input {
+  }
+  
+  .form-input {
     width: 100%;
     padding: 10px;
     border: 1px solid rgb(206, 201, 201);
     border-radius: 5px;
     box-sizing: border-box;
-}
-
-.form-button {
+  }
+  
+  .form-button {
     width: 100%;
     margin-top: 20px;
     padding: 10px;
@@ -73,56 +73,55 @@
     border-radius: 5px;
     cursor: pointer;
     font-weight: bold;
-    font-family: 'Aboreto', cursive;
-}
-
-/* FORMAT IPAD */
-@media screen and (min-width: 768px) {
-
+    font-family: "Aboreto", cursive;
+  }
+  
+  /* FORMAT IPAD */
+  @media screen and (min-width: 768px) {
     /* TEXT-PARA-1 */
     .reglageText {
-        font-size: 40px;
-        margin: 20px 0;
+      font-size: 40px;
+      margin: 20px 0;
     }
-
+  
     /* MODIF TEXTE VAR*/
     .reglageText1 {
-        font-size: 25px;
+      font-size: 25px;
     }
-
+  
     /* MODIF TEXTE ONLY FONT */
     .reglageText2 {
-        font-size: 20px;
+      font-size: 20px;
     }
-}
-
-/* FORMAT DESTOK */
-@media screen and (min-width: 990px) {
-
+  }
+  
+  /* FORMAT DESTOK */
+  @media screen and (min-width: 990px) {
     /* TITRES-VIDEO */
     .titres-DOS-centres {
-        top: 300px;
+      top: 300px;
     }
-
+  
     .titres-DOS-centres h1 {
-        font-size: 150px;
+      font-size: 150px;
     }
-
+  
     .titres-DOS-centres h6 {
-        font-size: 50px;
+      font-size: 50px;
     }
-
+  
     .maCardDestok {
-        width: 400px !important;
+      width: 400px !important;
     }
-
+  
     /* TAILLE-MAP */
     .mapControl {
-        width: 30%;
-        margin: auto;
+      width: 30%;
+      margin: auto;
     }
-
+  
     #mesageoOculte {
-        font-size: 20px;
+      font-size: 20px;
     }
-}
+  }
+  

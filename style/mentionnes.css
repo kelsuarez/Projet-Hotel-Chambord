@@ -1,19 +1,19 @@
 section h1 {
     font-size: 25px !important;
-}
-
-article h2 {
+  }
+  
+  article h2 {
     font-size: 25px !important;
-}
-
-/************************ FORMAT DESTOK ************************/
-@media screen and (min-width: 990px) {
+  }
+  
+  /************************ FORMAT DESTOK ************************/
+  @media screen and (min-width: 990px) {
     section h1 {
-        font-size: 35px !important;
+      font-size: 35px !important;
     }
-
+  
     article h2 {
-        font-size: 35px !important;
+      font-size: 35px !important;
     }
-
-}
+  }
+  

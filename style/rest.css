@@ -1,66 +1,65 @@
 /*ESPACE TITLE VIDEO*/
 .spacealone {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 /*CARTES MENUS D-NONE*/
 .menusVarios {
-    display: none;
+  display: none;
 }
 
 /* SEPARATION DES TITLES MENUS */
 .menusCartesM {
-    margin-top: 40px;
+  margin-top: 40px;
 }
 
 /* BUTTON GENERAL */
 .butonGeneral {
-    width: 40%;
-    font-family: 'Aboreto', cursive;
-    background-color: grey !important;
-    font-weight: bold !important;
+  width: 40%;
+  font-family: "Aboreto", cursive;
+  background-color: grey !important;
+  font-weight: bold !important;
 }
-
 
 /* FORMAT SMARPHONE */
 @media screen and (min-width: 768px) {
-    article {
-        width: 90%;
-        margin: auto;
-    }
+  article {
+    width: 90%;
+    margin: auto;
+  }
 
-    .imagesVarias {
-        width: 70%;
-        margin: 20px auto;
-    }
+  .imagesVarias {
+    width: 70%;
+    margin: 20px auto;
+  }
 
-    .spacealone h2 {
-        margin-top: 40px;
-        font-size: 50px;
-    }
+  .spacealone h2 {
+    margin-top: 40px;
+    font-size: 50px;
+  }
 }
 
 /* FORMAT SMARPHONE */
 @media screen and (min-width: 990px) {
-    .imagesVarias {
-        width: 30% !important;
-        margin: 20px auto;
-    }
+  .imagesVarias {
+    width: 30% !important;
+    margin: 20px auto;
+  }
 
-    .spacealone h2 {
-        margin-top: 30%;
-        font-size: 10vh;
-    }
+  .spacealone h2 {
+    margin-top: 30%;
+    font-size: 10vh;
+  }
 
-    .monParaGraphe {
-        font-size: 3.4vh;
-    }
+  .monParaGraphe {
+    font-size: 3.4vh;
+  }
 
-    #monTextWImg {
-        margin-bottom: 50px;
-    }
+  #monTextWImg {
+    margin-bottom: 50px;
+  }
 
-    .maSectionJs h3 {
-        font-size: 50px !important;
-    }
+  .maSectionJs h3 {
+    font-size: 50px !important;
+  }
 }

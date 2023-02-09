@@ -2,17 +2,18 @@
     font-size: 20px;
     text-transform: uppercase;
     margin: 10px 0 10px 20px;
-    font-family: 'Aboreto', cursive;
-}
-
-/* FORMAT DESTOK */
-@media screen and (min-width: 990px) {
+    font-family: "Aboreto", cursive;
+  }
+  
+  /* FORMAT DESTOK */
+  @media screen and (min-width: 990px) {
     .mapControl {
-        width: 30%;
-        margin: auto;
+      width: 30%;
+      margin: auto;
     }
-
+  
     .titresIndicadif {
-        font-size: 40px;
+      font-size: 40px;
     }
-}
+  }
+  

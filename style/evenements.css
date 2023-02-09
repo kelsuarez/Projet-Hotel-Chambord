@@ -1,39 +1,39 @@
 section h2 {
     font-size: 16px !important;
-}
-
-.frameVideo {
+  }
+  
+  .frameVideo {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
-}
-
-.frameVideo iframe {
+  }
+  
+  .frameVideo iframe {
     width: 80%;
     height: 80%;
-}
-
-
-/************************ FORMAT IPAD ************************/
-@media screen and (min-width: 768px) {
+  }
+  
+  /************************ FORMAT IPAD ************************/
+  @media screen and (min-width: 768px) {
     .frameVideo iframe {
-        width: 80%;
-        height: 300px;
+      width: 80%;
+      height: 300px;
     }
-
+  
     section h2 {
-        font-size: 20px !important;
+      font-size: 20px !important;
     }
-}
-
-/************************ FORMAT DESTOK ************************/
-@media screen and (min-width: 990px) {
+  }
+  
+  /************************ FORMAT DESTOK ************************/
+  @media screen and (min-width: 990px) {
     section h2 {
-        font-size: 40px !important;
+      font-size: 40px !important;
     }
-
+  
     .frameVideo iframe {
-        height: 500px;
+      height: 500px;
     }
-}
+  }
+  
